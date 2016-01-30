@@ -54,7 +54,7 @@
       .large { font-size: 2em; }
       a, a > code {
         color: #0069a7;
-        text-decoration: underline;
+        text-decoration: none;
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
 
@@ -70,6 +70,12 @@
       }
       .nolink a{
           text-decoration: none;
+      }
+      .centre{
+          /*margin-left: 1%;
+          margin-right: 1%;
+          width: 98%;*/
+          text-align: center;
       }
   </style>
 </head>
@@ -101,7 +107,7 @@
 
     <br />
 
-    .ssmall[Formation donnée aux membres du regroupement BORÉAS]
+    .ssmall[Formation ouverte aux membres du regroupement BORÉAS]
     <br />
     .ssmall[Université du Québec à Rimouski]
     <br />
@@ -139,31 +145,112 @@
     <hr /><br />
 
     --
-    1. Point no1
-        > Subpoint no1
+    * Langage du Web = HTML (_Hypertext Markup Language_)
 
-        > Subpoint no2
-
-    --
-    2. Point no2
-        > Subpoint no1
-
-        > Subpoint no2
+    <br />
 
     --
-    3. Point no3
-        > Subpoint no1
+    ```html
+    <!DOCTYPE html>
+    <html>
+        <body>
+            <h1>Titre de premier niveau</h1>
+            <p>Paragraphe</p>
+        </body>
+    </html>
+    ```
 
-        > Subpoint no2
+    <br />
+
+    --
+    * Langage de balisage à la syntaxe lourde
+    * Assez fastidieux pour les auteurs prolifiques...
 
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
     layout: false
-    ## Title
+    ## Besoin d'un langage de balisage léger
     <hr /><br />
 
+    --
+    * En 2004, John Gruber (avec Aaron Swartz) crée le langage **[Markdown](http://daringfireball.net/projects/markdown/)**
+
+    <br />
+
+    ```md
+    # Titre de premier niveau
+    Paragraphe
+    ```
+
+    <br />
+
+    --
+    * Syntaxe facile à lire et à écrire
+
+    * La philosophie de Markdown (selon son créateur):
+
+    > _A Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions_.
+
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## De nombreuses variantes...
+    <hr /><br />
+
+    --
+    * La syntaxe originale (celle de Gruber) n'a jamais évolué
+    * Mais, elle n'a jamais été formellement standardisée
+    * Et, des besoins plus avancés sont apparus...
+
+    <br />
+
+    --
+    * _Chacun_ a développé son propre Markdown
+
+        > [GitHub Flavored Markdown (GFM)](https://guides.github.com/features/mastering-markdown/)
+
+        > [Kramdown](http://kramdown.gettalong.org/)
+
+        > [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/)
+
+        > [MultiMarkdown](https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide)
+
+        > [Pandoc Markdown](http://pandoc.org/README.html#pandocs-markdown)
+
+        > [...](https://www.iana.org/assignments/markdown-variants/markdown-variants.xhtml)
+
+    --
+    * Il peut être difficile de s'y retrouver au début
+    * D'autant que certaines différences dans la syntaxe existent...
+
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Quelle variante de Markdown choisir ?
+    <hr /><br />
+
+    --
+    * **[Pandoc Markdown](http://pandoc.org/README.html#pandocs-markdown)**
+
+    <br />
+
+    --
+    * Plusieurs raisons appuient ce choix:
+
+        1. Syntaxe proche du Markdown _original_
+        1. Contient des évolutions intéressantes
+        1. Implémenté dans le **logiciel R** (package `rmarkdown`)
+        1. Utilise **Pandoc** (convertisseur universel de documents)
+
+    <br /><hr />
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
@@ -182,6 +269,17 @@
     <hr />
     ### ; : [ ( { | } ) ] : ;
 
+    ???
+    Inclusion de codes HTML et LaTeX
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Flux de travail
+    <hr /><br />
+
+    <div class='centre'><img src="./img/interpretation.png" style="width:700px"></img></div>
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
@@ -242,6 +340,33 @@
     ## Mise en évidence du texte
     <hr /><br />
 
+    --
+    * Pour mettre en *italique*, on encadre le texte par la balise `_` ou (`*`)
+
+    ```
+    _Ce texte sera écrit en italique_
+    *Celui-ci aussi*
+    ```
+    <br />
+
+    --
+    * Pour mettre en **gras**, on encadre le texte par la balise `__` (ou `**`)
+
+    ```
+    __Ce texte sera écrit en gras__
+    **Celui-ci aussi**
+    ```
+    <br />
+
+    --
+
+    * **_Et en gras-italique_**
+    * Pour écrire normalement, on ne spécifie aucune balise
+
+    <br />
+
+    * Il n'y a pas de soulignement d'implémenté (d'ailleurs, ce serait une faute selon les règles typographiques...)
+
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
@@ -251,17 +376,25 @@
     <hr /><br />
 
     --
-    1. Titres
-    1. Paragraphe
+    * Paragraphe
+
+    --
+    * Titres
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Listes numérotées
+    <hr /><br />
 
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
     layout: false
-    ## Listes numérotées et listes à puces
+    ## Listes à puces
     <hr /><br />
-
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
