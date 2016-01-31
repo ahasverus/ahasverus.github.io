@@ -1,10 +1,3 @@
-
-### Variable Florence
-age2flo <- 27
-
-### Boucle infinie d'anniversaire
-while (Sys.Date() <= as.Date('2017-02-02')){
-    cat(':) :) :) :) :) :) :) :)\n')
-    cat('Bonne fête, Florence !!!\n')
-    cat(paste('Joyeux', age2flo, 'ans !!!\n\n'))
-}
+par(mar = rep(0, 4), family = 'mono', bg = 'black')
+plot(0, type = 'n', ann = F, axes = F)
+text(1, 0, 'Joyeux anniversaire Florence !!!', cex = 2, font = 2, col = 'white')
