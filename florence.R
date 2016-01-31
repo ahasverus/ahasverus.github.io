@@ -1,6 +1,6 @@
 
 ### Variable Florence
-age2flo <- 28
+age2flo <- 27
 
 ### Boucle infinie d'anniversaire
 while (Sys.Date() <= as.Date('2017-02-02')){
