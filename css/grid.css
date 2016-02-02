@@ -1,0 +1,103 @@
+/*
+
+	Document : responsive grid v0.2
+    Author   : hello @ michelemazzucco.it
+    License  : none (public)
+
+*/
+
+/*========================================================
+intro
+========================================================*/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*========================================================
+classic
+========================================================*/
+
+.container{
+	margin:0 auto;
+	max-width: 960px;
+	padding:0;
+	width: 100%;
+
+	overflow: hidden;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row{
+  width: 100%;
+}
+
+ .column{
+	float: left;
+	height: auto;
+	margin: 0 1.041%;
+}
+
+.col-1 { width: 6.242%; }
+.col-2 { width: 14.566%; }
+.col-3 { width: 22.89%; }
+.col-4 { width: 31.214%; }
+.col-5 { width: 39.538%; }
+.col-6 { width: 47.862%; }
+.col-7 { width: 56.186%; }
+.col-8 { width: 64.51%; }
+.col-9 { width: 72.834%; }
+.col-10 { width: 81.158%; }
+.col-11 { width: 89.482%; }
+.col-12 { width: 97.86%; }
+
+
+/*========================================================
+tablet & smartphone | 768px
+========================================================*/
+
+@media screen and (max-width: 800px) {
+
+	.container{ max-width: 800px; width: 97%;}
+
+	.container [class*="col-"]{ width: 100%;}
+
+	.container .col-4 {width: 47.9%;}
+
+}
+
+
+/*========================================================
+smartphone | 480px
+========================================================*/
+
+@media screen and (max-width: 480px) {
+
+	.container{ max-width: 768px; width: 93%; margin: 0 auto;}
+	.container [class*="col-"]{ width: 98.5%; margin-right: 1.5%;}
+
+}
+
+
+/*========================================================
+clearfix
+========================================================*/
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
