@@ -340,53 +340,182 @@
     ## Mise en évidence du texte
     <hr /><br />
 
+    * Pour écrire normalement, on ne spécifie aucune balise
+
+    ```
+    Voici un morceau de texte écrit normalement, sans décoration particulière.
+    ```
+    >> Voici un morceau de texte écrit normalement, sans décoration particulière.
+
+    <br />
+
     --
+
     * Pour mettre en *italique*, on encadre le texte par la balise `_` ou (`*`)
 
     ```
-    _Ce texte sera écrit en italique_
-    *Celui-ci aussi*
+    Ce _mot_ sera écrit en italique. *Celui-ci* aussi...
     ```
-    <br />
+    >> Ce _mot_ sera écrit en italique. *Celui-ci* aussi...
 
-    --
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Mise en évidence du texte
+    <hr /><br />
+
     * Pour mettre en **gras**, on encadre le texte par la balise `__` (ou `**`)
 
     ```
-    __Ce texte sera écrit en gras__
-    **Celui-ci aussi**
+    __Ce mot__ sera écrit en gras. **Celui-ci** aussi...
     ```
+    >> __Ce mot__ sera écrit en gras. **Celui-ci** aussi...
+
     <br />
 
     --
 
-    * **_Et en gras-italique_**
-    * Pour écrire normalement, on ne spécifie aucune balise
+    * Pour mettre en **_gras-italique_**, on encadre le texte par la balise `**_`
 
-    <br />
-
-    * Il n'y a pas de soulignement d'implémenté (d'ailleurs, ce serait une faute selon les règles typographiques...)
+    ```
+    Voici un **_mot_** écrit en gras-italique.
+    ```
+    >> Voici un **_mot_** écrit en gras-italique.
 
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
     layout: false
-    ## Division du document
+    ## Mise en évidence du texte
     <hr /><br />
 
-    --
-    * Paragraphe
+    * Pour rayer une portion de texte, on encadre celle-ci par la balise `~~`
+
+    ```
+    ~~Ce bout de texte n'est plus d'actualité~~.
+    ```
+    >> ~~Ce bout de texte n'est plus d'actualité~~.
+
+    <br />
 
     --
-    * Titres
+
+    * Il n'y a pas de soulignement en Markdown (d'ailleurs, ce serait une faute selon les règles typographiques...)
+
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
     layout: false
-    ## Listes numérotées
+    ## Mise en évidence du texte
     <hr /><br />
+
+    * Pour écrire une portion de texte en exposant, on encadre celle-ci par la balise `^`
+
+    ```
+    La fameuse équation d'Einstein est : E = mc^2^
+    ```
+
+    >> La fameuse équation d'Einstein est : E = mc<sup>2</sup>
+
+
+    --
+
+    * Pour écrire une portion de texte en indice, on encadre celle-ci par la balise `~`
+
+    ```
+    La formule chimique du dioxyde carbone est : CO~2~
+    ```
+
+    >> La formule chimique du dioxyde carbone est : CO<sub>2</sub>
+
+
+    --
+
+    * <u>Remarque</u> : les expressions placées en exposant/indice ne doivent pas contenir d'espace.
+    Si tel est le cas, il faudra échapper l'espace avec le caractère `\ `.
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Division du document - Paragraphe
+    <hr /><br />
+
+    * Pour créer un nouveau paragraphe, il faut le séparer du précédent par une **ligne vide**.
+    Ainsi, un simple retour de ligne ne créera pas de nouveau paragraphe.
+
+    <br />
+
+    --
+    ```
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+    Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+
+    Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+    ```
+
+    >> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+
+    >> Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Division du document - Titres
+    <hr /><br />
+
+    * En Markdown, il existe **6 niveaux** de titres.
+    * Pour les deux premiers niveaux,
+    il existe deux syntaxes possibles :
+
+    <br />
+
+    --
+    ```
+    LA SYNTAXE SETEXT                     |                     LA SYNTAXE ATX
+                                          |
+    Titre de niveau 1                     |                     #  Titre de niveau 1
+    =================                     |
+    Titre de niveau 2                     |                     ## Titre de niveau 2
+    -----------------                     |
+    ```
+
+    --
+
+    >> # Titre de niveau 1
+    >> ## Titre de niveau 2
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Division du document - Titres
+    <hr /><br />
+
+    ```
+    # Titre de niveau 1
+    ## Titre de niveau 2
+    ### Titre de niveau 3
+    #### Titre de niveau 4
+    ##### Titre de niveau 5
+    Ceci est le début de mon premier paragraphe.
+    ```
+
+    --
+    >> # Titre de niveau 1
+    >> ## Titre de niveau 2
+    >> ### Titre de niveau 3
+    >> #### Titre de niveau 4
+    >> ##### Titre de niveau 5
+    >> Ceci est le début de mon premier paragraphe.
 
 
 
@@ -396,12 +525,113 @@
     ## Listes à puces
     <hr /><br />
 
+    * Pour créer une liste non numérotée en Markdown, il suffit de faire précéder chaque
+    item par un des trois symboles suivants : `-` ou `*` ou `+`.
+
+    * Il est important de laisser une ligne vide entre le début de la liste et le paragraphe précédent.
+
+    <br />
+
+    --
+    ```
+    Ce paragraphe introduit la liste suivante :
+
+    - Item no1 de la liste,
+    - Item no2 de la liste,
+    * Item no3 de la liste.
+    ```
+
+    >> Ce paragraphe introduit la liste suivante :
+    >> - Item no1 de la liste,
+    >> + Item no2 de la liste,
+    >> * Item no3 de la liste.
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Listes numérotées
+    <hr /><br />
+
+    * Pour créer une liste numérotée en Markdown, il suffit de faire précéder chaque
+    item par un numéro suivi d'un `.`.
+
+    * Peu importe la numérotation, Markdown l'adaptera automatiquement. Cependant,
+    la liste commencera par le numéro du premier item.
+
+    <br />
+
+    --
+    ```
+    Ce paragraphe introduit la liste numérotée suivante :
+
+    1. Item no1 de la liste,
+    1. Item no2 de la liste,
+    6. Item no3 de la liste.
+    ```
+
+    >> Ce paragraphe introduit la liste numérotée suivante :
+    >> 1. Item no1 de la liste,
+    >> 1. Item no2 de la liste,
+    >> 6. Item no3 de la liste.
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Listes numérotées
+    <hr /><br />
+
+    * Sous **Pandoc Markdown**, d'autres styles de liste numérotée existent :
+
+        - `#.` : donnera **1.**, **2.**, **3.**, etc.
+        - `#)` : donnera **1)**, **2)**, **3)**, etc.
+        - `(#)` : donnera **(1)**, **(2)**, **(3)**, etc.
+        - `i.` : donnera **i.**, **ii.**, **iii.**, etc.
+
+    <br />
+
+    * Notons que l'utilisation du `#` en remplacement d'un chiffre aura pour conséquence
+    de toujours commencer une liste par 1.
+
+    <br /><hr />
+
+
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
     layout: false
     ## La règle des quatre espaces
     <hr /><br />
+
+
+
+    ```
+    1. item
+        1. sous-item
+            - puce
+            - puce
+        1. sous-item
+    1. item
+
+    <!-- end -->
+
+    1. item
+    1. item
+
+    ```
+
+    >> 1. item
+    >>     1. sous-item
+    >>         - puce
+    >>         - puce
+    >>     1. sous-item
+    >> 1. item
+
+    <!-- end -->
+
+    >> 1. item
+    >> 1. item
 
 
 
