@@ -77,6 +77,11 @@
           width: 98%;*/
           text-align: center;
       }
+      .img-centre{
+          margin-left: auto;
+          margin-right: auto;
+        display: block;
+      }
   </style>
 </head>
 
@@ -131,7 +136,7 @@
     class: center, middle, inverse
     ---
 
-    ## Histoire du langage
+    ## Histoire du langage Markdown
     <hr />
     ### : ( ){ : | : & } ; :
 
@@ -220,7 +225,7 @@
 
         > [MultiMarkdown](https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide)
 
-        > [Pandoc Markdown](http://pandoc.org/README.html#pandocs-markdown)
+        > [Pandoc's Markdown](http://pandoc.org/README.html#pandocs-markdown)
 
         > [...](https://www.iana.org/assignments/markdown-variants/markdown-variants.xhtml)
 
@@ -238,56 +243,19 @@
     <hr /><br />
 
     --
-    * **[Pandoc Markdown](http://pandoc.org/README.html#pandocs-markdown)**
+    * **[Pandoc's Markdown](http://pandoc.org/README.html#pandocs-markdown)**
 
     <br />
 
     --
-    * Plusieurs raisons appuient ce choix:
+    * Plusieurs raisons appuient ce choix :
 
-        1. Syntaxe proche du Markdown _original_
-        1. Contient des évolutions intéressantes
-        1. Implémenté dans le **logiciel R** (package `rmarkdown`)
-        1. Utilise **Pandoc** (convertisseur universel de documents)
+        * Syntaxe proche du Markdown _original_
+        * Contient des évolutions intéressantes
+        * Implémenté dans le **logiciel R** (package `rmarkdown`)
+        * Utilise **Pandoc** (convertisseur universel de documents)
 
     <br /><hr />
-
-
-    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-    <!-- PRESENTATION                                                            -->
-    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-
-
-
-    ---
-    name: inverse
-    layout: true
-    class: center, middle, inverse
-    ---
-
-    ## Présentation du langage
-    <hr />
-    ### ; : [ ( { | } ) ] : ;
-
-    ???
-    Inclusion de codes HTML et LaTeX
-
-
-    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
-    ---
-    layout: false
-    ## Flux de travail
-    <hr /><br />
-
-    <div class='centre'><img src="./img/interpretation.png" style="width:700px"></img></div>
-
-
-    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
-    ---
-    layout: false
-    ## Title
-    <hr /><br />
-
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
@@ -302,7 +270,7 @@
     class: center, middle, inverse
     ---
 
-    ## Les outils requis
+    ## Installation
     <hr />
     ### ; : [ ( { | } ) ] : ;
 
@@ -311,10 +279,139 @@
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
     layout: false
-    ## Title
+    ## Logiciel R
     <hr /><br />
 
+    --
+    * Logiciel de statistiques et de graphiques
+    * Langage de programmation
+    * Disponible à cette adresse : **[https://cran.r-project.org/](https://cran.r-project.org/)**
 
+    <br />
+    <img class='img-centre' src="./img/r-logo.png" style="width:150px"></img>
+    <br />
+
+    --
+    * Pour écrire en Markdown, il faut installer le package **[rmarkdown](https://cran.r-project.org/web/packages/rmarkdown/index.html)**
+
+    ```{}
+    install.packages('rmarkdown', dependencies = TRUE)
+    ```
+    <br />
+
+    --
+    * <u>Remarque</u> : si vous travaillez sous **[RStudio](https://www.rstudio.com/)**, le
+    package **rmarkdown** est installé par défaut
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## LaTeX
+    <hr /><br />
+
+    --
+    * Initialement prévu pour alléger l'écriture du HTML, Markdown peut
+    être traduit en différents formats de fichier, dont le format **PDF**
+
+    * Mais pour cela, **LaTeX** doit être installé
+
+    <br />
+    <img class='img-centre' src="./img/latex-logo.png" style="width:150px"></img>
+    <br />
+
+    --
+    * Pour les utilisateurs de Windows : la suite **[MiKTeX](http://miktex.org/download)**
+    * Pour les adeptes de la Pomme : la suite **[MacTeX](https://tug.org/mactex/)**
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Pandoc
+    <hr /><br />
+
+    --
+    * Convertisseur universel de documents
+
+    --
+    * Concrètement, voici quelques conversions possibles :
+
+    <br />
+    <img class='img-centre' src="./img/pandoc.png" style="width:750px"></img>
+    <br />
+
+    --
+    * Et bien d'autres conversions : [http://pandoc.org/](http://pandoc.org/)
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Pandoc
+    <hr /><br />
+
+    --
+    * Télécharger le logiciel **Pandoc** à cette [adresse](https://github.com/jgm/pandoc/releases/tag/1.16.0.2)
+    * Pour Windows, prendre l'extension `.msi`
+    * Pour Mac OSX, prendre l'extension `.pkg`
+
+    --
+
+    <br />
+
+    * <u>Remarque</u> : si vous travaillez sous RStudio, le package `rmarkdown` et le logiciel
+    `Pandoc` sont déjà installés. Ceci est valable à partir de la version v0.98.932 de
+    RStudio.
+
+    --
+
+    <br />
+
+    * <u>Autre remarque</u> : `pandoc-citeproc`...
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Le fichier .rmd
+    <hr /><br />
+
+    --
+    * Un fichier Markdown écrit sous R portera l'extension `.rmd`
+
+    --
+
+    <br />
+    * Il se structure en 3 parties (dont une facultative)
+        * L'entête du document (**YAML**),
+        * Le corps du document (**Pandoc's Markdown**)
+        * Des morceaux de **code R** (facultatif)
+
+    --
+
+    <br />
+    * Le YAML (_YAML Ain't Markup Language_) contient les métadonnées du document
+    * Le bloc YAML commence et se termine toujours par <u>**trois tirets courts**</u>
+    * Il est obligatoirement placé à la première ligne du document
+
+    --
+
+    <br />
+    * Les morceaux de code R sont toujours délimités par <u>**trois accents graves**</u>
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Le fichier .rmd
+    <hr /><br />
+
+    <img class='img-centre' src="./img/rmd.png" style="width:650px"></img>
+    <br />
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
     <!-- SYNTAXE                                                            -->
@@ -328,7 +425,7 @@
     class: center, middle, inverse
     ---
 
-    ## La syntaxe Pandoc Markdown
+    ## La syntaxe Pandoc's Markdown
     <hr />
     ### ; : [ ( { | } ) ] : ;
 
@@ -582,7 +679,7 @@
     ## Listes numérotées
     <hr /><br />
 
-    * Sous **Pandoc Markdown**, d'autres styles de liste numérotée existent :
+    * Sous **Pandoc's Markdown**, d'autres styles de liste numérotée existent :
 
         - `#.` : donnera **1.**, **2.**, **3.**, etc.
         - `#)` : donnera **1)**, **2)**, **3)**, etc.
@@ -613,6 +710,26 @@
             - puce
         1. sous-item
     1. item
+    ```
+
+    >> 1. item
+    >>     1. sous-item
+    >>         - puce
+    >>         - puce
+    >>     1. sous-item
+    >> 1. item
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Commencer une nouvelle liste
+    <hr /><br />
+
+    ```
+    1. item
+    1. item
 
     <!-- end -->
 
@@ -622,10 +739,6 @@
     ```
 
     >> 1. item
-    >>     1. sous-item
-    >>         - puce
-    >>         - puce
-    >>     1. sous-item
     >> 1. item
 
     <!-- end -->
