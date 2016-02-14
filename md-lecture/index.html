@@ -94,7 +94,7 @@
     layout: true
     class: center, middle, inverse
     ---
-    # Introduction au langage Markdown
+    # Langage Markdown
 
     <hr />
 
@@ -120,6 +120,100 @@
 
     ???
     pas de note
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <!-- PROBLÉMATIQUE                                                           -->
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+
+
+    ---
+    name: inverse
+    layout: true
+    class: center, middle, inverse
+    ---
+
+    ## Introduction
+    <hr />
+    ### : ( ){ : | : & } ; :
+
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## La recherche scientifique
+    <hr /><br />
+
+    * Un flux de travail linéaire ?
+
+    <br />
+
+    <img class='img-centre' src="./img/diag1.png" style="width:750px"></img>
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## La recherche scientifique
+    <hr /><br />
+
+    * Pas tant que ça...
+
+    <br />
+
+    <img class='img-centre' src="./img/diag2.png" style="width:750px"></img>
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## La recherche scientifique
+    <hr /><br />
+
+    * Peut-on se faciliter la vie ?
+
+    <br />
+
+    <img class='img-centre' src="./img/diag3.png" style="width:750px"></img>
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Écrire des documents dynamiques
+    <hr /><br />
+
+    * Un document dynamique est composé de deux éléments :
+
+        > le **code** (_Computing language_) pour réaliser les analyses (et figures)
+
+        > le **texte** (_Authoring language_) pour transmettre le message
+
+
+    --
+    * **Automatisation du flux de travail**
+
+    --
+
+    <br />
+
+    * _Computing language_
+
+        > **R**, Python, Matlab, etc.
+
+    --
+    * _Authoring language_
+
+        > On oublie Word !!!
+
+        > LaTeX, HTML, et **Markdown**
 
 
 
@@ -149,7 +243,7 @@
     ## Tout commence avec les <em>Blogs</em> sur Internet
     <hr /><br />
 
-    --
+
     * Langage du Web = HTML (_Hypertext Markup Language_)
 
     <br />
@@ -179,13 +273,14 @@
     ## Besoin d'un langage de balisage léger
     <hr /><br />
 
-    --
+
     * En 2004, John Gruber (avec Aaron Swartz) crée le langage **[Markdown](http://daringfireball.net/projects/markdown/)**
 
     <br />
 
     ```md
     # Titre de premier niveau
+
     Paragraphe
     ```
 
@@ -194,7 +289,7 @@
     --
     * Syntaxe facile à lire et à écrire
 
-    * La philosophie de Markdown (selon son créateur):
+    * La philosophie de Markdown (selon son créateur) :
 
     > _A Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions_.
 
@@ -207,7 +302,7 @@
     ## De nombreuses variantes...
     <hr /><br />
 
-    --
+
     * La syntaxe originale (celle de Gruber) n'a jamais évolué
     * Mais, elle n'a jamais été formellement standardisée
     * Et, des besoins plus avancés sont apparus...
@@ -215,7 +310,7 @@
     <br />
 
     --
-    * _Chacun_ a développé son propre Markdown
+    * Chacun a développé son propre Markdown
 
         > [GitHub Flavored Markdown (GFM)](https://guides.github.com/features/mastering-markdown/)
 
@@ -242,20 +337,31 @@
     ## Quelle variante de Markdown choisir ?
     <hr /><br />
 
-    --
-    * **[Pandoc's Markdown](http://pandoc.org/README.html#pandocs-markdown)**
+
+    * **_[Pandoc's Markdown](http://pandoc.org/README.html#pandocs-markdown)_**
 
     <br />
 
     --
     * Plusieurs raisons appuient ce choix :
 
-        * Syntaxe proche du Markdown _original_
-        * Contient des évolutions intéressantes
-        * Implémenté dans le **logiciel R** (package `rmarkdown`)
-        * Utilise **Pandoc** (convertisseur universel de documents)
+        > Syntaxe proche du Markdown _original_
 
-    <br /><hr />
+        > Contient des extensions intéressantes
+
+        > Implémenté dans le **logiciel R** (package `rmarkdown`)
+
+        > Basé sur le convertisseur universel de documents **Pandoc**
+
+    <br />
+
+    --
+    * <u>Remarque</u> : nous utiliserons Markdown sous le logiciel R grâce au package
+    `rmarkdown`. Ceci pour deux raisons principales :
+
+        > Création de documents dynamiques (code R embarqué)
+
+        > Automatisation du flux de travail
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
@@ -279,10 +385,41 @@
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
     layout: false
+    ## Un bon éditeur de texte
+    <hr /><br />
+
+
+    * Évitez les traitements de texte (MS-Word, OO-Writer et autres WYSIWYG)
+
+    * Préférez les éditeurs de texte brut
+
+    --
+    <br />
+
+    * Quelques exemples : l'éditeur de scripts de R (ou RStudio), Notepad, Notepad++, TextEdit, gedit, Tinn-R, Sublime, Emacs, etc.
+
+    --
+
+    <br />
+
+    * Recommandation personnelle : **[ATOM](https://atom.io/)**
+
+    <img class='img-centre' src="./img/atom-logo.png" style="width:150px"></img>
+
+    > Multiplateforme et open source
+
+    > Coloration syntaxique
+
+    > Nombreuses extensions
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
     ## Logiciel R
     <hr /><br />
 
-    --
+
     * Logiciel de statistiques et de graphiques
     * Langage de programmation
     * Disponible à cette adresse : **[https://cran.r-project.org/](https://cran.r-project.org/)**
@@ -311,7 +448,7 @@
     ## LaTeX
     <hr /><br />
 
-    --
+
     * Initialement prévu pour alléger l'écriture du HTML, Markdown peut
     être traduit en différents formats de fichier, dont le format **PDF**
 
@@ -323,7 +460,12 @@
 
     --
     * Pour les utilisateurs de Windows : la suite **[MiKTeX](http://miktex.org/download)**
+
     * Pour les adeptes de la Pomme : la suite **[MacTeX](https://tug.org/mactex/)**
+
+    <br />
+
+    * <u>Remarque</u> : prévoyez de l'espace disque (~ 1GB)
 
 
 
@@ -333,10 +475,12 @@
     ## Pandoc
     <hr /><br />
 
-    --
+
     * Convertisseur universel de documents
 
+
     --
+
     * Concrètement, voici quelques conversions possibles :
 
     <br />
@@ -353,9 +497,13 @@
     ## Pandoc
     <hr /><br />
 
-    --
+
     * Télécharger le logiciel **Pandoc** à cette [adresse](https://github.com/jgm/pandoc/releases/tag/1.16.0.2)
+
+    <br />
+
     * Pour Windows, prendre l'extension `.msi`
+
     * Pour Mac OSX, prendre l'extension `.pkg`
 
     --
@@ -366,11 +514,6 @@
     `Pandoc` sont déjà installés. Ceci est valable à partir de la version v0.98.932 de
     RStudio.
 
-    --
-
-    <br />
-
-    * <u>Autre remarque</u> : `pandoc-citeproc`...
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
@@ -379,7 +522,6 @@
     ## Le fichier .rmd
     <hr /><br />
 
-    --
     * Un fichier Markdown écrit sous R portera l'extension `.rmd`
 
     --
@@ -439,7 +581,7 @@
 
     * Pour écrire normalement, on ne spécifie aucune balise
 
-    ```
+    ```md
     Voici un morceau de texte écrit normalement, sans décoration particulière.
     ```
     >> Voici un morceau de texte écrit normalement, sans décoration particulière.
@@ -448,9 +590,9 @@
 
     --
 
-    * Pour mettre en *italique*, on encadre le texte par la balise `_` ou (`*`)
+    * Pour mettre en *italique*, on encadre le texte par la balise `_` (ou `*`)
 
-    ```
+    ```md
     Ce _mot_ sera écrit en italique. *Celui-ci* aussi...
     ```
     >> Ce _mot_ sera écrit en italique. *Celui-ci* aussi...
@@ -465,7 +607,7 @@
 
     * Pour mettre en **gras**, on encadre le texte par la balise `__` (ou `**`)
 
-    ```
+    ```md
     __Ce mot__ sera écrit en gras. **Celui-ci** aussi...
     ```
     >> __Ce mot__ sera écrit en gras. **Celui-ci** aussi...
@@ -476,7 +618,7 @@
 
     * Pour mettre en **_gras-italique_**, on encadre le texte par la balise `**_`
 
-    ```
+    ```md
     Voici un **_mot_** écrit en gras-italique.
     ```
     >> Voici un **_mot_** écrit en gras-italique.
@@ -491,7 +633,7 @@
 
     * Pour rayer une portion de texte, on encadre celle-ci par la balise `~~`
 
-    ```
+    ```md
     ~~Ce bout de texte n'est plus d'actualité~~.
     ```
     >> ~~Ce bout de texte n'est plus d'actualité~~.
@@ -512,7 +654,7 @@
 
     * Pour écrire une portion de texte en exposant, on encadre celle-ci par la balise `^`
 
-    ```
+    ```md
     La fameuse équation d'Einstein est : E = mc^2^
     ```
 
@@ -523,7 +665,7 @@
 
     * Pour écrire une portion de texte en indice, on encadre celle-ci par la balise `~`
 
-    ```
+    ```md
     La formule chimique du dioxyde carbone est : CO~2~
     ```
 
@@ -548,7 +690,7 @@
     <br />
 
     --
-    ```
+    ```md
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
     Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 
@@ -597,12 +739,13 @@
     ## Division du document - Titres
     <hr /><br />
 
-    ```
+    ```md
     # Titre de niveau 1
     ## Titre de niveau 2
     ### Titre de niveau 3
     #### Titre de niveau 4
     ##### Titre de niveau 5
+
     Ceci est le début de mon premier paragraphe.
     ```
 
@@ -630,18 +773,18 @@
     <br />
 
     --
-    ```
-    Ce paragraphe introduit la liste suivante :
+    ```md
+    Les trois planètes les plus éloignées du soleil sont :
 
-    - Item no1 de la liste,
-    - Item no2 de la liste,
-    * Item no3 de la liste.
+    - Neptune,
+    - Uranus,
+    * Saturne.
     ```
 
-    >> Ce paragraphe introduit la liste suivante :
-    >> - Item no1 de la liste,
-    >> + Item no2 de la liste,
-    >> * Item no3 de la liste.
+    >> Les trois planètes les plus éloignées du soleil sont :
+    >> - Neptune,
+    >> - Uranus,
+    >> - Saturne.
 
 
 
@@ -660,18 +803,18 @@
     <br />
 
     --
-    ```
-    Ce paragraphe introduit la liste numérotée suivante :
+    ```md
+    Jusqu'à présent, nous avons abordé les thématiques suivantes :
 
-    1. Item no1 de la liste,
-    1. Item no2 de la liste,
-    6. Item no3 de la liste.
+    1. Mise en évidence du texte
+    1. Division du document (paragraphe)
+    6. Division du document (titres)
     ```
 
-    >> Ce paragraphe introduit la liste numérotée suivante :
-    >> 1. Item no1 de la liste,
-    >> 1. Item no2 de la liste,
-    >> 6. Item no3 de la liste.
+    >> Jusqu'à présent, nous avons abordé les thématiques suivantes :
+    >> 1. Mise en évidence du texte
+    >> 1. Division du document (paragraphe)
+    >> 6. Division du document (titres)
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
@@ -702,22 +845,27 @@
     <hr /><br />
 
 
+    * Pour emboîter des listes dans des listes, il suffit d'indenter les sous-listes de
+    quatre espaces (ou une tabulation).
 
-    ```
-    1. item
-        1. sous-item
-            - puce
-            - puce
-        1. sous-item
-    1. item
+    <br />
+
+    --
+    ```md
+    1. Système solaire interne
+        1. Planètes internes
+            - Mercure
+            - Vénus
+        1. Ceinture d'astéroïdes
+    1. Système solaire externe
     ```
 
-    >> 1. item
-    >>     1. sous-item
-    >>         - puce
-    >>         - puce
-    >>     1. sous-item
-    >> 1. item
+    >> 1. Système solaire interne
+    >>     1. Planètes internes
+    >>         - Mercure
+    >>         - Vénus
+    >>     1. Ceinture d'astéroïdes
+    >> 1. Système solaire externe
 
 
 
@@ -727,25 +875,32 @@
     ## Commencer une nouvelle liste
     <hr /><br />
 
-    ```
-    1. item
-    1. item
+
+    * Pour commencer une nouvelle liste (c.-à-d. réinitialiser la numérotation),
+    on sépare les listes par la balise `<!-- end -->` précédée et suivie par une ligne
+    vide.
+
+    <br />
+
+    --
+    ```md
+    1. Planètes internes
+    1. Ceinture d'astéroïdes
 
     <!-- end -->
 
-    1. item
-    1. item
+    1. Planètes externes
+    1. Comètes
 
     ```
 
-    >> 1. item
-    >> 1. item
+    >> 1. Planètes internes
+    >> 1. Ceinture d'astéroïdes
 
     <!-- end -->
 
-    >> 1. item
-    >> 1. item
-
+    >> 1. Planètes externes
+    >> 1. Comètes
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
@@ -754,7 +909,17 @@
     ## Les liens hypertextes
     <hr /><br />
 
+    * Pour insérer un lien hypertexte, on utilisera la balise : `[texte](url)`
 
+    <br />
+
+    --
+    ```md
+    Cliquez [ici](http://rmarkdown.rstudio.com/) pour visiter la package d'accueil
+    du package `rmarkdown`.
+    ```
+
+    >> Cliquez **[ici](http://rmarkdown.rstudio.com/)** pour visiter la package d'accueil du package `rmarkdown`.
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
@@ -762,22 +927,50 @@
     ## Les notes de bas de page
     <hr /><br />
 
+    * Pour insérer une note de bas de page, on utilisera la balise : `[^etiquette]`.
+
+    * On écrira (n'importe où dans le texte) le contenu de la note après la balise : `[^etiquette]:`
+
+
+    <br />
+
+    --
+    ```md
+    Un système faisant partie de la science empirique doit pouvoir être réfuté par
+    l'expérience[^nb].
+
+    ...
+
+    [^nb]: Karl Popper
+    ```
+
+    >> Un système faisant partie de la science empirique doit pouvoir être réfuté par l'expérience<sup>1</sup>.
+
+    >> ...
+
+    >> <sup>1</sup> Karl Popper
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
     layout: false
-    ## Insertion d'image
+    ## Insertion d'images
     <hr /><br />
 
+    * Pour insérer une image, on utilisera la balise `![titre](chemin)`
 
+    <br />
 
-    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
-    ---
-    layout: false
-    ## Référencement interne
-    <hr /><br />
+    --
+    ```md
+    ![Logo semi-officiel de Markdown](./img/md-logo2.png)
+    ```
 
+    <br />
+
+    <img class='img-centre' src="./img/md-logo2.png" style="width:450px;"></img>
+
+    <div style='text-align:center; font-size:15px;'>Logo semi-officiel de Markdown</div>
 
 
 
@@ -787,26 +980,142 @@
     ## Les blocs de citation
     <hr /><br />
 
+    * Pour insérer une citation, on commence la ligne par la balise `> `
 
+    * On peut emboîter une citation dans une autre en doublant le `> `
 
-    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
-    ---
-    layout: false
-    ## Les blocs de code (verbatim)
-    <hr /><br />
+    --
 
-    ```r
-    ### Distribution normale
-    x = rnorm(10)
+    <br />
+
+    ```md
+    > This is a block quote.
+    >
+    >> A block quote within a block quote.
     ```
 
+    > This is a block quote.
+    >
+    >> A block quote within a block quote.
+
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
     layout: false
-    ## Les lignes horizontales
+    ## Insertion d'images
     <hr /><br />
 
+    * <u>Problème</u> : impossible de redimensionner les images sous Markdown
+
+    <br />
+
+    --
+    * <u>Solution</u> : profiter de **R**
+        * Lire le fichier `.png` (ou `.jpeg`) sous R
+        * Afficher la matrice dans un graphique
+        * Dans les options du code R, définir les dimensions
+
+    <br />
+
+    --
+    <img class='img-centre' src="./img/knitr.png" style="width:650px;"></img>
+
+    <br />
+
+    * <u>Remarque</u> : les options du code R sont dérivées du package `knitr`. L'argument
+    `echo=FALSE` signifie qu'on ne souhaite pas afficher dans le document final le code R (mais
+    uniquement le résultat).
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Les blocs de code (_verbatim_)
+    <hr /><br />
+
+    * Sous Markdown's Pandoc, il existe trois façons d'inclure du code
+
+    <br />
+
+    --
+    * **1<sup>ère</sup> approche** : l'indentation
+
+    <br />
+
+    ```
+    Voici une boucle infinie sous R :
+
+        i = 1
+        while (i > 0){
+            cat(i, "\n")
+            i = i + 1
+        }
+    ```
+
+    <br />
+
+    --
+    * Ici, il n'y a ni interprétation du code, ni coloration syntaxique
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Les blocs de code (_verbatim_)
+    <hr /><br />
+
+
+    * **2<sup>ème</sup> approche** : l'utilisation de la balise `~~~~`
+
+    <br />
+
+    ```
+    Voici une boucle infinie sous R :
+
+    ~~~~~~~~~~~~~~~~{.r}
+    i = 1
+    while (i > 0){
+        cat(i, "\n")
+        i = i + 1
+    }
+    ~~~~~~~~~~~~~~~~
+    ```
+
+    <br />
+
+    --
+    * Ici, il n'y a pas d'interprétation du code, mais la syntaxe sera coloriée selon le langage spécifié
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Les blocs de code (_verbatim_)
+    <hr /><br />
+
+
+    * **3<sup>ème</sup> approche** : l'utilisation de la balise `` ``` ``
+
+    <br />
+
+    ```
+    Voici une boucle infinie sous R :
+
+    ```{r}
+    i = 1
+    while (i > 0){
+        cat(i, "\n")
+        i = i + 1
+    }
+    ``````
+
+    <br />
+
+    --
+    * Ici, il y a à la fois interprétation du code et coloration syntaxique (si on souhaite que le code soit affiché)
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
@@ -890,6 +1199,23 @@
     <hr />
     ### Place à la pratique
 
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <!-- ANNEXES                                                            -->
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+
+
+    ---
+    name: inverse
+    layout: true
+    class: center, middle, inverse
+    ---
+
+    ## Annexe
+    <hr />
+    ### Personnalisation avancée
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
