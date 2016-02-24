@@ -94,7 +94,7 @@
     layout: true
     class: center, middle, inverse
     ---
-    # Langage Markdown
+    # Langage Pandoc's Markdown
 
     <hr />
 
@@ -147,19 +147,23 @@
     ## Merci à...
     <hr /><br />
 
-    * Kévin Cazelles pour m'avoir fait découvrir `rmarkdown`
+    > Kévin Cazelles pour m'avoir fait découvrir `rmarkdown`
 
     <br />
 
-    * Marie-Pier Laplante pour `COMMAND` + `SHIFT` + `4`
+    > Steve Vissault pour m'avoir fait découvrir `Remark`
 
     <br />
 
-    * Le regroupement BORÉAS pour son support financier et logisitique
+    > Marie-Pier Laplante pour `COMMAND` + `SHIFT` + `4`
 
     <br />
 
-    * Et un grand merci à Marie-José Naud !
+    > Le regroupement BORÉAS pour son support financier et logisitique
+
+    <br />
+
+    > Et un grand merci à Marie-José Naud !
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
     <!-- PROBLÉMATIQUE                                                           -->
@@ -305,6 +309,7 @@
 
     --
     * Langage de balisage à la syntaxe lourde
+
     * Assez fastidieux pour les auteurs prolifiques...
 
 
@@ -346,7 +351,9 @@
 
 
     * La syntaxe originale (celle de Gruber) n'a jamais évolué
+
     * Mais, elle n'a jamais été formellement standardisée
+
     * Et, des besoins plus avancés sont apparus...
 
     <br />
@@ -368,6 +375,7 @@
 
     --
     * Il peut être difficile de s'y retrouver au début
+
     * D'autant que certaines différences dans la syntaxe existent...
 
 
@@ -463,7 +471,9 @@
 
 
     * Logiciel de statistiques et de graphiques
+
     * Langage de programmation
+
     * Disponible à cette adresse : **[https://cran.r-project.org/](https://cran.r-project.org/)**
 
     <br />
@@ -478,7 +488,6 @@
     ```
     <br />
 
-    --
     * <u>Remarque</u> : si vous travaillez sous **[RStudio](https://www.rstudio.com/)**, le
     package **rmarkdown** est installé par défaut (à partir de la version v0.98.932)
 
@@ -523,13 +532,12 @@
 
     --
 
-    * Concrètement, voici quelques conversions possibles :
+    * Voici quelques conversions possibles :
 
     <br />
     <img class='img-centre' src="./img/pandoc.png" style="width:750px"></img>
     <br />
 
-    --
     * Et bien d'autres conversions : [http://pandoc.org/](http://pandoc.org/)
 
 
@@ -540,7 +548,7 @@
     <hr /><br />
 
 
-    * Télécharger le logiciel **Pandoc** à cette [adresse](https://github.com/jgm/pandoc/releases/tag/1.16.0.2)
+    * Téléchargez le logiciel **Pandoc** à cette [adresse](https://github.com/jgm/pandoc/releases/tag/1.16.0.2)
 
     <br />
 
@@ -554,7 +562,7 @@
 
     * <u>Remarque</u> : si vous travaillez sous RStudio, le package `rmarkdown` et le logiciel
     `Pandoc` sont déjà installés. Ceci est valable à partir de la version v0.98.932 de
-    RStudio.
+    RStudio
 
 
 
@@ -570,15 +578,20 @@
 
     <br />
     * Il se structure en 3 parties (dont une facultative)
-        * L'entête du document (**YAML**),
-        * Le corps du document (**Pandoc's Markdown**)
-        * Des morceaux de **code R** (facultatif)
+
+        > L'entête du document (**YAML**),
+
+        > Le corps du document (**Pandoc's Markdown**)
+
+        > Des morceaux de **code R** (facultatif)
 
     --
 
     <br />
     * Le YAML (_YAML Ain't Markup Language_) contient les métadonnées du document
+
     * Le bloc YAML commence et se termine toujours par <u>**trois tirets courts**</u>
+
     * Il est obligatoirement placé à la première ligne du document
 
     --
@@ -717,7 +730,7 @@
     --
 
     * <u>Remarque</u> : les expressions placées en exposant/indice ne doivent pas contenir d'espace.
-    Si tel est le cas, il faudra échapper l'espace avec le caractère `\ `.
+    Si tel est le cas, il faudra échapper l'espace avec le caractère `\ `
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
@@ -726,8 +739,9 @@
     ## Division du document - Paragraphe
     <hr /><br />
 
-    * Pour créer un nouveau paragraphe, il faut le séparer du précédent par une **ligne vide**.
-    Ainsi, un simple retour de ligne ne créera pas de nouveau paragraphe.
+    * Pour créer un nouveau paragraphe, il faut le séparer du précédent par une **ligne vide**
+
+    * Un simple retour de ligne ne créera pas de nouveau paragraphe
 
     <br />
 
@@ -752,7 +766,8 @@
     ## Division du document - Titres
     <hr /><br />
 
-    * En Markdown, il existe **6 niveaux** de titres.
+    * En Markdown, il existe **6 niveaux** de titres
+
     * Pour les deux premiers niveaux,
     il existe deux syntaxes possibles :
 
@@ -828,9 +843,9 @@
     <hr /><br />
 
     * Pour créer une liste non numérotée en Markdown, il suffit de faire précéder chaque
-    item par un des trois symboles suivants : `-` ou `*` ou `+`.
+    item par un des trois symboles suivants : `-` ou `*` ou `+`
 
-    * Il est important de laisser une ligne vide entre le début de la liste et le paragraphe précédent.
+    * Il est important de laisser une ligne vide entre le début de la liste et le paragraphe précédent
 
     <br />
 
@@ -857,10 +872,10 @@
     <hr /><br />
 
     * Pour créer une liste numérotée en Markdown, il suffit de faire précéder chaque
-    item par un numéro suivi d'un `.`.
+    item par un numéro suivi d'un `.`
 
     * Peu importe la numérotation, Markdown l'adaptera automatiquement. Cependant,
-    la liste commencera par le numéro du premier item.
+    la liste commencera par le numéro du premier item
 
     <br />
 
@@ -894,7 +909,7 @@
     <br />
 
     * Notons que l'utilisation du `#` en remplacement d'un chiffre aura pour conséquence
-    de toujours commencer une liste par 1.
+    de toujours commencer une liste par 1
 
     <br /><hr />
 
@@ -908,7 +923,7 @@
 
 
     * Pour emboîter des listes dans des listes, il suffit d'indenter les sous-listes de
-    quatre espaces (ou une tabulation).
+    quatre espaces (ou une tabulation)
 
     <br />
 
@@ -940,9 +955,8 @@
 
     * Pour commencer une nouvelle liste (c.-à-d. réinitialiser la numérotation),
     on sépare les listes par la balise `<!-- end -->` précédée et suivie par une ligne
-    vide.
+    vide
 
-    <br />
 
     --
     ```md
@@ -989,7 +1003,7 @@
     ## Les notes de bas de page
     <hr /><br />
 
-    * Pour insérer une note de bas de page, on utilisera la balise : `[^etiquette]`.
+    * Pour insérer une note de bas de page, on utilisera la balise : `[^etiquette]`
 
     * On écrira (n'importe où dans le texte) le contenu de la note après la balise : `[^etiquette]:`
 
@@ -1091,7 +1105,7 @@
 
     * <u>Remarque</u> : les options du code R sont dérivées du package `knitr`. L'argument
     `echo=FALSE` signifie qu'on ne souhaite pas afficher dans le document final le code R (mais
-    uniquement le résultat).
+    uniquement le résultat)
 
 
 
@@ -1171,6 +1185,7 @@
     --
     ```md
     Le prompt sous Python est noté `>>` alors que sous R il s'écrit `>`.
+
     Si j'attribue la valeur `1` à la variable `x` sous R (`r x = 1`), alors
     Pandoc's Markdown affichera la valeur `1` si je tape `r x`.
     ```
@@ -1218,7 +1233,6 @@
 
     * Pour renvoyer à une section, celle-ci doit avoir un identifiant, noté comme suit :
 
-    <br />
 
     ```md
     # Introduction {#intro}
@@ -1226,13 +1240,18 @@
 
     <br />
 
+    --
     * Pour créer un lien vers cette section, on utilisera la balise `[texte](identifiant)`
 
-    <br />
 
     ```md
     Ce point est abordé dans l'[introduction](#intro).
     ```
+
+    <br />
+
+    * Notons que c'est la même balise que pour les liens hypertextes
+
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
@@ -1247,11 +1266,13 @@
 
     * Malheureusement, cela n'existe pas en Markdown
 
-    * Mais on peut utiliser la balise LaTeX `\label{identifiant}` pour attributé un identifiant à une figure
-
-    * Et la balise `\ref{identifiant}` pour se référer à cette figure
+    --
 
     <br />
+
+    * Mais on peut utiliser la balise LaTeX `\label{identifiant}` pour attribuer un identifiant à une figure
+
+    * Et la balise `\ref{identifiant}` pour se référer à cette figure
 
     ```md
     ![Titre de la figure\label{idfig}](figure.png)
@@ -1261,7 +1282,8 @@
 
     <br />
 
-    * Notons que les balises LaTeX ne seront interprétées que si le document final est un PDF
+    --
+    * Notons que les balises LaTeX ne seront interprétées que si on souhaite un PDF
 
     * Cela ne fonctionnera donc pas pour un document exporté en HTML
 
@@ -1295,6 +1317,7 @@
 
     <br />
 
+    --
     ```bibtex
     @article{arrow1961,
         author = {Arrow, Kenneth J. and Leonid, Hurwicz and Hirofumi, Uzawa},
@@ -1308,6 +1331,7 @@
 
     <br />
 
+    --
     * Export automatique depuis Mendeley
 
     * Disponible sur les sites Web des revues
@@ -1328,7 +1352,7 @@
 
     <br />
 
-    * Plusieurs centaines de style disponibles sur [**GitHub**](https://github.com/citation-style-language/styles)
+    * Plusieurs centaines de styles disponibles sur [**GitHub**](https://github.com/citation-style-language/styles)
 
 
 
@@ -1338,14 +1362,51 @@
     ## Citer des références
     <hr /><br />
 
-    ```md
-    Blah blah [@smith04; @doe99].
-    @smith04 says blah.
+    * Pour citer une référence dans le texte, on utilisera la balise `[@identifiant]`
 
-    last paragraph...
+    * Cet identifiant correspond à celui présent dans le fichier BiBTeX
+
+    * On séparera plusieurs références par `;`
+
+    <br />
+
+    --
+    ```md
+    Bla bla bla [@arthur12].
+
+    Bla bla bla [@smith04; @doe99].
+    ```
+
+    <br />
+
+    --
+    * Pour inclure une citation dans une phrase, on omettra les crochets :
+
+    <br />
+
+    ```md
+    Comme l'a dit @smith04, bla bla bla.
+    ```
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Générer la bibliographie
+    <hr /><br />
+
+    * Pour générer la bibliographie en fin de document, il faut ajouter le titre de premier niveau `# References` après le dernier paragraphe
+
+    <br />
+
+    ```md
+    ... C'est ainsi que se termine le document.
 
     # References
     ```
+
+
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
     <!-- COMPILATION                                                             -->
@@ -1368,8 +1429,188 @@
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
     layout: false
-    ## Retour sur le YAML
+    ## YAML - Généralités
     <hr /><br />
+
+    * C'est l'entête du document
+
+    * Contient les métadonnées du document
+
+    * Contient aussi les options _Pandoc_ pour le rendu du document final
+
+    * Toujours encadré par la balise `---`
+
+    <br />
+
+    --
+    * Voici le YAML minimal pour une sortie PDF :
+
+    <br />
+
+    ```md
+    ---
+    output: pdf_document
+    ---
+    ```
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## YAML - Métadonnées
+    <hr /><br />
+
+    * Les premières options concernent le titre, l'auteur et la date
+
+    <br />
+
+    ```md
+    ---
+    title: "Introduction au langage Markdown"
+    author: Nicolas Casajus
+    date: 01/03/2016
+    output: pdf_document
+    ---
+    ```
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## YAML - Table des matières
+    <hr /><br />
+
+    * Pour ajouter une table des matières, on mettra `true` à l'option `toc` (_table of content_)
+
+    * On peut aussi préciser la profondeur de la table des matières avec l'option `toc_depth`
+
+    <br />
+
+    --
+    ```md
+    ---
+    output:
+        pdf_document:
+            toc: true
+            toc_depth: 2
+    ---
+    ```
+
+    <br />
+
+    * **Attention** à bien indenter les options et sous-options (quatre espaces ou une tabulation)
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## YAML - Numérotation des sections
+    <hr /><br />
+
+    * Pour numéroter les sections, on mettra `true` à l'option `number_sections`
+
+    <br />
+
+    ```md
+    ---
+    output:
+        pdf_document:
+            number_sections: true
+    ---
+    ```
+
+    <br />
+
+    --
+    * Si on souhaite qu'un titre ne soit pas numéroté, on écrira (dans le corps du documents) :
+
+    <br />
+
+    ```md
+    # Introduction {-}
+    ```
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## YAML - Figures
+    <hr /><br />
+
+    * Trois options principales concernent les figures :
+
+        > `fig_width` pour définir la largeur des figures (défaut 6)
+
+        > `fig_height` pour définir la hauteur des figures (défaut 4.5)
+
+        > `fig_caption` pour indiquer si on souhaite des titres aux figures (défaut false)
+
+    <br />
+
+    ```md
+    ---
+    output:
+        pdf_document:
+            fig_width: 7
+            fig_height: 6
+            fig_caption: true
+    ---
+    ```
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## YAML - Autres options
+    <hr /><br />
+
+    ```md
+    ---
+    lang: french
+    abstract: "Mon résumé..."
+    fontfamily: fourier
+    linestretch: 1
+    fontsize: 10pt
+    lof: yes
+    geometry: margin=1in
+    urlcolor: red
+    citecolor: blue
+    output:
+        pdf_document:
+            keep_tex: true
+            template: template.tex
+    ---
+    ```
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## YAML - Bibliographie
+    <hr /><br />
+
+    * Pour générer la bibliographie, deux options sont **importantes** :
+
+        > `bibliography` indique le fichier contenant les références bibliographiques
+
+        > `csl` indique le fichier contenant le style de formatage de la bibliographie
+
+    <br />
+
+    ```md
+    ---
+    output: pdf_document
+    bibliography: mesrefs.bib
+    csl: monstyle.csl
+    ---
+    ```
+
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
@@ -1378,9 +1619,61 @@
     ## La fonction `render()`
     <hr /><br />
 
+    * Pour générer un fichier PDF (ou autre) à partir du fichier Markdown, on utilisera la fonction
+    `render()` du package `rmarkdown`
+
+    <br />
+    * Voici les arguments principaux de cette fonction :
+
+        > `input` : nom du fichier Markdown à convertir
+
+        > `output_format` : le(s) format(s) de sortie (précisé(s) dans le YAML)
+
+        > `output_file` : nom du fichier de sortie (optionnel)
+
+        > `output_dir` : répertoire où sera enregistré le fichier de sortie (optionnel)
+
+    <br />
+
+    --
+
+    * Voici l'écriture simplifiée de cette fonction :
+
+    ```r
+    render(input = "monfichier.rmd", output_format = "all")
+    ```
 
 
 
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## La fonction `render()` - Erreurs possibles
+    <hr /><br />
+
+    * Package non chargé
+
+
+    ```r
+    library(rmarkdown)
+    ```
+
+    <br />
+
+    * Répertoire de travail non spécifié
+
+
+    ```r
+    setwd('~/Documents/formation')
+    ```
+
+    <br />
+
+    * Format de sortie absent du YAML
+
+    <br />
+
+    * Chemin d'accès aux fichiers (fichier CSL, images, etc.) incomplet
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
     <!-- EXERCICES                                                               -->
@@ -1398,6 +1691,17 @@
     <hr />
     ### Place à la pratique
 
+
+
+    ---
+    name: inverse
+    layout: true
+    class: center, middle, inverse
+    ---
+
+    ## Exercice 1
+    <hr />
+    ### Maîtriser les bases du langage
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
@@ -1443,6 +1747,21 @@
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+
+
+
+    ---
+    name: inverse
+    layout: true
+    class: center, middle, inverse
+    ---
+
+    ## Exercice 2
+    <hr />
+    ### Les bienfaits de l'automatisation
+
+
+
     ---
     layout: false
     ## Exercice 2
@@ -1450,6 +1769,21 @@
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
 
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <!-- EXERCICES                                                               -->
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+
+
+    ---
+    name: inverse
+    layout: true
+    class: center, middle, inverse
+    ---
+
+    ## Fin de la formation
+    <hr />
 
   </textarea>
 
