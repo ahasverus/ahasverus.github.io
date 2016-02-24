@@ -124,6 +124,44 @@
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <!-- REMERCIEMENTS                                                           -->
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+
+
+    ---
+    name: inverse
+    layout: true
+    class: center, middle, inverse
+    ---
+
+    ## Remerciements
+    <hr />
+    ### : ( ){ : | : & } ; :
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Merci à...
+    <hr /><br />
+
+    * Kévin Cazelles pour m'avoir fait découvrir `rmarkdown`
+
+    <br />
+
+    * Marie-Pier Laplante pour `COMMAND` + `SHIFT` + `4`
+
+    <br />
+
+    * Le regroupement BORÉAS pour son support financier et logisitique
+
+    <br />
+
+    * Et un grand merci à Marie-José Naud !
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
     <!-- PROBLÉMATIQUE                                                           -->
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
@@ -190,15 +228,17 @@
     ## Écrire des documents dynamiques
     <hr /><br />
 
+    * **Automatisation du flux de travail**
+
+    <br />
+
+    --
+
     * Un document dynamique est composé de deux éléments :
 
         > le **code** (_Computing language_) pour réaliser les analyses (et figures)
 
         > le **texte** (_Authoring language_) pour transmettre le message
-
-
-    --
-    * **Automatisation du flux de travail**
 
     --
 
@@ -207,6 +247,8 @@
     * _Computing language_
 
         > **R**, Python, Matlab, etc.
+
+    <br />
 
     --
     * _Authoring language_
@@ -438,7 +480,7 @@
 
     --
     * <u>Remarque</u> : si vous travaillez sous **[RStudio](https://www.rstudio.com/)**, le
-    package **rmarkdown** est installé par défaut
+    package **rmarkdown** est installé par défaut (à partir de la version v0.98.932)
 
 
 
@@ -762,6 +804,26 @@
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
     layout: false
+    ## Division du document - Titres
+    <hr /><br />
+
+    * Si on ne souhaite pas de numérotation à un titre (par ex. pour l'introduction),
+    on écrira :
+
+    <br />
+
+    ```md
+    # Introduction {.unnumbered}
+
+    ou
+
+    # Introduction {-}
+    ```
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
     ## Listes à puces
     <hr /><br />
 
@@ -915,11 +977,11 @@
 
     --
     ```md
-    Cliquez [ici](http://rmarkdown.rstudio.com/) pour visiter la package d'accueil
+    Cliquez [ici](http://rmarkdown.rstudio.com/) pour visiter la page d'accueil
     du package `rmarkdown`.
     ```
 
-    >> Cliquez **[ici](http://rmarkdown.rstudio.com/)** pour visiter la package d'accueil du package `rmarkdown`.
+    >> Cliquez **[ici](http://rmarkdown.rstudio.com/)** pour visiter la page d'accueil du package `rmarkdown`.
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
@@ -1044,19 +1106,11 @@
     <br />
 
     --
-    * **1<sup>ère</sup> approche** : l'indentation
+    * **1<sup>ère</sup> approche** : l'indentation par quatre espaces (ou une tabulation)
 
     <br />
 
-    ```
-    Voici une boucle infinie sous R :
-
-        i = 1
-        while (i > 0){
-            cat(i, "\n")
-            i = i + 1
-        }
-    ```
+    <img class='img-centre' src="./img/code1.png" style="width:650px;"></img>
 
     <br />
 
@@ -1076,23 +1130,12 @@
 
     <br />
 
-    ```
-    Voici une boucle infinie sous R :
-
-    ~~~~~~~~~~~~~~~~{.r}
-    i = 1
-    while (i > 0){
-        cat(i, "\n")
-        i = i + 1
-    }
-    ~~~~~~~~~~~~~~~~
-    ```
+    <img class='img-centre' src="./img/code2.png" style="width:650px;"></img>
 
     <br />
 
     --
     * Ici, il n'y a pas d'interprétation du code, mais la syntaxe sera coloriée selon le langage spécifié
-
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
@@ -1102,25 +1145,40 @@
     <hr /><br />
 
 
-    * **3<sup>ème</sup> approche** : l'utilisation de la balise `` ``` ``
+    * **3<sup>ème</sup> approche** : l'utilisation de trois `accents graves`
 
     <br />
 
-    ```
-    Voici une boucle infinie sous R :
-
-    ```{r}
-    i = 1
-    while (i > 0){
-        cat(i, "\n")
-        i = i + 1
-    }
-    ``````
+    <img class='img-centre' src="./img/code3.png" style="width:650px;"></img>
 
     <br />
 
     --
     * Ici, il y a à la fois interprétation du code et coloration syntaxique (si on souhaite que le code soit affiché)
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Les _inline codes_
+    <hr /><br />
+
+    * Pour écrire un bout de code au sein d'un paragraphe, on l'encadrera par un seul `accent grave`
+
+    <br />
+
+    --
+    ```md
+    Le prompt sous Python est noté `>>` alors que sous R il s'écrit `>`.
+    Si j'attribue la valeur `1` à la variable `x` sous R (`r x = 1`), alors
+    Pandoc's Markdown affichera la valeur `1` si je tape `r x`.
+    ```
+
+    >> Le prompt sous Python est noté `>>` alors que sous R il s'écrit `>`.
+    >>
+    >> Si j'attribue la valeur `1` à la variable `x` sous R (), alors Pandoc's Markdown affichera la valeur `1` si je tape 1.
+
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
@@ -1129,7 +1187,83 @@
     ## Les tableaux
     <hr /><br />
 
+    * Sous Pandoc's Markdown, il existe différents types de tableaux
 
+    * Le plus simple consiste à utiliser :
+        * la balise `|` pour séparer les colonnes
+        * la balise `-` pour indiquer les entêtes
+        * la balise `:` pour spécifier l'alignement
+
+    --
+    <br />
+    <img class='img-centre' src="./img/table1.png" style="width:650px;"></img>
+    <br />
+
+    * Pour inclure un titre au tableau, on indiquera le titre après la balise `:`
+    (ou `Table:`) avant ou après le tableau
+
+    * Il est important de laisser une ligne vide entre le titre du tableau et le tableau lui-même
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Le référencement interne
+    <hr /><br />
+
+    **Référence à une section**
+
+    <br />
+
+    * Pour renvoyer à une section, celle-ci doit avoir un identifiant, noté comme suit :
+
+    <br />
+
+    ```md
+    # Introduction {#intro}
+    ```
+
+    <br />
+
+    * Pour créer un lien vers cette section, on utilisera la balise `[texte](identifiant)`
+
+    <br />
+
+    ```md
+    Ce point est abordé dans l'[introduction](#intro).
+    ```
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Le référencement interne
+    <hr /><br />
+
+    **Référence à une figure**
+
+    <br />
+
+    * Malheureusement, cela n'existe pas en Markdown
+
+    * Mais on peut utiliser la balise LaTeX `\label{identifiant}` pour attributé un identifiant à une figure
+
+    * Et la balise `\ref{identifiant}` pour se référer à cette figure
+
+    <br />
+
+    ```md
+    ![Titre de la figure\label{idfig}](figure.png)
+
+    Comme le montre la figure \ref{idfig}, ...
+    ```
+
+    <br />
+
+    * Notons que les balises LaTeX ne seront interprétées que si le document final est un PDF
+
+    * Cela ne fonctionnera donc pas pour un document exporté en HTML
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
     <!-- BIBLIOGRAPHIE                                                            -->
@@ -1152,13 +1286,66 @@
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
     layout: false
-    ## Title
+    ## Le fichier BiBTeX
     <hr /><br />
 
+    * Format de fichier (et logiciel)
+
+    * Contient la description d'une référence sous forme de mot-clé (balises)
+
+    <br />
+
+    ```bibtex
+    @article{arrow1961,
+        author = {Arrow, Kenneth J. and Leonid, Hurwicz and Hirofumi, Uzawa},
+        title = {Constraint qualifications in maximization problems},
+        journal = {Naval Research Logistics Quarterly},
+        volume = {8},
+        year = 1961,
+        pages = {175-191}
+    }
+    ```
+
+    <br />
+
+    * Export automatique depuis Mendeley
+
+    * Disponible sur les sites Web des revues
+
+    * Voir la présentation suivante : [http://steveviss.github.io/Talk_bib](http://steveviss.github.io/Talk_bib)
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Les styles CSL
+    <hr /><br />
+
+    * Contient le formatage des différents items d'une référence bibliographique selon les critères d'un journal
+
+    <br />
+
+    * Informations reconnues par Zotero, Mendeley et Pandoc
+
+    <br />
+
+    * Plusieurs centaines de style disponibles sur [**GitHub**](https://github.com/citation-style-language/styles)
 
 
 
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Citer des références
+    <hr /><br />
 
+    ```md
+    Blah blah [@smith04; @doe99].
+    @smith04 says blah.
+
+    last paragraph...
+
+    # References
+    ```
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
     <!-- COMPILATION                                                             -->
@@ -1181,7 +1368,14 @@
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
     layout: false
-    ## Title
+    ## Retour sur le YAML
+    <hr /><br />
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## La fonction `render()`
     <hr /><br />
 
 
@@ -1189,7 +1383,7 @@
 
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-    <!-- LAST SLIDE                                                            -->
+    <!-- EXERCICES                                                               -->
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
 
@@ -1206,22 +1400,53 @@
 
 
 
-    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-    <!-- ANNEXES                                                            -->
-    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-
-
-
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
-    name: inverse
-    layout: true
-    class: center, middle, inverse
+    layout: false
+    ## Exercice 1
+    <hr /><br />
+
+    * <u>Objectif</u> : maîtriser les bases du Pandoc's Markdown
+
+        * Division du document
+        * Mise en évidence
+        * Listes
+        * Lien hypertexte
+        * Note de bas de page
+        * Insertion d'image
+        * Création de tableaux
+
+    <br />
+
+    * Télécharger les fichiers nécessaires à cette adresse :
+
+    >> [https://github.com/ahasverus/md-lecture/exercice1/](https://github.com/ahasverus/md-lecture/exercice1/)
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
     ---
+    layout: false
+    ## Exercice 1
+    <hr /><br />
 
-    ## Annexe
-    <hr />
-    ### Personnalisation avancée
+    * Ce que vous aller faire :
 
+        - Modifiez le fichier `exercice1.rmd` en rajoutant les balises Markdown
+        - Exportez le document en PDF avec la fonction R `render()`
+        - Votre document PDF doit ressembler au fichier `exercice1_final.pdf`
+
+    <br />
+
+    * Cette présentation est disponible à cette adresse :
+
+    >> [http://ahasverus.github.io/md-lecture/](http://ahasverus.github.io/md-lecture/)
+
+
+
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
+    ---
+    layout: false
+    ## Exercice 2
+    <hr /><br />
 
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slide -->
 

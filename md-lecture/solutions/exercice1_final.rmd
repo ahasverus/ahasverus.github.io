@@ -1,0 +1,87 @@
+---
+title: "Le Système solaire"
+lang: french
+output:
+    pdf_document:
+        toc: no
+        fig_caption: yes
+        keep_tex: no
+        latex_engine: pdflatex
+        number_section: yes
+---
+
+# Introduction {-}
+
+Le Système solaire est notre système planétaire, composé d'une étoile, le Soleil,
+et des objets célestes définis gravitant autour de lui : les huit planètes
+confirmées et leurs 175 satellites naturels connus (appelés usuellement des
+"lunes"), les cinq planètes naines et les milliards de petits corps (la grande
+majorité des astéroïdes et autres planètes mineures, les comètes, les poussières
+interplanétaires, etc.). Le système solaire fait partie de la galaxie appelée la
+**Voie lactée** et est situé à environ environ 26000 années-lumière) du centre
+galactique.
+
+De façon schématique, le Système solaire est composé, outre le Soleil lui-même et
+par ordre de distance croissante à celui-ci, de quatre planètes telluriques internes,
+une ceinture d'astéroïdes composée de petits corps rocheux, quatre planètes géantes
+(deux géantes gazeuses et deux planètes géantes de glaces) externes et une seconde
+ceinture appelée ceinture de Kuiper, composée elle-même d’objets glacés.
+L'héliopause, limite magnétique du Système solaire, est définie par l'arrêt des
+vents solaires face au vent galactique. Bien au-delà se trouve le nuage d'Oort,
+sphère d’objets épars. La limite gravitationnelle du Système solaire, se situe
+bien plus loin encore, jusqu'à une ou deux années-lumière du Soleil.
+
+De la plus proche à la plus éloignée (du Soleil), les planètes du système sont
+Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus et Neptune. Toutes ces
+planètes hormis les deux plus proches du Soleil possèdent des satellites en orbite
+et chacune des quatre planètes externes est entourée d’un système d'anneaux de
+poussière et d’autres particules. Toutes les planètes, sauf la Terre, ont été
+nommées d'après des dieux et déesses de la mythologie romaine.
+
+![Sytème solaire](img/solar.jpg)
+
+# Composition du système solaire
+
+Le Système solaire interne désigne traditionnellement la région située entre le Soleil et la ceinture d’astéroïdes. Composés principalement de silicates et de métaux, les objets du Système solaire interne orbitent près du Soleil : le rayon de la région tout entière est plus petit que la distance entre Jupiter et Saturne.
+
+Au-delà de la ceinture d'astéroïdes s'étend une région dominée par les géantes gazeuses. De nombreuses comètes à courte période, y compris les centaures, y résident également. La zone ne possède pas de nom traditionnel correctement défini. Il est fait souvent mention du Système solaire externe, par opposition au Système solaire interne, mais le terme a récemment commencé à être utilisé exclusivement pour la zone située après l'orbite de Neptune. Les objets solides de cette région sont composés d'une plus grande proportion de "glaces" (eau, ammoniac, méthane) que leurs correspondants du Système solaire interne
+
+Voici la structure du système solaire :
+
+1. Soleil
+1. Système solaire interne
+    1. Ceinture intra-mercurienne
+    1. Planètes internes
+        - Mercure
+        - Vénus
+        - Terre
+        - Mars
+    1. Ceinture d'astéroïdes
+1. Système solaire externe
+    1. Planètes externes
+        - Jupiter
+        - Saturne
+        - Uranus
+        - Neptune
+    1. Comètes
+    1. Astéroïdes troyens
+
+# Caractéristiques des planètes
+
+| Planète | Distance au soleil  | Diamètre équatorial | Température moyenne |
+|:--------|--------------------:|--------------------:|--------------------:|
+| Mercure |    57,9 millions km |   4 880 km          |  180°C              |
+| Vénus   |   108,2 millions km |  12 100 km          |  475°C              |
+| Terre   |   149,6 millions km |  12 756 km          |   15°C              |
+| Mars    |   227,9 millions km |   6 792 km          |  -55°C              |
+| Jupiter |   778,3 millions km | 142 984 km          | -175°C              |
+| Saturne | 1 427,0 millions km | 120 536 km          | -200°C              |
+| Uranus  | 2 877,4 millions km |  51 118 km          | -220°C              |
+| Neptune | 4 497,1 millions km |  49 532 km          | -230°C              |
+
+# Références {-}
+
+> Cet article est issu de l'article Wikipédia _Système solaire_[^note1].
+
+
+[^note1]: [https://fr.wikipedia.org/wiki/Syst%C3%A8me_solaire](https://fr.wikipedia.org/wiki/Syst%C3%A8me_solaire)
