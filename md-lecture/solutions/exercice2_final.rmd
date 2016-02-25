@@ -1,0 +1,91 @@
+---
+title: "L'Iris versicolore de Sir R.A. Fisher"
+lang: french
+output:
+    pdf_document:
+        fig_caption: true
+        number_sections: false
+        toc: true
+        toc_depth: 1
+        includes:
+            before_body: entete.tex
+bibliography: references.bib
+csl: global-ecology-and-biogeography.csl
+linkcolor: blue
+---
+
+
+```{r echo = FALSE, eval = TRUE}
+# Importation des donnees
+tab   <- read.delim('data_v1.txt')
+
+# Ajustement d'un modele lineaire
+mod   <- lm(Petal.Length ~ Petal.Width, data = tab)
+
+# Stockage des resultats
+coefs <- round(mod$coefficients, 2)
+rsq   <- round(summary(mod)$r.squared, 2)
+
+```
+
+<!-- On augmente l'espace entre la figure et la table des matieres -->
+
+\vspace{2.5cm}
+
+
+```{r echo = FALSE, fig.width = 4, fig.cap = 'Iris versicolore'}
+library(jpeg) ; library(grid)
+img <- readJPEG("iris.jpg")
+grid.raster(img)
+```
+
+<!-- On cree une nouvelle page -->
+
+\newpage{}
+
+# Introduction
+
+Les données utilisées ici sont célèbres. Elles ont été collectées par Edgar Anderson [@anderson1935].
+et correspondent aux mesures en centimètres des variables suivantes : longueur du sépale (Sepal.Length),
+largeur du sépale (Sepal.Width), longueur du pétale (Petal.Length) et largeur du pétale
+(Petal.Width) pour trois espèces d'iris : _Iris setosa_, _I. versicolor_ et _I. virginica_. Sir R.A. Fisher a utilisé ces données pour construire des combinaisons linéaires des variables
+permettant de séparer au mieux les trois espèces d'iris [@fisher1936].
+
+Bien que souvent utilisées pour illustrer l'analyse discriminante, nous allons uniquement travailler
+avec les données de l'espèce _Iris versicolor_. La base de données contient `r nrow(tab)` enregistrements correspondant chacun à un individu unique pour lequel les longueurs et largeurs de pétales ont été mesurées.
+
+# Matériels et méthodes
+
+Nous allons relier la longueur des pétales à leur largeur avec un modèle linéaire simple : $y = ax + b + \epsilon$. Après avoir estimé la pente (`a`) et l'intercept (`b`), nous représenterons graphiquement la relation avec son incertitude associée.
+
+
+# Résultats et discussion
+
+Le modèle linéaire ajusté entre la longueur et la largeur de pétales présente un R^2^ de `r rsq`. L'équation résultante s'écrit : $Longueur\ de\ pétale = `r coefs[2]` \times Largeur\ de\ pétale + `r coefs[1]`$. En d'autres termes, la longueur des pétales est `r round(coefs[2])` plus grande que la largeur des pétales.
+
+\vspace{.5cm}
+
+```{r echo = FALSE, fig.width = 4, fig.cap = "Relation entre la longueur et la largeur des pétales chez l'iris versicolore"}
+# Predictions pour droite de regression
+dat <- data.frame(Petal.Width = seq(min(tab$Petal.Width),
+                                    max(tab$Petal.Width),
+                                    length.out = 100))
+ypred <- predict(mod, dat, se = T)
+
+# Scatterplot des points
+plot(tab$Petal.Width, tab$Petal.Length,
+     pch = 19, las = 1, ylim = c(3, 5.5),
+     xlab = 'Largeur de pétale',
+     ylab = 'Longueur de pétale')
+
+# Ajout de l'enveloppe d'incertitude
+polygon(c(dat[ , 'Petal.Width'], dat[nrow(dat):1, 'Petal.Width']),
+        c(ypred$fit + ypred$se.fit, (ypred$fit - ypred$se.fit)[nrow(dat):1]),
+        col = '#aaaaaa88', border = NA)
+
+# Ajout de la droite de regression
+lines(dat[ , 'Petal.Width'], ypred$fit, lwd = 2)
+```
+
+
+# Références
