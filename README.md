@@ -1,5 +1,3 @@
 # https://ahasverus.github.io
 
-Website of Nicolas Casajus
-
-    > Site en construction...
+Website of Nicolas Casajus (ahasverus)
