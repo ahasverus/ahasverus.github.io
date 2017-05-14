@@ -2,11 +2,11 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Nicolas Casajus Resume</title>
   <meta name="description" content="Nicolas Casajus [ahasverus] Resume">
   <meta name="author" content="Nicolas Casajus">
-
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>Nicolas Casajus - ahasverus</title>
 
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/skeleton.css">
@@ -25,8 +25,6 @@
 
 
     <!-- HEADER (LEFT PANEL) -->
-
-
     <header class="four columns profile">
 
       <!-- Language selection [flags icon] -->
@@ -57,12 +55,12 @@
         <a alt="LinkedIn" title="LinkedIn" href="https://www.linkedin.com/in/nicolas-casajus-a12337102/"><i class="fa fa-linkedin fa-fw fa-2x falink"></i></a>
       </p>
       <div class="icons"></div>
+
+    <!-- Close header -->
     </header>
 
 
     <!-- CONTENT (RIGHT PANEL) -->
-
-
     <div class="twelve columns clearfix">
 
       <!-- WORK EXPERIENCE -->
@@ -83,59 +81,63 @@
       <!-- PUBLICATIONS -->
       <section id="papers" class="twelve columns"></section>
 
+      <!-- HOBBIES -->
+      <section id="hobbies" class="twelve columns"></section>
 
-  <section class="twelve columns">
-    <h1><i class="fa fa-beer fa-1x fa-fw"></i>&nbsp;&nbsp;&nbsp;Hobbies</h1>
-    <article>
-      <p>TO DO...</p>
-    </article>
-  </section>
 
+
+      <!-- SCROLL-TO-TOP BUTTON -->
+      <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
 
 
 
       <!-- FOOTER -->
-
-      <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
       <footer class="twelve columns">
         <p>
           <i class="fa fa-creative-commons fa-1x fa-fw"></i>
           &nbsp;Licensed under <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="falink dotted">CC BY 4.0</a>.
           Modified from the <a href="https://www.github.com/biomadeira/vitae" class="falink dotted">Jekyll Vitae theme</a>.</p>
       </footer>
+
+    <!-- Close right panel -->
     </div>
+
+  <!-- Close container -->
   </div>
 
+  <!-- Import jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <script type="text/javascript">
+
+    // ===== Load jQuery =====
     $(document).ready(function() {
+
+      // ===== Include Assets =====
       $('#experience').load('assets/experience.html');
       $('#education').load('assets/education.html');
       $('#analytics').load('assets/analytics.html');
       $('#programming').load('assets/programming.html');
       $('#teaching').load('assets/teaching.html');
       $('#papers').load('assets/papers.html');
+      $('#hobbies').load('assets/hobbies.html');
 
-      // ===== Scroll to Top ====
+      // ===== Scroll to Top =====
       $(window).scroll(function() {
-          if ($(this).scrollTop() >= 200) {        // If page is scrolled more than 50px
-              $('#return-to-top').fadeIn(200);    // Fade in the arrow
+          if ($(this).scrollTop() >= 200) {
+              $('#return-to-top').fadeIn(200);
           } else {
-              $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+              $('#return-to-top').fadeOut(200);
           }
       });
-      $('#return-to-top').click(function() {      // When arrow is clicked
-          $('body,html').animate({
-              scrollTop : 0                       // Scroll to top of body
-          }, 500);
+      $('#return-to-top').click(function() {
+          $('body,html').animate({ scrollTop : 0 }, 500);
       });
-
     });
   </script>
 
+  <!-- Change language on flag click (default FR) -->
   <script type="text/javascript" src="js/language-selector.js"></script>
-  <!-- <script type="text/javascript" src="js/back-to-top.js"></script> -->
 
 </body>
 </html>
