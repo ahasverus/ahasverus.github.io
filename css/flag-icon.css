@@ -3,6 +3,7 @@
   background-position: 50%;
   background-repeat: no-repeat;
 }
+
 .flag-icon {
   background-size: contain;
   background-position: 50%;
@@ -13,27 +14,11 @@
   line-height: 1em;
   margin: 15px 0 30px 0;
 }
-.flag-icon:before {
-  content: "\00a0";
-}
-.flag-icon.flag-icon-squared {
-  width: 1em;
-}
-.flag-icon-fr {
-  background-image: url(../img/fr43.svg);
-}
-.flag-icon-fr.flag-icon-squared {
-  background-image: url(../img/fr11.svg);
-}
-.flag-icon-gb {
-  background-image: url(../img/gb43.svg);
-}
-.flag-icon-gb.flag-icon-squared {
-  background-image: url(../img/gb11.svg);
-}
-.flag-icon-es {
-  background-image: url(../img/es43.svg);
-}
-.flag-icon-es.flag-icon-squared {
-  background-image: url(../img/es11.svg);
-}
+
+.flag-icon:before { content: "\00a0"; }
+
+.flag-icon-fr { background-image: url(../img/fr43.svg); }
+
+.flag-icon-en { background-image: url(../img/en43.svg); }
+
+.flag-icon-es { background-image: url(../img/es43.svg); }
