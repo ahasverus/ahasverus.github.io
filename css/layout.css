@@ -30,12 +30,12 @@ p, address {
 }
 
 .me {
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    -webkit-border-radius: 60px;
-    -moz-border-radius: 60px;
-    border: 1px solid #666666;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    border: 1px solid #b6b6b6;
     /*margin-bottom: 30px;*/
 }
 
