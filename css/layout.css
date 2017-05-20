@@ -350,7 +350,7 @@ footer p {
   font-size: 200%;
   margin-right: 10px;
 }
-
+/*
 .flag i {
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
@@ -364,7 +364,7 @@ footer p {
   -moz-filter: grayscale(0);
   -o-filter: grayscale(0);
   -ms-filter: grayscale(0);
-}
+}*/
 
 .keywords {
   margin-top: 5px;
