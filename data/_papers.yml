@@ -1,0 +1,391 @@
+
+
+### ===   HEADER INFORMATIONS   === ###
+
+header:
+  icon:
+    name: book
+    size: 1
+    package: fa
+  title:
+    french: Publications
+    english: Publications
+    espanol: Publicaciones
+
+
+### ===   STYLE  INFORMATIONS   === ###
+
+style:
+  project:
+    before:
+      icon:
+        name: caret-right
+        size: 1
+        package: fa
+  emphaze: Casajus N
+  sortby: date
+  order: decreasing
+
+
+### ===      CONTENT  DATA      === ###
+
+content:
+
+
+  ### >>> SCIENTIFIC PAPERS
+  - category:
+      name:
+        french: "Articles à comité de lecture"
+        english: "Peer-reviewed papers"
+        espanol: "Artículos científicos"
+      items:
+
+      ### =========================
+        - item:
+            type: article
+            authors: Devost É, Casajus N, Lai S & Berteaux D
+            title: "FoxMask: a new automated tool for animal screening on camera trap images"
+            year: 9999
+            editor: Methods in Ecology and Evolution
+            status: submitted
+            buttons:
+              - button:
+                  available: false
+                  name: HTML
+              - button:
+                  available: false
+                  name: PDF
+              - button:
+                  available: false
+                  name: BiBTeX
+              - button:
+                  available: true
+                  name: Py script
+                  url: "https://github.com/edevost/foxmask"
+
+        ### =========================
+        - item:
+            type: article
+            authors: Lamarre V, Legagneux P, Franke A, Casajus N, Currie DC, Berteaux D & Bêty J
+            title: "Significance of extreme weather conditions and black fly outbreaks in an avian Arctic top-predator: a harbinger of future climate?"
+            year: 9999
+            editor: Scientific Reports
+            status: submitted
+            buttons:
+              - button:
+                  available: false
+                  name: HTML
+              - button:
+                  available: false
+                  name: PDF
+              - button:
+                  available: false
+                  name: BiBTeX
+
+        ### =========================
+        - item:
+            type: article
+            authors: Lecomte N, Ehrich D, Casajus N, Berteaux D, Giroux M-A & Yoccoz NG
+            title: "How many is enough? An R package for evaluating the effect of sample size on estimates and precision of stable isotope mixing solutions"
+            year: 9999
+            editor: Methods in Ecology and Evolution
+            status: submitted
+            buttons:
+              - button:
+                  available: false
+                  name: HTML
+              - button:
+                  available: false
+                  name: PDF
+              - button:
+                  available: false
+                  name: BiBTeX
+              - button:
+                  available: true
+                  name: R package
+                  url: "https://github.com/ahasverus/samplesim"
+
+        ### =========================
+        - item:
+            type: article
+            authors: Legagneux P, Casajus N, Cazelles K, Chevallier C, Chevrinais M, Guéry L, Jacquet C, Jaffré M, Naud M-J, Noisette F, Ropars P, Vissault S, Archambault P, B&ecirc;ty J, Berteaux D & Gravel D
+            title: "Our house is burning: discrepancy in climate change vs biodiversity coverage in the media"
+            year: 9999
+            editor: Science
+            status: submitted
+            buttons:
+              - button:
+                  available: false
+                  name: HTML
+              - button:
+                  available: false
+                  name: PDF
+              - button:
+                  available: false
+                  name: BiBTeX
+
+        ### =========================
+        - item:
+            type: article
+            authors: Berteaux D, Casajus N, Angerbjörn A & Fuglei E
+            title: "Editorial: Arctic fox research"
+            year: 9999
+            editor: Polar Research
+            status: accepted
+            buttons:
+              - button:
+                  available: false
+                  name: HTML
+              - button:
+                  available: false
+                  name: PDF
+              - button:
+                  available: false
+                  name: BiBTeX
+              - button:
+                  available: true
+                  name: R package
+                  url: "https://github.com/ahasverus/rscimap"
+
+        ### =========================
+        - item:
+            type: article
+            authors: Casajus N, Périé C, Logan T, Lambert M-C, de Blois S & Berteaux D
+            title: "An objective approach to select climate scenarios when projecting species distributions under climate change"
+            year: 2016
+            editor: PLoS ONE
+            status: published
+            volume: 11
+            pages: e0152495
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152495"
+              - button:
+                  available: true
+                  name: PDF
+                  url: casajus2016.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: casajus2016.txt
+
+        ### =========================
+        - item:
+            type: article
+            authors: Chambers D, Périé C, Casajus N & de Blois S
+            title: "Challenges in modelling the abundance of 105 tree species in eastern North America using climate, edaphic, and topographic variables"
+            year: 2013
+            editor: Forest Ecology and Management
+            status: published
+            volume: 291
+            pages: 20-29
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "http://www.sciencedirect.com/science/article/pii/S0378112712006524"
+              - button:
+                  available: true
+                  name: PDF
+                  url: chambers2013.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: chambers2013.txt
+
+        ### =========================
+        - item:
+            type: article
+            authors: Bolduc E, Casajus N, Legagneux P, McKinnon L, Gilchrist HG, Leung M, Morrison RIG, Reid D, Smith PA, Buddle CM & Bêty J
+            title: "Terrestrial arthropod abundance and phenology in the Canadian Arctic: modelling resource availability for Arctic-nesting insectivorous birds"
+            year: 2013
+            editor: The Canadian Entomologist
+            status: published
+            volume: 145
+            pages: 155-170
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=8870306&fileId=S0008347X13000047"
+              - button:
+                  available: true
+                  name: PDF
+                  url: bolduc2013.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: bolduc2013.txt
+
+        ### =========================
+        - item:
+            type: article
+            authors: Sarasa M, Soringer RC, Granados J-E, Casajus N & Pérez JM
+            title: "Mismeasure of secondary sexual traits: an example with horn growth in the Iberian ibex"
+            year: 2012
+            editor: Journal of Zoology
+            status: published
+            volume: 288
+            pages: 170-176
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "http://onlinelibrary.wiley.com/doi/10.1111/j.1469-7998.2012.00937.x/abstract"
+              - button:
+                  available: true
+                  name: PDF
+                  url: sarasa2012.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: sarasa2012.txt
+
+        ### =========================
+        - item:
+            type: article
+            authors: Grenouillet G, Buisson L, Casajus N & Lek S
+            title: "Ensemble modelling of species distribution: the effects of geographical and environmental ranges"
+            year: 2011
+            editor: Ecography
+            status: published
+            volume: 34
+            pages: 9-17
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "http://onlinelibrary.wiley.com/doi/10.1111/j.1600-0587.2010.06152.x/abstract"
+              - button:
+                  available: true
+                  name: PDF
+                  url: grenouillet2011.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: grenouillet2011.txt
+
+        ### =========================
+        - item:
+            type: article
+            authors: Berteaux D, de Blois S, Angers J-F, Bonin J, Casajus N, Darveau M, Fournier F, Humphries MM, McGill B, Larivée J, Logan T, Nantel P, Périé C, Poisson F, Rodrigue D, Rouleau S, Siron R, Thuiller W & Vescovi L
+            title: "The CC-Bio project: studying the effects of climate change on Quebec biodiversity"
+            year: 2010
+            editor: Diversity
+            status: published
+            volume: 2
+            pages: 1181-1204
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "http://www.mdpi.com/1424-2818/2/11/1181"
+              - button:
+                  available: true
+                  name: PDF
+                  url: berteaux2010.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: berteaux2010.txt
+
+        ### =========================
+        - item:
+            type: article
+            authors: Buisson L, Thuiller W, Casajus N, Lek S & Grenouillet G
+            title: "Uncertainty in ensemble forecasting of species distribution"
+            year: 2010
+            editor: Global Change Biology
+            status: published
+            volume: 16
+            pages: 1145-1157
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.02000.x/abstract"
+              - button:
+                  available: true
+                  name: PDF
+                  url: buisson2010.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: buisson2010b.txt
+
+  ### >>> BOOK
+  - category:
+      name:
+        french: "Livres et chapitres de livre"
+        english: "Books and book chapters"
+        espanol: "Libros y capítulos de libro"
+      items:
+
+        ### =========================
+        - item:
+            type: book
+            status: published
+            authors: Berteaux D, Casajus N & de Blois S
+            title: "Changements climatiques et biodiversité du Québec: vers un nouveau patrimoine naturel"
+            year: 2014
+            editor: Presses de l'Université du Québec
+            city: Québec
+            country: Canada
+            pages: 202
+            buttons:
+              - button:
+                  available: true
+                  name:
+                    french: Site web
+                    english: Website
+                    espanol: Sitio web
+                  url: "http://cc-bio.uqar.ca"
+              - button:
+                  available: true
+                  name:
+                    french: Éditeur
+                    english: Editor
+                    espanol: Editor
+                  url: "http://www.puq.ca/catalogue/livres/changements-climatiques-biodiversite-quebec-2258.html"
+              - button:
+                  available: true
+                  name: Amazon
+                  url: "https://www.amazon.ca/Changements-climatiques-biodiversité-du-Québec/dp/2760539504"
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: berteaux2014.txt
+
+        ### =========================
+        - item:
+            type: chapter
+            status: published
+            authors: Buisson L, Grenouillet G, Casajus N & Lek S
+            title: "Predicting the potential impacts of climate change on stream fish assemblages"
+            year: 2010
+            book: "Community Ecology of Stream Fishes: Concepts, Approaches and Techniques"
+            editor: American Fisheries Society Symposium 73
+            pages: 327-346
+            buttons:
+              - button:
+                  available: false
+                  name:
+                    french: Site web
+                    english: Website
+                    espanol: Sitio web
+              - button:
+                  available: true
+                  name:
+                    french: Éditeur
+                    english: Editor
+                    espanol: Editor
+                  url: "https://fisheries.org/shop/54073p"
+              - button:
+                  available: false
+                  name: Amazon
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: buisson2010a.txt

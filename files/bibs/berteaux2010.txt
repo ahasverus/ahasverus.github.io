@@ -1,0 +1,9 @@
+@article{berteaux2010,
+  author = {Berteaux, Dominique and de Blois, Sylvie and Angers, Jean-Fran{\c{c}}ois and Bonin, Jo{\"{e}}l and Casajus, Nicolas and Darveau, Marcel and Fournier, Fran{\c{c}}ois and Humphries, Murray M. and McGill, Brian and Lariv{\'{e}}e, Jacques and Logan, Travis and Nantel, Patrick and P{\'{e}}ri{\'{e}}, Catherine and Poisson, Fr{\'{e}}d{\'{e}}ric and Rodrigue, David and Rouleau, S{\'{e}}bastien and Siron, Robert and Thuiller, Wilfried and Vescovi, Luc},
+  year = {2010},
+  title = {The {CC}-{B}io {P}roject: studying the effects of climate change on {Q}uebec biodiversity},
+  journal = {Diversity},
+  volume = {2},
+  pages = {1181--1204},
+  doi = {10.3390/d2111181}
+}

@@ -1,0 +1,8 @@
+@incollection{buisson2010a,
+  author = {Buisson, La{\"{e}}titia and Grenouillet, Ga{\"{e}}l and Casajus, Nicolas and Lek, Sovan},
+  year = {2010},
+  title = {Predicting the potential impacts of climate change on stream fish assemblages},
+  booktitle = {Community {E}cology of {N}orth {A}merican {S}tream {F}ishes: {C}oncepts, {A}pproaches, and {T}echniques},
+  publisher = {American Fisheries Society Symposium 73},
+  pages = {327--346}
+}

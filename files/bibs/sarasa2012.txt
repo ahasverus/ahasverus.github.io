@@ -1,0 +1,9 @@
+@article{sarasa2012,
+  author = {Sarasa, Mathieu and Soriguer, Ram{\'{o}}n C. and Granados, Jos{\'{e}}-Enrique and Casajus, Nicolas and P{\'{e}}rez, Jes{\'{u}}s M.},
+  year = {2012},
+  title = {Mismeasure of secondary sexual traits: an example with horn growth in the {I}berian ibex},
+  journal = {Journal of Zoology},
+  volume = {288},
+  pages = {170--176},
+  doi = {10.1111/j.1469-7998.2012.00937.x}
+}

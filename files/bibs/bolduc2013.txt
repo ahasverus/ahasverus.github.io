@@ -1,0 +1,9 @@
+@article{bolduc2013,
+  author = {Bolduc, {\'{E}}lise and Casajus, Nicolas and Legagneux, Pierre and McKinnon, Laura and Gilchrist, H. Grant and Leung, Maria and Morrison, R. I. Guy and Reid, Donald G. and Smith, Paul A. and Buddle, Christopher M. and B{\^{e}}ty, Jo{\"{e}}l},
+  year = {2013},
+  title = {{Terrestrial arthropod abundance and phenology in the Canadian Arctic: modelling resource availability for Arctic-nesting insectivorous birds}},
+  journal = {Canadian Entomologist},
+  volume = {145},
+  pages = {155--170},
+  doi = {10.4039/tce.2013.4}
+}

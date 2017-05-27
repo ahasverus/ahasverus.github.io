@@ -1,0 +1,217 @@
+
+
+### ===   HEADER INFORMATIONS   === ###
+
+header:
+  icon:
+    name: group
+    size: 1
+    package: fa
+  title:
+    french: Enseignement
+    english: Teaching
+    espanol: Enseñanza
+
+
+### ===      CONTENT  DATA      === ###
+
+content:
+
+
+  ### >>> COURSE NO 1
+  - course:
+      title:
+        french: "Les graphiques avec R : un aperçu des possibiltés"
+        english: "R graphics: an overview of possibilities"
+        espanol: "Los gráficos con R: un panorama de las oportunidades"
+      institution:
+        name: Réserve Naturelle Gault
+        city: Mont-Saint-Hilaire
+        country: CA
+        period: 2016
+      collaborators:
+        - collaborator:
+            prefixe:
+              french: En collaboration avec
+              english: In collaboration with
+              espanol: En colaboración con
+            name: Kévin Cazelles
+            url: "http://kevincazelles.fr"
+            github: "kevcaz"
+      buttons:
+        - button:
+            available: false
+            name: PDF
+        - button:
+            available: true
+            name: HTML
+            url: "http://kevcaz.github.io/QCBSgraphR/#1"
+        - button:
+            available: true
+            name:
+              french: Source
+              english: Source
+              espanol: Código
+            url: "https://github.com/KevCaz/QCBSgraphR"
+
+
+  ### >>> COURSE NO 2
+  - course:
+      title:
+        french: "Maîtriser le langage Markdown"
+        english: "Mastering Markdown"
+        espanol: "Dominar el lenguaje Markdown"
+      institution:
+        name: Université du Québec à Rimouski
+        city: Rimouski
+        country: CA
+        period: 2016
+      buttons:
+        - button:
+            available: false
+            name: PDF
+        - button:
+            available: false
+            name: HTML
+            # url: "md-lecture/index.html"
+        - button:
+            available: true
+            name:
+              french: Source
+              english: Source
+              espanol: Código
+            url: "https://github.com/ahasverus/ahasverus.github.io/tree/master/md-lecture"
+
+
+  ### >>> COURSE NO 3
+  - course:
+      title:
+        french: "Gérer et formater sa bibliographie"
+        english: "Managing and formatting bibliography"
+        espanol: "Gestionar y formatear su bibliografía"
+      institution:
+        name: Université du Québec à Rimouski
+        city: Rimouski
+        country: CA
+        period: 2015
+      collaborators:
+        - collaborator:
+            prefixe:
+              french: En collaboration avec
+              english: In collaboration with
+              espanol: En colaboración con
+            name: "Kévin Cazelles"
+            url: "http://kevincazelles.fr"
+            github: "kevcaz"
+        - collaborator:
+            prefixe:
+              french: et
+              english: and
+              espanol: y
+            name: Steve Vissault
+            url: "https://steveviss.github.io"
+            github: "steveviss"
+      buttons:
+        - button:
+            available: false
+            name: PDF
+        - button:
+            available: true
+            name: HTML
+            url: "http://steveviss.github.io/Talk_bib/#1"
+        - button:
+            available: true
+            name:
+              french: Source
+              english: Source
+              espanol: Código
+            url: "https://github.com/SteveViss/Talk_bib/"
+
+
+  ### >>> COURSE NO 4
+  - course:
+      title:
+        french: "L'art du graphique avec R"
+        english: "The art of graphics with R"
+        espanol: "El arte del gráfico con R"
+      institution:
+        name: Université du Québec à Rimouski
+        city: Rimouski
+        country: CA
+        period: 2014, 2015
+      collaborators:
+        - collaborator:
+            prefixe:
+              french: En collaboration avec
+              english: In collaboration with
+              espanol: En colaboración con
+            name: Kévin Cazelles
+            url: "http://kevincazelles.fr"
+            github: "kevcaz"
+      buttons:
+        - button:
+            available: true
+            name: PDF
+            url: graphr.pdf
+        - button:
+            available: false
+            name: HTML
+        - button:
+            available: false
+            name:
+              french: Source
+              english: Source
+              espanol: Código
+
+
+  ### >>> COURSE NO 5
+  - course:
+      title:
+        french: "Analyses spatiales sous R"
+        english: "Spatial analyses with R"
+        espanol: "Análisis espaciales con R"
+      institution:
+        name: Université du Québec à Rimouski
+        city: Rimouski
+        country: CA
+        period: 2013, 2014, 2015
+      buttons:
+        - button:
+            available: true
+            name: PDF
+            url: gisonr.pdf
+        - button:
+            available: false
+            name: HTML
+        - button:
+            available: false
+            name:
+              french: Source
+              english: Source
+              espanol: Código
+
+
+  ### >>> COURSE NO 6
+  - course:
+      title:
+        french: "Modèles de répartition d'espèces"
+        english: "Species distribution models"
+        espanol: "Modelos de distribución de especies"
+      institution:
+        name: Université McGill
+        city: Sainte-Anne-de-Bellevue
+        country: CA
+        period: 2009
+      buttons:
+        - button:
+            available: false
+            name: PDF
+        - button:
+            available: false
+            name: HTML
+        - button:
+            available: false
+            name:
+              french: Source
+              english: Source
+              espanol: Código

@@ -1,0 +1,32 @@
+
+
+### ===   HEADER INFORMATIONS   === ###
+
+header:
+  icon:
+    name: beer
+    size: 1
+    package: fa
+  title:
+    french: Hobbies
+    english: Hobbies
+    espanol: Hobbies
+
+
+### ===      CONTENT  DATA      === ###
+
+content:
+  items:
+    - item:
+        name:
+          french: Programmation R
+          english: R programming
+          espanol: Programación R
+    - item:
+        name: Sur les épaules de Darwin
+        url: "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin"
+    - item:
+        name:
+          french: Randonnée
+          english: Hiking
+          espanol: Senderismo

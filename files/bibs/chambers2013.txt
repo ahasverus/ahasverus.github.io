@@ -1,0 +1,9 @@
+@article{chambers2013,
+  author = {Chambers, Dominic and P{\'{e}}ri{\'{e}}, Catherine and Casajus, Nicolas and de Blois, Sylvie},
+  year = {2013},
+  title = {Challenges in modelling the abundance of 105 tree species in eastern {N}orth {A}merica using climate, edaphic, and topographic variables},
+  journal = {Forest Ecology and Management},
+  volume = {291},
+  pages = {20--29},
+  doi = {10.1016/j.foreco.2012.10.046}
+}

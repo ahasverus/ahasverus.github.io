@@ -1,0 +1,9 @@
+@article{buisson2010b,
+  author = {Buisson, La{\"{e}}titia and Thuiller, Wilfried and Casajus, Nicolas and Lek, Sovan and Grenouillet, Ga{\"{e}}L},
+  year = {2010},
+  journal = {Global Change Biology},
+  title = {Uncertainty in ensemble forecasting of species distribution},
+  volume = {16},
+  pages = {1145--1157},
+  doi = {10.1111/j.1365-2486.2009.02000.x}
+}

@@ -1,0 +1,9 @@
+@article{grenouillet2011,
+  author = {Grenouillet, Ga{\"{e}}l and Buisson, La{\"{e}}titia and Casajus, Nicolas and Lek, Sovan},
+  year = {2011},
+  title = {Ensemble modelling of species distribution: the effects of geographical and environmental ranges},
+  journal = {Ecography},
+  volume = {34},
+  pages = {9--17},
+  doi = {10.1111/j.1600-0587.2010.06152.x}
+}

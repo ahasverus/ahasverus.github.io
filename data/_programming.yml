@@ -1,0 +1,151 @@
+
+
+### ===   HEADER INFORMATIONS   === ###
+
+header:
+  icon:
+    name: bar-chart
+    size: 1
+    package: fa
+  title:
+    french: Compétences scientifiques
+    english: Scientific Skills
+    espanol: Competencias científicas
+
+
+### ===      CONTENT  DATA      === ###
+
+content:
+
+
+  ### >>> CATEGORY NO 1
+  - category:
+      type: progressbar
+      name:
+        french: Calcul scientifique
+        english: Scientific computing
+        espanol: Cálculo científico
+      items:
+        - item:
+            name: R
+            length: 100
+        - item:
+            name: (Postgre)SQL
+            length: 80
+        - item:
+            name: Python
+            length: 60
+        - item:
+            name: Access / VBA
+            length: 50
+        - item:
+            name: Matlab
+            length: 40
+
+
+  ### >>> CATEGORY NO 2
+  - category:
+      type: progressbar
+      name:
+        french: Développement web
+        english: Web development
+        espanol: Desarrollo web
+      items:
+        - item:
+            name: HTML5 / CSS3
+            length: 80
+        - item:
+            name: jQuery
+            length: 60
+        - item:
+            name: JavaScript
+            length: 50
+        - item:
+            name: PHP
+            length: 40
+
+
+  ### >>> CATEGORY NO 3
+  - category:
+      type: progressbar
+      name:
+        french: Composition de documents
+        english: Document preparation
+        espanol: Composición de textos
+      items:
+        - item:
+            name: Markdown
+            length: 95
+        - item:
+            name: LaTeX
+            length: 70
+
+
+  ### >>> CATEGORY NO 4
+  - category:
+      type: progressbar
+      name:
+        french: Conception de logiciels
+        english: Software design
+        espanol: Diseño de softwares
+      items:
+        - item:
+            name: Git(Hub)
+            length: 90
+        - item:
+            name: Travis CI
+            length: 70
+
+
+  ### >>> CATEGORY NO 5
+  - category:
+      type: list
+      name: Top 10 R packages
+      items:
+        - item:
+            name: devtools
+            url: "https://www.rstudio.com/products/rpackages/devtools/"
+        - item:
+            name: ggplot2
+            url: "https://cran.r-project.org/web/packages/ggplot2/index.html"
+        - item:
+            name: highcharter
+            url: "http://jkunst.com/highcharter/"
+        - item:
+            name: leaflet
+            url: "https://rstudio.github.io/leaflet/"
+        - item:
+            name: raster
+            url: "https://cran.r-project.org/web/packages/raster/index.html"
+        - item:
+            name: RCurl
+            url: "https://cran.r-project.org/web/packages/RCurl/index.html"
+        - item:
+            name: rmarkdown
+            url: "http://rmarkdown.rstudio.com"
+        - item:
+            name: RPostgreSQL
+            url: "https://cran.r-project.org/web/packages/RPostgreSQL/index.html"
+        - item:
+            name: shiny
+            url: "https://shiny.rstudio.com"
+        - item:
+            name: sp
+            url: "https://cran.r-project.org/web/packages/sp/index.html"
+
+
+  ### >>> CATEGORY NO 6
+  - category:
+      type: list
+      name:
+        french: Autres logiciels
+        english: Other softwares
+        espanol: Otros softwares
+      items:
+        - item: Bash
+        - item: Mendeley
+        - item: ArcGIS
+        - item: QGIS
+        - item: Microsoft Office Suite
+        - item: LibreOffice Suite
+        - item: Adobe Illustrator

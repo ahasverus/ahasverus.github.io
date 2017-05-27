@@ -1,0 +1,68 @@
+
+
+### ===   HEADER INFORMATIONS   === ###
+
+header:
+  encoding: UTF-8
+  author: Nicolas Casajus
+  description: Nicolas Casajus { ahasverus } resume
+  keywords: resume, R, data scientist, cv, curriculum vitae
+  favicon: icon.ico
+  title: Nicolas Casajus | @ahasverus
+  last-modified: true
+
+
+
+### ===    SECTION TO INCLUDE   === ###
+
+sections:
+  experience: true
+  education: true
+  programming: true
+  teaching: true
+  papers: true
+  projects: false
+  hobbies: true
+  epitaph: true
+
+
+### ===   AVAILABLE LANGUAGES   === ###
+
+languages:
+  french: true
+  english: true
+  espanol: false
+
+
+### ===   PROFILE INFORMATION   === ###
+
+profile:
+  image: profile.png
+  author: Nicolas Casajus
+  job: Data scientist
+  institution:
+    name: Université du Québec à Rimouski
+    address: 300 allée des Ursulines
+    city: Rimouski QC G5L 3A1
+    country: CANADA
+  contact:
+    phone: +1 418 723-1986
+    email: nicolas.casajus@gmail.com
+
+
+### ===     SOCIAL NETWORKS     === ###
+
+social:
+  github: ahasverus
+  google-scholar: n1swa1UAAAAJ
+  researchgate: nicolas_casajus
+  orcid: 0000-0002-5537-5294
+  linkedin: nicolas-casajus-a12337102
+
+
+### ===     WEBSITE LICENSE     === ###
+
+license:
+  name: CC BY 4.0
+  icon: creative-commons
+  url: https://creativecommons.org/licenses/by/4.0/legalcode

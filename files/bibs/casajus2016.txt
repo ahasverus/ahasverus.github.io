@@ -1,0 +1,9 @@
+@article{casajus2016,
+  author = {Casajus, Nicolas and P{\'{e}}ri{\'{e}}, Catherine and Logan, Travis and Lambert, Marie-Claude and de Blois, Sylvie and Berteaux, Dominique},
+  year = {2016},
+  title = {An Objective Approach to Select Climate Scenarios when Projecting Species Distribution under Climate Change},
+  journal = {PloS ONE},
+  volume = {11},
+  pages = {e0152495},
+  doi = {10.1371/journal.pone.0152495}
+}

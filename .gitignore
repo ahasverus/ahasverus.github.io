@@ -1,11 +1,20 @@
 # folders
 .DS_Store
 ./.DS_Store
-./css/.DS_Store
-./css/academicons/.DS_Store
-./css/academicons/css/.DS_Store
-./css/academicons/fonts/.DS_Store
-./js/.DS_Store
-./img/.DS_Store
-./pdf/.DS_Store
 ./assets/.DS_Store
+./data/.DS_Store
+./files/.DS_Store
+./files/bibs/.DS_Store
+./files/pdfs/.DS_Store
+./files/pres/.DS_Store
+./layout/.DS_Store
+./layout/css/.DS_Store
+./layout/css/academicons-1.7.0/.DS_Store
+./layout/css/academicons-1.7.0/css/.DS_Store
+./layout/css/academicons-1.7.0/fonts/.DS_Store
+./layout/css/font-awesome-4.7.0/.DS_Store
+./layout/css/font-awesome-4.7.0/css/.DS_Store
+./layout/css/font-awesome-4.7.0/fonts/.DS_Store
+./layout/img/.DS_Store
+./layout/js/.DS_Store
+./R/.DS_Store

@@ -1,0 +1,81 @@
+
+
+### ===   HEADER INFORMATIONS   === ###
+
+header:
+  icon:
+    name: university
+    size: 1
+    package: fa
+  title:
+    french: Formation universitaire
+    english: Education
+    espanol: Formación académica
+
+
+### ===      CONTENT  DATA      === ###
+
+content:
+
+
+  ### >>> GRADE NO 1
+  - grade:
+      title:
+        french: "Master II Écologie, spécialité Biostatistiques et Modélisation"
+        english: "Master II degree in Ecology, Biostatistics and Modeling"
+        espanol: "Master II Ecología, especialidad Bioestadísticas y Modelización"
+      institution:
+        name: Université Paul Sabatier
+        url: http://www.univ-tlse3.fr
+        city: Toulouse
+        country: FR
+        period:
+          french: 2007 à 2008
+          english: 2007 to 2008
+          espanol: 2007 a 2008
+      thesis:
+        french: "Thèse : Changement climatique et assemblages des poissons des cours d'eau français : modification des aires de répartition et incertitude dans les projections"
+        english: "Thesis: Climate change and fish species assemblages of French rivers: change in species distribution and projection uncertainty"
+        espanol: "Tesis: El cambio climático y los ensamblajes de pescados de los ríos franceses : cambio de las distribuciones y incertidumbre de las proyecciones"
+      buttons:
+        - button:
+            available: true
+            name:
+              french: Mémoire
+              english: MSc thesis
+              espanol: Tesis
+            url: casajus2008.pdf
+
+
+  ### >>> GRADE NO 2
+  - grade:
+      title:
+        french: "Master I Écologie"
+        english: "Master I degree in Ecology"
+        espanol: "Master I Ecología"
+      institution:
+        name: Université Paul Sabatier
+        url: http://www.univ-tlse3.fr
+        city: Toulouse
+        country: FR
+        period:
+          french: 2006 à 2007
+          english: 2006 to 2007
+          espanol: 2006 a 2007
+
+
+  ### >>> GRADE NO 3
+  - grade:
+      title:
+        french: "Licence en Biologie des Organismes, Populations et Écosystèmes"
+        english: "BSc degree in Biology of Organisms, Populations and Ecosystems"
+        espanol: "Licenciatura en Biología de los Organismos, Poblaciones y Ecosistemas"
+      institution:
+        name: Université Paul Sabatier
+        url: http://www.univ-tlse3.fr
+        city: Toulouse
+        country: FR
+        period:
+          french: 2003 à 2006
+          english: 2003 to 2006
+          espanol: 2003 a 2006

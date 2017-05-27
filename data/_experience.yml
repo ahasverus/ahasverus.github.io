@@ -1,0 +1,310 @@
+
+
+### ===   HEADER INFORMATIONS   === ###
+
+header:
+  icon:
+    name: suitcase
+    size: 1
+    package: fa
+  title:
+    french: Expérience professionnelle
+    english: Work experience
+    espanol: Experiencia profesionale
+
+
+### ===   STYLE  INFORMATIONS   === ###
+
+style:
+  project:
+    before: "&#8213;"
+  collaborator:
+    before: "&#8594;"
+
+
+### ===      CONTENT  DATA      === ###
+
+content:
+
+
+  ### >>> JOB NO 1
+  - job:
+      title:
+        french: Professionnel de recherche
+        english: Professional researcher
+        espanol: Profesional de investigación
+      institution:
+        name: Université du Québec à Rimouski
+        url: http://www.uqar.ca
+        city: Rimouski
+        country: CA
+        period:
+          french: Depuis 11/2008
+          english: Since 2008/11
+          espanol: Desde 11/2008
+      projects:
+        - project:
+            name:
+              french: "Effets des changements climatiques sur la biodiversité du Québec"
+              english: "Effects of climate change on the Quebec biodiversity"
+              espanol: "Efectos del cambio climático en la biodiversidad del Quebec"
+            collaborator:
+              prefixe:
+                french: Sous la direction de
+                english: Under the leadership of
+                espanol: Bajo la dirección de
+              name: Dominique Berteaux
+              url: http://www.uqar.ca/universite/a-propos-de-l-uqar/departements/departement-de-biologie-chimie-et-geographie/berteaux-dominique
+            description:
+              french: Gestion de données (spatiales/longitudinales) ; Analyses spatiales ; Analyses multivariées ; Modèles prédictifs ; Projections futures ; Ensemble forecasting ; Cartographique ; Rédaction d'articles ; Écriture d'un livre ; Développement d'un site Web (front-end).
+              english: Data management (spatial and longitudinal data); Spatial analyses; Multivariate analyses; Predictive models; Future projections; Ensemble forecasting; Mapping; Articles writing; Book writing; Website development (front-end).
+              espanol: Disponible pronto...
+            buttons:
+              - button:
+                  available: true
+                  name:
+                    french: Site web
+                    english: Website
+                    espanol: Sitio web
+                  url: http://cc-bio.uqar.ca
+              - button:
+                  available: true
+                  name:
+                    french: Livre
+                    english: Book
+                    espanol: Libro
+                  url: http://www.puq.ca/catalogue/livres/changements-climatiques-biodiversite-quebec-2258.html
+
+        - project:
+            name:
+              french: "Vulnérabilité des écosystèmes toundriques aux changements climatiques"
+              english: "Vulnerability of tundra ecosystems to climate change"
+              espanol: "Vulnerabilidad de los ecosistemas de la tundra al cambio climático"
+            collaborator:
+              prefixe:
+                french: Sous la direction de
+                english: Under the leadership of
+                espanol: Bajo la dirección de
+              name: Dominique Berteaux
+              url: http://www.uqar.ca/universite/a-propos-de-l-uqar/departements/departement-de-biologie-chimie-et-geographie/berteaux-dominique
+            description:
+              french: Obtention et gestion de données ; Analyses spatiales ; Analyses multivariées ; Modèles prédictifs ; Projections futures ; Ensemble forecasting ; Cartographie ; Réseaux trophique ; Rédaction d'articles ; Développement d'un site Web (front-end).
+              english: Data management; Spatial analyses; Multivariate analyses; Predictive models; Future projections; Ensemble forecasting; Mapping; Trophic networks; Articles writing; Website development (front-end).
+              espanol: Disponible pronto...
+            buttons:
+              - button:
+                  available: false
+                  name:
+                    french: Site web
+                    english: Website
+                    espanol: Sitio web
+
+        - project:
+            name:
+              french: "Suivi du renard arctique de l'île Bylot, Nunavut"
+              english: "Monitoring of the Arctic fox on Bylot Island, Nunavut"
+              espanol: "Monitoreo del zorro ártico en la isla Bylot, Nunavut"
+            collaborator:
+              prefixe:
+                french: Sous la direction de
+                english: Under the leadership of
+                espanol: Bajo la dirección de
+              name: Dominique Berteaux
+              url: http://www.uqar.ca/universite/a-propos-de-l-uqar/departements/departement-de-biologie-chimie-et-geographie/berteaux-dominique
+            description:
+              french: Construction, gestion et analyses d'une base de données PostgreSQL ; Données longitudinales et spatiales ; Technologie Argos/GPS ; Traitement d'images ; Développement de packages R ; Développement d'un programme Python pour l'analyse automatique de photos ; Développement d'une interface Web de visualisation ; Cartographie bibliométrique ; Text mining ; Développement d'un site Web (front-end).
+              english: Building, managing and analysing a PostgreSQL database; Spatial and longitudinal data; Argos/GPS technologies; Image processing; R packages development; Development of a Python program for automatic image analysis; Development of a visuzalisation Web interface; Bibliometric mapping; Text mining; Website development (front-end).
+              espanol: Disponible pronto...
+            buttons:
+              - button:
+                  available: true
+                  name: foxmask
+                  url: https://github.com/edevost/foxmask
+              - button:
+                  available: true
+                  name: argostools
+                  url: https://github.com/ahasverus/argostools
+              - button:
+                  available: true
+                  name: rscimap
+                  url: https://github.com/ahasverus/rscimap
+              - button:
+                  available: true
+                  name: shinyapp
+                  url: https://ahasverus.shinyapps.io/argosfoxes/
+              - button:
+                  available: false
+                  name:
+                    french: Site web
+                    english: Website
+                    espanol: Sitio web
+
+        - project:
+            name:
+              french: "Partenariat avec l'Insectarium de Montréal"
+              english: "Partnership with the Insectarium of Montréal"
+              espanol: "Asociación con el Insectarium de Montréal"
+            url: http://espacepourlavie.ca/insectarium
+            collaborator:
+              prefixe:
+                french: Avec la collaboration de
+                english: In collaboration with
+                espanol: En colaboración con
+              name: Maxim Larrivée
+              url: http://espacepourlavie.ca/blogue/maxim-larrivee
+            description:
+              french: Modèles prédictifs ; Maxent ; Monarque ; Asclépiades ; Veuve noire ; Sphodros niger ; Grand porte-queue ; Rédaction d'articles ; Élaboration d'une plateforme de modélisation automatique avec interface Web.
+              english: Predictive models; Maxent; Monarch butterfly; Milkweeds; Black widow; Black purse-web spider; Giant swallowtail; Articles writing; Design of an automatic modeling platform with Web interface.
+              espanol: Disponible pronto...
+
+        - project:
+            name: "Groupe de recherche sur les environnements nordiques BORÉAS"
+            url: http://www.uqar.ca/recherche/la-recherche-a-l-uqar/unites-de-recherche/groupe-de-recherche-sur-les-environnements-nordiques-boreas/presentation-objectifs-et-mission-boreas
+            description:
+              french: Construction d'une base de données PostgreSQL ; Automatisation de rapports annuels (LaTeX/knitr) ; Diverses formations (Analyses spatiales sous R, Graphiques sous R, Markdown).
+              english: PostgreSQL database development; Automation of annual reports (LaTeX/knitr); Offering various courses (Spatial analyses on R, Graphics with R, Markdown).
+              espanol: Disponible pronto...
+
+
+  ### >>> JOB NO 2
+  - job:
+      title:
+        french: Stagiaire de recherche
+        english: Research studentship
+        espanol: Becario de investigación
+      institution:
+        name: Université Paul Sabatier
+        url: http://www.univ-tlse3.fr
+        city: Toulouse
+        country: FR
+        period:
+          french: 01/2008 à 06/2008
+          english: 2008/01 to 2008/06
+          espanol: 01/2008 a 06/2008
+      projects:
+        - project:
+            name:
+              french: "Changements climatiques et assemblages de poissons des cours d'eau français : modification des aires de répartition et incertitude dans les projections"
+              english: "Climate change and fish species assemblages of French rivers: change in species distribution and projection uncertainty"
+              espanol: "El cambio climático y los ensamblajes de pescados de los ríos franceses : cambio de las distribuciones y incertidumbre de las proyecciones"
+            collaborator:
+              prefixe:
+                french: Sous la supervision de
+                english: Under the supervision of
+                espanol: Bajo la supervisión de
+              name: Gaël Grenouillet
+              url: http://gael.grenouillet.free.fr
+            description:
+              french: Analyse de données climatiques ; Programmation avancée sous R ; Modélisation de niches bioclimatiques ; Synthèse bibliographique ; Rédaction d'un mémoire de recherche.
+              english: Climate data analyses; Advanced programming on R; Bioclimatic niche modeling; Bibliographic synthesis; Thesis writing.
+              espanol: Disponible pronto...
+            buttons:
+              - button:
+                  available: true
+                  name:
+                    french: Mémoire
+                    english: MSc thesis
+                    espanol: Tesis
+                  url: casajus2008.pdf
+
+
+  ### >>> JOB NO 3
+  - job:
+      title:
+        french: Technicien de laboratoire
+        english: Laboratory technician
+        espanol: Técnico de laboratorio
+      institution:
+        name: ECCEL Environnement
+        url: https://www.eccel-environnement.fr/
+        city: Verfeil
+        country: FR
+        period:
+          french: 06/2007 à 07/2007
+          english: 2007/06 to 2007/07
+          espanol: 06/2007 a 07/2007
+      projects:
+        - project:
+            name:
+              french: "Évaluation de la qualité d'un cours d'eau français en région fortement anthropisée"
+              english: "Evaluation of the quality of a French river in a highly anthropized region"
+              espanol: "Disponible pronto..."
+            collaborator:
+              prefixe:
+                french: Sous la direction de
+                english: Under the leadership of
+                espanol: Bajo la dirección de
+              name: Hervé Liebig
+              url: https://www.eccel-environnement.fr/societe-eccel-environnement/notre-equipe/
+            description:
+              french: Identification taxonomique de macroinvertébrés aquatiques ; IBGN ; Analyses statistiques ; Rédaction d'un rapport d'impact.
+              english: Taxonomic identification of aquatic macroinvertebrates; IBGN; Statistical analyses; Impact report writing.
+              espanol: Disponible pronto...
+
+
+  ### >>> JOB NO 4
+  - job:
+      title:
+        french: Stagiaire de recherche
+        english: Research studentship
+        espanol: Becario de investigación
+      institution:
+        name: Université Paul Sabatier
+        url: http://www.univ-tlse3.fr
+        city: Toulouse
+        country: FR
+        period:
+          french: 02/2007 à 05/2007
+          english: 2007/02 to 2007/05
+          espanol: 02/2007 a 05/2007
+      projects:
+        - project:
+            name:
+              french: "Influence de la prédation d'une espèce native et d'une espèce exotique sur le peuplement d'invertébrés d'une rivière pyrénéenne"
+              english: "Influence of the predation of a native and exotic species on the invertebrate populations of a Pyrenean river"
+              espanol: "Disponible pronto..."
+            collaborator:
+              prefixe:
+                french: Sous la supervision de
+                english: Under the supervision of
+                espanol: Bajo la supervisión de
+              name: Frédéric Santoul
+              url: http://www.ecolab.omp.eu/profils/Santoul_Frederic
+            description:
+              french: Identification taxonomique de macroinvertébrés aquatiques ; Manipulation de données sous R ; Analyses statistiques ; Étude bibliographique ; Rédaction d'un mémoire de recherche.
+              english: Taxonomic identification of aquatic macroinvertebrates; Handling data with R; Statistical analyses; Bibliographic synthesis; Research report writing.
+              espanol: Disponible pronto...
+
+
+  ### >>> JOB NO 5
+  - job:
+      title:
+        french: Stagiaire de recherche
+        english: Research studentship
+        espanol: Becario de investigación
+      institution:
+        name: Université Paul Sabatier
+        url: http://www.univ-tlse3.fr
+        city: Toulouse
+        country: FR
+        period:
+          french: 06/2006 à 07/2006
+          english: 2006/06 to 2006/07
+          espanol: 06/2006 a 07/2006
+      projects:
+        - project:
+            name:
+              french: "Impacts de la fragmentation de la subéraie catalane sur la diversité en lépidoptères diurnes dans les Albères espagnoles"
+              english: "Impacts of the Catalan cork forest fragmentation on the butterfly diversity in the Spanish Albera"
+              espanol: "Disponible pronto..."
+            collaborator:
+              prefixe:
+                french: Sous la supervision de
+                english: Under the supervision of
+                espanol: Bajo la supervisión de
+              name: Charles Gers
+              url: http://www.ecolab.omp.eu/profils/Gers_Charles
+            description:
+              french: Capture de papillons de jour ; Identification taxonomique ; Tests statistiques ; Rédaction d'un rapport d'impact.
+              english: Butterflies catch; Taxonomic identification; Statistical tests; Impact report writing.
+              espanol: Disponible pronto...

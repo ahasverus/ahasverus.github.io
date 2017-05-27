@@ -170,7 +170,14 @@ em2 {
     }
 }
 
+footer {
+  text-align: center;
+}
+
 footer p {
+    /*border-top: 1px dotted rgba(48, 48, 48, .5);*/
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
     margin-bottom: 10px;
     margin-top: 30px;
     font-size: 10pt;
@@ -246,9 +253,9 @@ footer p {
 
 .paper {
   margin-top: 20px;
-  margin-left: 31px;
+  margin-left: 25px;
   padding-left: 0;
-  padding: 5px 0;
+  padding: 0 0;
   text-indent: -25px;
 }
 
@@ -366,14 +373,12 @@ footer p {
   -ms-filter: grayscale(0);
 }*/
 
-.keywords {
+.keywords, .collaborator {
   margin-top: 5px;
-  /*text-indent: -22px;*/
   padding-left: 22px;
-  /*margin-bottom: 10px;*/
 }
 
-.mission {
+.project {
   margin-top: 10px;
   text-indent: -22px;
   padding-left: 22px;

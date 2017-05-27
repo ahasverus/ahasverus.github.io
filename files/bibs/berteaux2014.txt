@@ -1,0 +1,7 @@
+@book{berteaux2014,
+  author = {Berteaux, Dominique and Casajus, Nicolas and de Blois, Sylvie},
+  year = {2014},
+  title = {Changements climatiques et biodiversit{\'{e}} du {Q}u{\'{e}}bec: vers un nouveau patrimoine naturel},
+  publisher = {Presses de l'Universit{\'{e}} du Qu{\'{e}}bec, Qu{\'{e}}bec, Canada},
+  pages = {202}
+}
