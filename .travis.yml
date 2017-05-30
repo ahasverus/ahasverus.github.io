@@ -5,7 +5,7 @@ cache: packages
 sudo: required
 
 script:
-  make
+  Rscript R/render_site.R
 
 warnings_are_errors: false
 
