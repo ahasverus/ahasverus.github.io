@@ -1,3 +1,5 @@
 # https://ahasverus.github.io
 
-Website of Nicolas Casajus (ahasverus)
+Nicolas Casajus (\@ahasverus) Website
+
+[![Travis](https://travis-ci.org/ahasverus/ahasverus.github.io.svg?branch=master)](https://travis-ci.org/ahasverus/ahasverus.github.io)
