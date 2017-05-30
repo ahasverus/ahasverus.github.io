@@ -1,0 +1,15 @@
+language: r
+
+cache: packages
+
+sudo: required
+
+script:
+  make
+
+warnings_are_errors: false
+
+notifications:
+  email:
+    recipients:
+      - nicolas.casajus@gmail.com

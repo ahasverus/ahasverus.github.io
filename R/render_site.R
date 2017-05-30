@@ -4,7 +4,7 @@
 
 
 
-setwd("~/MEGA/webdesign/ahasverus.github.io")
+# setwd("~/MEGA/webdesign/ahasverus.github.io")
 
 
 ### ===   LOAD FUNCTIONS
