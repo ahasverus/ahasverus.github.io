@@ -84,6 +84,23 @@ make_htmlheader <- function(){
   }
 
 
+  # ===   ADD APPLE ICON
+
+  profile <- which(names(yaml) == "profile")
+  if (length(profile) > 0){
+    image <- which(names(yaml[[profile]]) == "image")
+    if (length(image) > 0){
+      html <- paste0(html, '\n')
+      image <- list.files(pattern = paste0("^", yaml[[profile]][[image]], "$"), recursive = TRUE)
+      if (length(image) > 0){
+        html <- paste0(html, '    <link rel="apple-touch-icon" href="', image, '">', '\n')
+      } else {
+        stop("Unable to find apple icon.")
+      }
+    }
+  }
+
+
   # ===   FOR THIS F****** IE
 
   html <- paste0(html, '\n')
