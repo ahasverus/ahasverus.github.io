@@ -21,7 +21,7 @@ content:
   ### >>> COURSE NO 1
   - course:
       title:
-        french: "Les graphiques avec R : un aperçu des possibiltés"
+        french: "Les graphiques avec R : un aperçu des possibilités"
         english: "R graphics: an overview of possibilities"
         espanol: "Los gráficos con R: un panorama de las oportunidades"
       institution:
