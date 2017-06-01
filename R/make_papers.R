@@ -35,6 +35,22 @@ make_papers <- function(html){
       no   = ' class="family notfirst"'
       )
 
+
+    # === SORT ITEMS
+
+    idx     <- 1:length(yaml$content[[i]]$category$items)
+    authors <- unlist(lapply(yaml$content[[i]]$category$items, function(x) x$item$authors))
+    authors <- factor(authors, levels = sort(unique(authors)))
+    years   <- unlist(lapply(yaml$content[[i]]$category$items, function(x) x$item$year))
+    years   <- factor(years, levels = rev(sort(unique(years))))
+    status  <- unlist(lapply(yaml$content[[i]]$category$items, function(x) x$item$status))
+    status  <- factor(status, levels = c("submitted", "accepted", "published"))
+
+    dat <- data.frame(idx, years, status, authors)
+    dat <- dat[with(dat, order(years, status, authors)), ]
+    yaml$content[[i]]$category$items <- yaml$content[[i]]$category$items[dat$idx]
+
+
     if (length(yaml$content[[i]]$category$name) > 1){
       langs <- names(yaml$content[[i]]$category$name)
       langs <- langs[which(langs %in% lang)]
