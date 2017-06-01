@@ -75,7 +75,8 @@ make_htmlheader <- function(){
       html <- paste0(html, '\n')
       favicon <- list.files(pattern = paste0("^", yaml[[header]][[favicon]], "$"), recursive = TRUE)
       if (length(favicon) > 0){
-        html <- paste0(html, '    <link type="favicon" rel="shorcut icon" href="', favicon, '">', '</title>\n')
+        html <- paste0(html, '    <link type="favicon" rel="shorcut icon" href="', favicon, '">', '\n')
+        html <- paste0(html, '    <link rel="apple-touch-icon" href="', favicon, '">', '\n')
       } else {
         stop("Unable to find favicon.")
       }
