@@ -43,6 +43,26 @@ content:
       ### =========================
         - item:
             type: article
+            authors: Berteaux D, Ricard M, St-Laurent M-H, Casajus N, Périé C, Beauregard F & de Blois S
+            title: "Northern protected areas will become important refuges for biodiversity tracking suitable climates"
+            year: 9999
+            editor: Scientific Reports
+            status: submitted
+            buttons:
+              - button:
+                  available: false
+                  name: HTML
+              - button:
+                  available: false
+                  name: PDF
+              - button:
+                  available: false
+                  name: BiBTeX
+              - button:
+
+        ### =========================
+        - item:
+            type: article
             authors: Devost É, Casajus N, Lai S & Berteaux D
             title: "FoxMask: a new automated tool for animal screening on camera trap images"
             year: 9999
