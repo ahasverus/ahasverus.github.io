@@ -172,7 +172,7 @@ content:
             editor: Polar Research
             status: published
             volume: 36
-            pages: 1
+            pages: article 1
             buttons:
               - button:
                   available: true
@@ -194,13 +194,13 @@ content:
         ### =========================
         - item:
             type: article
-            authors: Rioux, M-J and Lai, S and Casajus, N and Bêty, J and Berteaux, D
+            authors: Rioux M-J, Lai S, Casajus N, Bêty J & Berteaux D
             title: "Winter home range fidelity and extraterritorial movements of Arctic fox pairs in the Canadian High Arctic"
             year: 2017
             editor: Polar Research
             status: published
             volume: 36
-            pages: 11
+            pages: article 11
             buttons:
               - button:
                   available: true
