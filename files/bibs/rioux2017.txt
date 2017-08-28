@@ -1,0 +1,10 @@
+@article{rioux2017,
+  author = {Rioux, Marie-Jeanne and Lai, Sandra and Casajus, Nicolas and Bêty, Joël and Berteaux, Dominique},
+  title = {Winter home range fidelity and extraterritorial movements of {A}rctic fox pairs in the {C}anadian {H}igh {A}rctic},
+  journal = {Polar Research},
+  volume = {36},
+  number = {sup1},
+  pages = {11},
+  year = {2017},
+  doi = {10.1080/17518369.2017.1316930}
+}

@@ -86,6 +86,25 @@ content:
         ### =========================
         - item:
             type: article
+            authors: Gendreau Y, Lachance A, Ricard M, Gilbert H, Casajus N & Berteaux D
+            title: "Changements climatiques : défis et perspectives pour les plantes vasculaires menacées ou vulnérables du Québec"
+            year: 9999
+            editor: Le Naturaliste canadien
+            status: submitted
+            buttons:
+              - button:
+                  available: false
+                  name: HTML
+              - button:
+                  available: false
+                  name: PDF
+              - button:
+                  available: false
+                  name: BiBTeX
+
+        ### =========================
+        - item:
+            type: article
             authors: Lamarre V, Legagneux P, Franke A, Casajus N, Currie DC, Berteaux D & Bêty J
             title: "Significance of extreme weather conditions and black fly outbreaks in an avian Arctic top-predator: a harbinger of future climate?"
             year: 9999
@@ -131,7 +150,7 @@ content:
             authors: Legagneux P, Casajus N, Cazelles K, Chevallier C, Chevrinais M, Guéry L, Jacquet C, Jaffré M, Naud M-J, Noisette F, Ropars P, Vissault S, Archambault P, B&ecirc;ty J, Berteaux D & Gravel D
             title: "Our house is burning: discrepancy in climate change vs biodiversity coverage in the media"
             year: 9999
-            editor: Science
+            editor: Frontiers Ecology And Evolution
             status: submitted
             buttons:
               - button:
@@ -148,24 +167,53 @@ content:
         - item:
             type: article
             authors: Berteaux D, Casajus N, Angerbjörn A & Fuglei E
-            title: "Editorial: Arctic fox research"
-            year: 9999
+            title: "Foreword to Supplement 1: research on a polar species — the Arctic fox"
+            year: 2017
             editor: Polar Research
-            status: accepted
+            status: published
+            volume: 36
+            pages: 1
             buttons:
               - button:
-                  available: false
+                  available: true
                   name: HTML
+                  url: "http://www.tandfonline.com/doi/full/10.1080/17518369.2017.1347411?scroll=top&needAccess=true"
               - button:
-                  available: false
+                  available: true
                   name: PDF
+                  url: berteaux2017.pdf
               - button:
-                  available: false
+                  available: true
                   name: BiBTeX
+                  url: berteaux2017.txt
               - button:
                   available: true
                   name: R package
                   url: "https://github.com/ahasverus/rscimap"
+
+        ### =========================
+        - item:
+            type: article
+            authors: Rioux, M-J and Lai, S and Casajus, N and Bêty, J and Berteaux, D
+            title: "Winter home range fidelity and extraterritorial movements of Arctic fox pairs in the Canadian High Arctic"
+            year: 2017
+            editor: Polar Research
+            status: published
+            volume: 36
+            pages: 11
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "http://www.tandfonline.com/doi/full/10.1080/17518369.2017.1316930"
+              - button:
+                  available: true
+                  name: PDF
+                  url: rioux2017.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: rioux2017.txt
 
         ### =========================
         - item:

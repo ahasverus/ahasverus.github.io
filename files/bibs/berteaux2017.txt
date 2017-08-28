@@ -1,0 +1,10 @@
+@article{berteaux2017,
+  author = {Berteaux, Dominique and Casajus, Nicolas and Angerbjörn, Anders and Fuglei, Eva},
+  year = {2017},
+  title = {Foreword to {S}upplement 1: research on a polar species — the {A}rctic fox},
+  journal = {Polar Research},
+  volume = {36},
+  number = {sup1},
+  pages = {1-9},
+  doi = {10.1080/17518369.2017.1347411}
+}
