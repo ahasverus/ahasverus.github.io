@@ -94,10 +94,7 @@ content:
             buttons:
               - button:
                   available: false
-                  name:
-                    french: Site web
-                    english: Website
-                    espanol: Sitio web
+                  name: shinyapp
                   url: https://ahasverus.shinyapps.io/bioclimaticatlas/
 
         - project:
