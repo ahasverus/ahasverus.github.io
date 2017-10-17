@@ -98,6 +98,7 @@ content:
                     french: Site web
                     english: Website
                     espanol: Sitio web
+                  url: https://ahasverus.shinyapps.io/bioclimaticatlas/
 
         - project:
             name:
