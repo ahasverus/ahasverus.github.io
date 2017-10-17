@@ -93,7 +93,7 @@ content:
               espanol: Disponible pronto...
             buttons:
               - button:
-                  available: false
+                  available: true
                   name: shinyapp
                   url: https://ahasverus.shinyapps.io/bioclimaticatlas/
 
