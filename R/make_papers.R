@@ -33,7 +33,7 @@ make_papers <- function(html){
       test = (i == 1),
       yes  = ' class="family"',
       no   = ' class="family notfirst"'
-      )
+    )
 
 
     # === SORT ITEMS

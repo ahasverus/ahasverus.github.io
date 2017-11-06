@@ -87,10 +87,12 @@ content:
         - item:
             type: article
             authors: Gendreau Y, Lachance A, Ricard M, Gilbert H, Casajus N & Berteaux D
-            title: "Changements climatiques : défis et perspectives pour les plantes vasculaires en situation précaire au Québec"
-            year: 9999
+            title: "Changements climatiques : défis et perspectives pour les plantes vasculaires en situation précaire au Québec"
+            year: 2018
             editor: Le Naturaliste canadien
-            status: submitted
+            status: published
+            volume: 142
+            pages: 16-35
             buttons:
               - button:
                   available: false
