@@ -30,3 +30,6 @@ content:
           french: Randonnée
           english: Hiking
           espanol: Senderismo
+    - item:
+        name: inSileco
+        url: "https://insileco.github.io"

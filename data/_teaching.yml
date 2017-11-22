@@ -18,6 +18,43 @@ header:
 content:
 
 
+  ### >>> COURSE NO 0
+  - course:
+      title:
+        french: "Travail collaboratif : bonnes pratiques"
+        english: "Collaborative work: good practices"
+        espanol: "Trabajo colaborativo : buenas prácticas"
+      institution:
+        name: Université du Québec à Rimouski
+        city: Rimouski
+        country: CA
+        period: 2017
+      collaborators:
+        - collaborator:
+            prefixe:
+              french: En collaboration avec
+              english: In collaboration with
+              espanol: En colaboración con
+            name: Andréanne Beardsell
+            url: "https://www.researchgate.net/profile/Andreanne_Beardsell"
+            github: "abeardsell"
+      buttons:
+        - button:
+            available: false
+            name: PDF
+        - button:
+            available: true
+            name: HTML
+            url: "https://chaireBioNorth.github.io/labmeeting-20171124"
+        - button:
+            available: true
+            name:
+              french: Source
+              english: Source
+              espanol: Código
+            url: "https://github.com/chaireBioNorth/labmeeting-20171124"
+
+
   ### >>> COURSE NO 1
   - course:
       title:
