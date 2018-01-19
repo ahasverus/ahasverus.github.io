@@ -1,10 +1,11 @@
 @article{gendreau2018,
-  author = {Gendreau Yanick and Lachance Audrey and Ricard Marylène and Gilbert Hélène and Casajus Nicolas and Berteaux Dominique},
-  year = {2018},
-  title = {Changements climatiques : défis et perspectives pour les plantes vasculaires en situation précaire au {Q}uébec},
+  title = {Changements climatiques : défis et perspectives pour les plantes vasculaires en situation précaire au Québec},
+  author = {Gendreau, Yanick and Lachance, Audrey and Ricard, Marylène and Gilbert, Hélène and Casajus, Nicolas and Berteaux, Dominique},
   journal = {Le Naturaliste canadien},
   volume = {142},
   number = {1},
   pages = {16-35},
-  doi = {}
+  year = {2018},
+  url = {http://id.erudit.org/iderudit/1042011ar},
+  doi = {10.7202/1042011ar}
 }

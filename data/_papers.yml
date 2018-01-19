@@ -156,14 +156,16 @@ content:
             pages: 16-35
             buttons:
               - button:
-                  available: false
+                  available: true
                   name: HTML
+                  url: "http://id.erudit.org/iderudit/1042011ar"
               - button:
                   available: false
                   name: PDF
               - button:
-                  available: false
+                  available: true
                   name: BiBTeX
+                  url: gendreau2018.txt
 
         ### =========================
         - item:
