@@ -13,3 +13,7 @@ notifications:
   email:
     recipients:
       - nicolas.casajus@gmail.com
+
+r_packages:
+  - devtools
+  - yaml
