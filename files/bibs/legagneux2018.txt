@@ -1,0 +1,10 @@
+@article{10.3389/fevo.2017.00175,
+  author = {Legagneux, Pierre and Casajus, Nicolas and Cazelles, Kevin and Chevallier, Clément and Chevrinais, Marion and Guéry, Lorelei and Jacquet, Claire and Jaffré, Mikael and Naud, Marie-José and Noisette, Fanny and Ropars, Pascale and Vissault, Steve and Archambault, Philippe and Bêty, Joel and Berteaux, Dominique and Gravel, Dominique},
+  title = {Our house is burning: Discrepancy in climate change vs. biodiversity coverage in the media as compared to scientific literature},
+  journal = {Frontiers in Ecology and Evolution},
+  volume = {5},
+  pages = {175},
+  year = {2018},
+  url = {https://www.frontiersin.org/article/10.3389/fevo.2017.00175},
+  doi = {10.3389/fevo.2017.00175}
+}

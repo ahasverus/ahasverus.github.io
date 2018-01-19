@@ -105,27 +105,6 @@ content:
         ### =========================
         - item:
             type: article
-            authors: Gendreau Y, Lachance A, Ricard M, Gilbert H, Casajus N & Berteaux D
-            title: "Changements climatiques : défis et perspectives pour les plantes vasculaires en situation précaire au Québec"
-            year: 2018
-            editor: Le Naturaliste canadien
-            status: published
-            volume: 142
-            pages: 16-35
-            buttons:
-              - button:
-                  available: false
-                  name: HTML
-              - button:
-                  available: false
-                  name: PDF
-              - button:
-                  available: false
-                  name: BiBTeX
-
-        ### =========================
-        - item:
-            type: article
             authors: Lamarre V, Legagneux P, Franke A, Casajus N, Currie DC, Berteaux D & Bêty J
             title: "Significance of extreme weather conditions and black fly outbreaks in an avian Arctic top-predator: a harbinger of future climate?"
             year: 9999
@@ -168,11 +147,13 @@ content:
         ### =========================
         - item:
             type: article
-            authors: Legagneux P, Casajus N, Cazelles K, Chevallier C, Chevrinais M, Guéry L, Jacquet C, Jaffré M, Naud M-J, Noisette F, Ropars P, Vissault S, Archambault P, B&ecirc;ty J, Berteaux D & Gravel D
-            title: "Our house is burning: discrepancy in climate change vs biodiversity coverage in the media"
-            year: 9999
-            editor: Frontiers in Ecology and Evolution
-            status: submitted
+            authors: Gendreau Y, Lachance A, Ricard M, Gilbert H, Casajus N & Berteaux D
+            title: "Changements climatiques : défis et perspectives pour les plantes vasculaires en situation précaire au Québec"
+            year: 2018
+            editor: Le Naturaliste canadien
+            status: published
+            volume: 142
+            pages: 16-35
             buttons:
               - button:
                   available: false
@@ -183,6 +164,30 @@ content:
               - button:
                   available: false
                   name: BiBTeX
+
+        ### =========================
+        - item:
+            type: article
+            authors: Legagneux P, Casajus N, Cazelles K, Chevallier C, Chevrinais M, Guéry L, Jacquet C, Jaffré M, Naud M-J, Noisette F, Ropars P, Vissault S, Archambault P, B&ecirc;ty J, Berteaux D & Gravel D
+            title: "Our house is burning: discrepancy in climate change vs biodiversity coverage in the media"
+            year: 2018
+            editor: Frontiers in Ecology and Evolution
+            status: published
+            volume: 5
+            pages: 175
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://www.frontiersin.org/article/10.3389/fevo.2017.00175"
+              - button:
+                  available: true
+                  name: PDF
+                  url: legagneux2018.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: legagneux2018.txt
 
         ### =========================
         - item:
