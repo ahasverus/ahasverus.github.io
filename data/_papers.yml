@@ -63,25 +63,6 @@ content:
         ### =========================
         - item:
             type: article
-            authors: Berteaux D, Ricard M, St-Laurent M-H, Casajus N, Périé C, Beauregard F & de Blois S
-            title: "Northern protected areas will become important refuges for biodiversity tracking suitable climates"
-            year: 9999
-            editor: Scientific Reports
-            status: submitted
-            buttons:
-              - button:
-                  available: false
-                  name: HTML
-              - button:
-                  available: false
-                  name: PDF
-              - button:
-                  available: false
-                  name: BiBTeX
-
-        ### =========================
-        - item:
-            type: article
             authors: Devost É, Casajus N, Lai S & Berteaux D
             title: "FoxMask: a new automated tool for animal screening on camera trap images"
             year: 9999
@@ -143,6 +124,31 @@ content:
                   available: true
                   name: R package
                   url: "https://github.com/ahasverus/samplesim"
+
+
+        ### =========================
+        - item:
+            type: article
+            authors: Berteaux D, Ricard M, St-Laurent M-H, Casajus N, Périé C, Beauregard F & de Blois S
+            title: "Northern protected areas will become important refuges for biodiversity tracking suitable climates"
+            year: 2018
+            editor: Scientific Reports
+            status: published
+            volume: 8
+            pages: article 4623
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: https://www.nature.com/articles/s41598-018-23050-w
+              - button:
+                  available: true
+                  name: PDF
+                  url: berteaux2018.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: berteaux2018.txt
 
         ### =========================
         - item:

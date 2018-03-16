@@ -1,0 +1,9 @@
+@article{berteaux2018,
+author = {Berteaux, Dominique and Ricard, Marylène and St-Laurent, Martin-Hugues and Casajus, Nicolas and Périé, Catherine and Beauregard, Frieda de Blois, Sylvie},
+year = {2018},
+title = {Northern protected areas will become important refuges for biodiversity tracking suitable climates},
+journal = {Scientific Reports},
+volume = {8},
+pages = {4623},
+doi = {10.1038/s41598-018-23050-w}
+}
