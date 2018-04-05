@@ -42,7 +42,7 @@ make_pagefooter <- function(html){
   # ===   ADD LAST UPDATE
 
 
-  html <- paste0(html, 'Made with the <a href="https://cran.r-project.org/" class="falink dotted">R</a> package <a href="https://CRAN.R-project.org/package=yaml" class="falink dotted">yaml</a><br />\n')
+  html <- paste0(html, 'Made with <a href="https://cran.r-project.org/" class="falink dotted">R</a> and the package <a href="https://CRAN.R-project.org/package=yaml" class="falink dotted">yaml</a><br />\n')
 
   if (!is.null(yaml$"header"$"last-modified") && yaml$"header"$"last-modified"){
       html <- paste0(html, 'Last modified: ', Sys.time(), '\n')
