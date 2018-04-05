@@ -103,27 +103,27 @@ content:
                   name: BiBTeX
 
         ### =========================
-        - item:
-            type: article
-            authors: Lecomte N, Ehrich D, Casajus N, Berteaux D, Giroux M-A & Yoccoz NG
-            title: "How many is enough? An R package for evaluating the effect of sample size on estimates and precision of stable isotope mixing solutions"
-            year: 9999
-            editor: Methods in Ecology and Evolution
-            status: submitted
-            buttons:
-              - button:
-                  available: false
-                  name: HTML
-              - button:
-                  available: false
-                  name: PDF
-              - button:
-                  available: false
-                  name: BiBTeX
-              - button:
-                  available: true
-                  name: R package
-                  url: "https://github.com/ahasverus/samplesim"
+        # - item:
+        #     type: article
+        #     authors: Lecomte N, Ehrich D, Casajus N, Berteaux D, Giroux M-A & Yoccoz NG
+        #     title: "How many is enough? An R package for evaluating the effect of sample size on estimates and precision of stable isotope mixing solutions"
+        #     year: 9999
+        #     editor: Methods in Ecology and Evolution
+        #     status: submitted
+        #     buttons:
+        #       - button:
+        #           available: false
+        #           name: HTML
+        #       - button:
+        #           available: false
+        #           name: PDF
+        #       - button:
+        #           available: false
+        #           name: BiBTeX
+        #       - button:
+        #           available: true
+        #           name: R package
+        #           url: "https://github.com/ahasverus/samplesim"
 
 
         ### =========================
