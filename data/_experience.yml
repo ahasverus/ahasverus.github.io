@@ -39,9 +39,9 @@ content:
         city: Rimouski
         country: CA
         period:
-          french: Depuis 11/2008
-          english: Since 2008/11
-          espanol: Desde 11/2008
+          french: 11/2008 à 03/2018
+          english: 2008/11 to 2018/03
+          espanol: 11/2008 a 03/2018
       projects:
         - project:
             name:
