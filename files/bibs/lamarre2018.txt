@@ -1,0 +1,9 @@
+@article{lamarre2018,
+author = {Lamarre, Vincent and Legagneux, Pierre and Franke, Alastair and Casajus, Nicolas and Currie, Douglas C. and Berteaux, Dominique and Bêty, Joël},
+year = {2018},
+title = {Precipitation and ectoparasitism reduce reproductive success in an arctic-nesting top-predator},
+journal = {Scientific Reports},
+volume = {8},
+pages = {8530},
+doi = {10.1038/s41598-018-26131-y}
+}

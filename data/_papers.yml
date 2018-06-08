@@ -41,66 +41,71 @@ content:
       items:
 
       ### =========================
-        - item:
-            type: article
-            authors: Wang Y, Buddle C, Casajus N, Berteaux D & Larrivée M
-            title: "Predicting the distribution of poorly-documented species, northern black widow (Latrodectus variolus) and black purse-web spider (Sphodros niger), using museum specimen and citizen science data"
-            year: 9999
-            editor: PLoS ONE
-            status: submitted
-            buttons:
-              - button:
-                  available: false
-                  name: HTML
-              - button:
-                  available: false
-                  name: PDF
-              - button:
-                  available: false
-                  name: BiBTeX
+        # - item:
+        #     type: article
+        #     authors: Wang Y, Buddle C, Casajus N, Berteaux D & Larrivée M
+        #     title: "Predicting the distribution of poorly-documented species, northern black widow (Latrodectus variolus) and black purse-web spider (Sphodros niger), using museum specimen and citizen science data"
+        #     year: 9999
+        #     editor: PLoS ONE
+        #     status: submitted
+        #     buttons:
+        #       - button:
+        #           available: false
+        #           name: HTML
+        #       - button:
+        #           available: false
+        #           name: PDF
+        #       - button:
+        #           available: false
+        #           name: BiBTeX
 
 
         ### =========================
-        - item:
-            type: article
-            authors: Devost É, Casajus N, Lai S & Berteaux D
-            title: "FoxMask: a new automated tool for animal screening on camera trap images"
-            year: 9999
-            editor: Methods in Ecology and Evolution
-            status: submitted
-            buttons:
-              - button:
-                  available: false
-                  name: HTML
-              - button:
-                  available: false
-                  name: PDF
-              - button:
-                  available: false
-                  name: BiBTeX
-              - button:
-                  available: true
-                  name: Py script
-                  url: "https://github.com/edevost/foxmask"
+        # - item:
+        #     type: article
+        #     authors: Devost É, Casajus N, Lai S & Berteaux D
+        #     title: "FoxMask: a new automated tool for animal screening on camera trap images"
+        #     year: 9999
+        #     editor: Methods in Ecology and Evolution
+        #     status: submitted
+        #     buttons:
+        #       - button:
+        #           available: false
+        #           name: HTML
+        #       - button:
+        #           available: false
+        #           name: PDF
+        #       - button:
+        #           available: false
+        #           name: BiBTeX
+        #       - button:
+        #           available: true
+        #           name: Py script
+        #           url: "https://github.com/edevost/foxmask"
 
         ### =========================
         - item:
             type: article
             authors: Lamarre V, Legagneux P, Franke A, Casajus N, Currie DC, Berteaux D & Bêty J
-            title: "Significance of extreme weather conditions and black fly outbreaks in an avian Arctic top-predator: a harbinger of future climate?"
-            year: 9999
+            title: "Precipitation and ectoparasitism reduce reproductive success in an arctic-nesting top-predator"
+            year: 2018
             editor: Scientific Reports
-            status: submitted
+            status: published
+            volume: 8
+            pages: article 8530
             buttons:
               - button:
-                  available: false
+                  available: true
                   name: HTML
+                  url: https://www.nature.com/articles/s41598-018-26131-y
               - button:
-                  available: false
+                  available: true
                   name: PDF
+                  url: lamarre2018.pdf
               - button:
-                  available: false
+                  available: true
                   name: BiBTeX
+                  url: lamarre2018.txt
 
         ### =========================
         # - item:
