@@ -1,0 +1,9 @@
+@article{wang2018,
+  author = {Wang, Yifu AND Casajus, Nicolas AND Buddle, Christopher AND Berteaux, Dominique AND Larrivée, Maxim},
+  year = {2018},
+  title = {Predicting the distribution of poorly-documented species, {N}orthern black widow ({L}atrodectus variolus) and {B}lack purse-web spider ({S}phodros niger), using museum specimens and citizen science data},
+  journal = {PloS ONE},
+  volume = {13},
+  pages = {0201094},
+  doi = {10.1371/journal.pone.0201094}
+}
