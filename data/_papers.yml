@@ -43,7 +43,7 @@ content:
       ### =========================
         - item:
             type: article
-            authors: Wang Y, Buddle C, Casajus N, Berteaux D & Larrivée M
+            authors: Wang Y, Casajus N, Buddle C, Berteaux D & Larrivée M
             title: "Predicting the distribution of poorly-documented species, Northern black widow (Latrodectus variolus) and Black purse-web spider (Sphodros niger), using museum specimen and citizen science data"
             year: 2018
             editor: PLoS ONE
