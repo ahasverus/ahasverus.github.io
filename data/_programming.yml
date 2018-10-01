@@ -65,7 +65,7 @@ content:
             length: 40
         - item:
             name: NodeJS
-            length: 10
+            length: 20
 
   ### >>> CATEGORY NO 3
   - category:
