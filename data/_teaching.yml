@@ -110,14 +110,14 @@ content:
         - button:
             available: false
             name: HTML
-            # url: "md-lecture/index.html"
+            url: "https://ahasverus.github.io/mastering-markdown/"
         - button:
             available: true
             name:
               french: Source
               english: Source
               espanol: Código
-            url: "https://github.com/ahasverus/ahasverus.github.io/tree/master/md-lecture"
+            url: "https://github.com/ahasverus/mastering-markdown"
 
 
   ### >>> COURSE NO 3
