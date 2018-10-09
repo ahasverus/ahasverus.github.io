@@ -108,7 +108,7 @@ content:
             available: false
             name: PDF
         - button:
-            available: false
+            available: true
             name: HTML
             url: "https://ahasverus.github.io/mastering-markdown/"
         - button:
