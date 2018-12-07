@@ -79,7 +79,7 @@ content:
             name: PHP
             length: 40
         - item:
-            name: reactJS / JSX
+            name: React / JSX
             length: 20
         - item:
             name: NodeJS
@@ -115,6 +115,13 @@ content:
         - item:
             name: make
             length: 40
+        - item:
+            name: React Native
+            length: 20
+        - item:
+            name: Electron
+            length: 20
+
 
   ### >>> CATEGORY NO 5
   - category:
