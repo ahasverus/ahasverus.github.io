@@ -17,7 +17,6 @@ header:
 
 content:
 
-
   ### >>> CATEGORY NO 1
   - category:
       type: progressbar
@@ -28,19 +27,38 @@ content:
       items:
         - item:
             name: R
-            length: 100
-        - item:
-            name: (Postgre)SQL
-            length: 80
+            length: 99
         - item:
             name: Python
-            length: 60
-        - item:
-            name: Access / VBA
             length: 50
         - item:
             name: Matlab
-            length: 40
+            length: 30
+        - item:
+            name: C++
+            length: 20
+
+
+  ### >>> CATEGORY NO 1
+  - category:
+      type: progressbar
+      name:
+        french: Gestion de données
+        english: Data management
+        espanol: Gestión de datos
+      items:
+        - item:
+            name: SQL
+            length: 80
+        - item:
+            name: noSQL
+            length: 80
+        - item:
+            name: JSON
+            length: 80
+        - item:
+            name: YAML
+            length: 80
 
 
   ### >>> CATEGORY NO 2
@@ -55,11 +73,8 @@ content:
             name: HTML5 / CSS3
             length: 80
         - item:
-            name: jQuery
+            name: JavaScript (ECS6)
             length: 60
-        - item:
-            name: JavaScript
-            length: 50
         - item:
             name: PHP
             length: 40
@@ -92,12 +107,11 @@ content:
         espanol: Diseño de softwares
       items:
         - item:
-            name: Git(Hub)
-            length: 90
+            name: git
+            length: 80
         - item:
-            name: Travis CI
-            length: 70
-
+            name: make
+            length: 40
 
   ### >>> CATEGORY NO 5
   - category:
@@ -132,8 +146,8 @@ content:
             name: shiny
             url: "https://shiny.rstudio.com"
         - item:
-            name: sp
-            url: "https://cran.r-project.org/web/packages/sp/index.html"
+            name: sf
+            url: "https://cran.r-project.org/web/packages/sf/index.html"
 
 
   ### >>> CATEGORY NO 6
@@ -144,7 +158,8 @@ content:
         english: Other softwares
         espanol: Otros softwares
       items:
-        - item: Bash
+        - item: bash
+        - item: Pandoc
         - item: Mendeley
         - item: ArcGIS
         - item: QGIS

@@ -56,8 +56,8 @@ content:
               name: Dominique Berteaux
               url: http://www.uqar.ca/universite/a-propos-de-l-uqar/departements/departement-de-biologie-chimie-et-geographie/berteaux-dominique
             description:
-              french: Gestion de données (spatiales/longitudinales) ; Analyses spatiales ; Analyses multivariées ; Modèles prédictifs ; Projections futures ; Ensemble forecasting ; Cartographique ; Rédaction d'articles ; Écriture d'un livre ; Développement d'un site Web (front-end).
-              english: Data management (spatial and longitudinal data); Spatial analyses; Multivariate analyses; Predictive models; Future projections; Ensemble forecasting; Mapping; Articles writing; Book writing; Website development (front-end).
+              french: Gestion de données (spatiales/longitudinales) &ndash; Analyses spatiales &ndash; Analyses multivariées &ndash; Modèles prédictifs &ndash; Projections futures &ndash; Ensemble forecasting &ndash; Cartographique &ndash; Rédaction d'articles &ndash; Écriture d'un livre &ndash; Développement d'un site Web (front-end).
+              english: Data management (spatial and longitudinal data) &ndash; Spatial analyses &ndash; Multivariate analyses &ndash; Predictive models &ndash; Future projections &ndash; Ensemble forecasting &ndash; Mapping &ndash; Articles writing &ndash; Book writing &ndash; Website development (front-end).
               espanol: Disponible pronto...
             buttons:
               - button:
@@ -88,8 +88,8 @@ content:
               name: Dominique Berteaux
               url: http://www.uqar.ca/universite/a-propos-de-l-uqar/departements/departement-de-biologie-chimie-et-geographie/berteaux-dominique
             description:
-              french: Obtention et gestion de données ; Analyses spatiales ; Analyses multivariées ; Modèles prédictifs ; Projections futures ; Ensemble forecasting ; Cartographie ; Réseaux trophique ; Rédaction d'articles ; Développement d'un site Web (front-end).
-              english: Data management; Spatial analyses; Multivariate analyses; Predictive models; Future projections; Ensemble forecasting; Mapping; Trophic networks; Articles writing; Website development (front-end).
+              french: Obtention et gestion de données &ndash; Analyses spatiales &ndash; Analyses multivariées &ndash; Modèles prédictifs &ndash; Projections futures &ndash; Ensemble forecasting &ndash; Cartographie &ndash; Réseaux trophique &ndash; Rédaction d'articles &ndash; Développement d'un site Web (front-end).
+              english: Data management &ndash; Spatial analyses &ndash; Multivariate analyses &ndash; Predictive models &ndash; Future projections &ndash; Ensemble forecasting &ndash; Mapping &ndash; Trophic networks &ndash; Articles writing &ndash; Website development (front-end).
               espanol: Disponible pronto...
             buttons:
               - button:
