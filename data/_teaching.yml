@@ -21,9 +21,9 @@ content:
   ### >>> COURSE NO 0
   - course:
       title:
-        french: "Travail collaboratif : bonnes pratiques"
-        english: "Collaborative work: good practices"
-        espanol: "Trabajo colaborativo : buenas prácticas"
+        french: "Travail collaboratif &ndash; Bonnes pratiques"
+        english: "Collaborative work &ndash; Good practices"
+        espanol: "Trabajo colaborativo &ndash; Buenas prácticas"
       institution:
         name: Université du Québec à Rimouski
         city: Rimouski
@@ -58,9 +58,9 @@ content:
   ### >>> COURSE NO 1
   - course:
       title:
-        french: "Les graphiques avec R : un aperçu des possibilités"
-        english: "R graphics: an overview of possibilities"
-        espanol: "Los gráficos con R: un panorama de las oportunidades"
+        french: "Les Graphiques avec R &ndash; Un aperçu des possibilités"
+        english: "R Graphics &ndash; An overview of possibilities"
+        espanol: "Los Gráficos con R &ndash; Un panorama de las oportunidades"
       institution:
         name: Réserve Naturelle Gault
         city: Mont-Saint-Hilaire
@@ -123,9 +123,9 @@ content:
   ### >>> COURSE NO 3
   - course:
       title:
-        french: "Gérer et formater sa bibliographie"
-        english: "Managing and formatting bibliography"
-        espanol: "Gestionar y formatear su bibliografía"
+        french: "Gérer et Formater sa Bibliographie"
+        english: "Managing and Formatting Bibliography"
+        espanol: "Gestionar y Formatear su Bibliografía"
       institution:
         name: Université du Québec à Rimouski
         city: Rimouski
@@ -168,9 +168,9 @@ content:
   ### >>> COURSE NO 4
   - course:
       title:
-        french: "L'art du graphique avec R"
-        english: "The art of graphics with R"
-        espanol: "El arte del gráfico con R"
+        french: "L'Art du Graphique avec R"
+        english: "The Art of Graphics with R"
+        espanol: "El Arte del Gráfico con R"
       institution:
         name: Université du Québec à Rimouski
         city: Rimouski
@@ -204,9 +204,9 @@ content:
   ### >>> COURSE NO 5
   - course:
       title:
-        french: "Analyses spatiales sous R"
-        english: "Spatial analyses with R"
-        espanol: "Análisis espaciales con R"
+        french: "Analyses Spatiales sous R"
+        english: "Spatial Analyses with R"
+        espanol: "Análisis Espaciales con R"
       institution:
         name: Université du Québec à Rimouski
         city: Rimouski

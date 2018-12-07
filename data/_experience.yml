@@ -36,16 +36,16 @@ content:
       institution:
         name: CNRS-CEBC (UMR 7372)
         url: http://www.cebc.cnrs.fr/
-        city: France
+        city: Villiers-en-Bois
         country: FR
         period:
-          french: 05/2018 à 12/2018
-          english: 2018/05 to 2018/12
-          espanol: 05/2018 a 12/2018
+          french: 04/2018 à 12/2018
+          english: 2018/04 to 2018/12
+          espanol: 04/2018 a 12/2018
       projects:
         - project:
             name:
-              french: "Etude démographique de la Cistude d'Europe dans la Réserve Naturelle Nationale de Chérine"
+              french: "Démographie de la Cistude d'Europe dans la Réserve Naturelle Nationale de Chérine"
               english: "Demography of the European pond turtle in the National Nature Reserve of Chérine"
               espanol: "Disponible pronto..."
             url: http://www.reserve-cherine.fr/

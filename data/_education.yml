@@ -21,9 +21,9 @@ content:
   ### >>> GRADE NO 1
   - grade:
       title:
-        french: "Master II Écologie, spécialité Biostatistiques et Modélisation"
-        english: "Master II degree in Ecology, Biostatistics and Modeling"
-        espanol: "Master II Ecología, especialidad Bioestadísticas y Modelización"
+        french: "Master 2 Écologie, spécialité Biostatistiques et Modélisation"
+        english: "Master 2 degree in Ecology, Biostatistics and Modeling"
+        espanol: "Master 2 Ecología, especialidad Bioestadísticas y Modelización"
       institution:
         name: Université Paul Sabatier
         url: http://www.univ-tlse3.fr
@@ -50,9 +50,9 @@ content:
   ### >>> GRADE NO 2
   - grade:
       title:
-        french: "Master I Écologie"
-        english: "Master I degree in Ecology"
-        espanol: "Master I Ecología"
+        french: "Master 1 Écologie"
+        english: "Master 1 degree in Ecology"
+        espanol: "Master 1 Ecología"
       institution:
         name: Université Paul Sabatier
         url: http://www.univ-tlse3.fr
