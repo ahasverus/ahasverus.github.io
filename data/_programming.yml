@@ -29,13 +29,13 @@ content:
             name: R
             length: 99
         - item:
-            name: Python
+            name: Python 3
             length: 50
         - item:
             name: Matlab
             length: 30
         - item:
-            name: C++
+            name: C&#43;&#43;
             length: 20
 
 
@@ -78,6 +78,9 @@ content:
         - item:
             name: PHP
             length: 40
+        - item:
+            name: reactJS / JSX
+            length: 20
         - item:
             name: NodeJS
             length: 20
