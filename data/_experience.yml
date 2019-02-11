@@ -39,9 +39,9 @@ content:
         city: Villiers-en-Bois
         country: FR
         period:
-          french: 04/2018 à 12/2018
-          english: 2018/04 to 2018/12
-          espanol: 04/2018 a 12/2018
+          french: 04/2018 à 02/2019
+          english: 2018/04 to 2019/02
+          espanol: 04/2018 a 02/2019
       projects:
         - project:
             name:
