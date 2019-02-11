@@ -28,6 +28,23 @@ content:
 
 
   ### >>> JOB NO 1
+  # - job:
+  #     title:
+  #       french: Eco-informaticien / Data analyst
+  #       english: Eco-informatician / Data analyst
+  #       espanol: ...
+  #     institution:
+  #       name: Centre de Synthèse et d'Analyse sur la Biodiversité (CESAB)
+  #       url: http://www.cesab.org
+  #       city: Montpellier
+  #       country: FR
+  #       period:
+  #         french: Depuis 03/2019
+  #         english: Since 03/2019
+  #         espanol: Depués 03/2019
+
+
+  ### >>> JOB NO 1
   - job:
       title:
         french: Ingénieur biologiste
@@ -39,9 +56,9 @@ content:
         city: Villiers-en-Bois
         country: FR
         period:
-          french: 04/2018 à 02/2019
-          english: 2018/04 to 2019/02
-          espanol: 04/2018 a 02/2019
+          french: 05/2018, 10/2018 et 02/2019
+          english: 2018/05, 2018/10 and 2019/02
+          espanol: ...
       projects:
         - project:
             name:
