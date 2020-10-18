@@ -88,7 +88,7 @@ make_programming <- function(html){
           if (j == 1){
             asset <- paste0(asset, softs[[j]]$item)
           } else {
-            asset <- paste0(asset, ', ', softs[[j]]$item)
+            asset <- paste0(asset, ' - ', softs[[j]]$item)
           }
         }
         if ((length(softs[[j]]$item) == 1) && is.null(softs[[j]]$item)){

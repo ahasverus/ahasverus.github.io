@@ -157,7 +157,8 @@ content:
         - item: Atom
         - item: RStudio
         - item: Pandoc
-        - item: Mendeley/Zotero
+        - item: Mendeley (Zotero)
         - item: Calibre
+        - item: ffmpeg
         - item: youtube-dl
         - item: ImageMagick
