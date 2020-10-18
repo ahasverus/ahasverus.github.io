@@ -152,8 +152,8 @@ content:
   - category:
       type: list
       name:
-        french: 'Environnement – <i class="fa fa-apple fa-1x fa-fw"></i> <i class="fa fa-linux fa-1x fa-fw"></i> ... <i class="fa fa-windows fa-1x fa-fw"></i>'
-        english: 'Environment – <i class="fa fa-apple fa-1x fa-fw"></i> <i class="fa fa-linux fa-1x fa-fw"></i> ... <i class="fa fa-windows fa-1x fa-fw"></i>'
+        french: 'Environnement – <i class="fa fa-apple fa-1x fa-fw"></i> &amp; <i class="fa fa-linux fa-1x fa-fw"></i>'
+        english: 'Environment – <i class="fa fa-apple fa-1x fa-fw"></i> &amp; <i class="fa fa-linux fa-1x fa-fw"></i>'
         espanol: ...
       items:
         - item:
