@@ -95,12 +95,12 @@ make_programming <- function(html){
           if (j == 1){
             asset <- paste0(asset, softs[[j]]$item$name)
           } else {
-            asset <- paste0(asset, ', ', softs[[j]]$item$name)
+            asset <- paste0(asset, ' - ', softs[[j]]$item$name)
           }
         }
         if (length(softs[[j]]$item) > 1){
           if (j > 1){
-            asset <- paste0(asset, ', ')
+            asset <- paste0(asset, ' - ')
           }
           url <- which(names(softs[[j]]$item) == "url")
           if (length(url) > 0){
@@ -112,7 +112,7 @@ make_programming <- function(html){
           }
         }
       }
-      asset <- paste0(asset, '.</p>\n')
+      asset <- paste0(asset, '</p>\n')
 
     }
 
