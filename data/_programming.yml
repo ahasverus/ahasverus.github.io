@@ -29,11 +29,8 @@ content:
             name: R
             length: 99
         - item:
-            name: Python 3
-            length: 50
-        - item:
-            name: Matlab
-            length: 30
+            name: Python
+            length: 25
         - item:
             name: C&#43;&#43;
             length: 20
@@ -51,15 +48,14 @@ content:
             name: SQL
             length: 80
         - item:
-            name: noSQL
-            length: 80
-        - item:
             name: JSON
-            length: 80
+            length: 99
         - item:
             name: YAML
-            length: 80
-
+            length: 99
+        - item:
+            name: XML
+            length: 99
 
   ### >>> CATEGORY NO 2
   - category:
@@ -74,16 +70,11 @@ content:
             length: 80
         - item:
             name: JavaScript (ECS6)
-            length: 60
-        - item:
-            name: PHP
             length: 40
         - item:
-            name: React / JSX
-            length: 20
-        - item:
-            name: NodeJS
-            length: 20
+            name: PHP
+            length: 30
+
 
   ### >>> CATEGORY NO 3
   - category:
@@ -95,10 +86,10 @@ content:
       items:
         - item:
             name: Markdown
-            length: 95
+            length: 100
         - item:
             name: LaTeX
-            length: 70
+            length: 60
 
 
   ### >>> CATEGORY NO 4
@@ -114,13 +105,7 @@ content:
             length: 80
         - item:
             name: make
-            length: 40
-        - item:
-            name: React Native
-            length: 20
-        - item:
-            name: Electron
-            length: 20
+            length: 30
 
 
   ### >>> CATEGORY NO 5
@@ -135,17 +120,14 @@ content:
             name: ggplot2
             url: "https://cran.r-project.org/web/packages/ggplot2/index.html"
         - item:
-            name: highcharter
-            url: "http://jkunst.com/highcharter/"
+            name: here
+            url: "https://cran.r-project.org/web/packages/here/index.html"
         - item:
-            name: leaflet
-            url: "https://rstudio.github.io/leaflet/"
+            name: httr
+            url: "https://cran.r-project.org/web/packages/httr/index.html"
         - item:
             name: raster
             url: "https://cran.r-project.org/web/packages/raster/index.html"
-        - item:
-            name: RCurl
-            url: "https://cran.r-project.org/web/packages/RCurl/index.html"
         - item:
             name: rmarkdown
             url: "http://rmarkdown.rstudio.com"
@@ -153,11 +135,14 @@ content:
             name: RPostgreSQL
             url: "https://cran.r-project.org/web/packages/RPostgreSQL/index.html"
         - item:
-            name: shiny
-            url: "https://shiny.rstudio.com"
+            name: rvest
+            url: "https://cran.r-project.org/web/packages/rvest/index.html"
         - item:
             name: sf
             url: "https://cran.r-project.org/web/packages/sf/index.html"
+        - item:
+            name: usethis
+            url: "https://cran.r-project.org/web/packages/usethis/index.html"
 
 
   ### >>> CATEGORY NO 6
@@ -168,11 +153,11 @@ content:
         english: Other softwares
         espanol: Otros softwares
       items:
-        - item: bash
+        - item: Z shell
+        - item: Atom
+        - item: RStudio
         - item: Pandoc
-        - item: Mendeley
-        - item: ArcGIS
-        - item: QGIS
-        - item: Microsoft Office Suite
-        - item: LibreOffice Suite
-        - item: Adobe Illustrator
+        - item: Mendeley/Zotero
+        - item: Calibre
+        - item: youtube-dl
+        - item: ImageMagick
