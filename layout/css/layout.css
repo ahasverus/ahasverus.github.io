@@ -12,6 +12,10 @@ body {
     margin-top: 50px;
 }
 
+.header {
+  position: fixed;
+}
+
 a {
     text-decoration: none;
     /*background-color: rgba(39, 168, 34, 0.06);*/
