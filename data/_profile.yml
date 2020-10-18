@@ -40,20 +40,22 @@ profile:
   image: profile.png
   author: Nicolas Casajus
   job: Data scientist
-  # institution:
-  #   name: Université du Québec à Rimouski
-  #   address: 300 allée des Ursulines
-  #   city: Rimouski QC G5L 3A1
-  #   country: CANADA
+  institution:
+    name: "<b>FRB-CESAB<b/>"
+    address: 5 rue de l'école de Médecine
+    city: 34000 Montpellier, FRANCE
   contact:
-    phone: +336 85 48 32 38
-    skype: "Skype: nicolas_casajus"
-    email: nicolas.casajus@gmail.com
+    # phone: +33* ** ** ** **
+    # skype: "skype: nicolas_casajus"
+    # email: nicolas.casajus@gmail.com
 
 
 ### ===     SOCIAL NETWORKS     === ###
 
 social:
+  envelope: nicolas.casajus@gmail.com
+  phone: "+33786330337"
+  skype: nRUnrYf6HE0i
   github: ahasverus
   google-scholar: n1swa1UAAAAJ
   researchgate: nicolas_casajus

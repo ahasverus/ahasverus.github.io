@@ -92,7 +92,11 @@ make_profile <- function(html){
     html <- paste0(html, '        <!-- Social networks links and icons -->\n')
     html <- paste0(html, '        <p>\n')
     tags <- names(yaml[[social]])
+
+    n <- 1
+
     for (i in tags){
+      if (n == 5) html <- paste0(html, '          <br /><br />\n')
       if (i == "github"){
         href    <- "https://www.github.com/"
         package <- "fa"
@@ -125,11 +129,25 @@ make_profile <- function(html){
         href    <- "https://www.facebook.com/"
         package <- "fa"
       }
+      if (i == "envelope"){
+        href    <- "mailto:"
+        package <- "fa"
+      }
+      if (i == "skype"){
+        href    <- "https://join.skype.com/invite/"
+        package <- "fa"
+      }
+      if (i == "phone"){
+        href    <- "tel:"
+        package <- "fa"
+      }
+
 
       href <- paste0(href, yaml[[social]][[i]])
       html <- paste0(html, '          <a alt="', i, '" title="', i, '" href="', href, '">\n')
       html <- paste0(html, '            <i class="', package, ' ', package, '-', i, ' ', package, '-2x ', package, '-fw falink"></i>\n')
       html <- paste0(html, '          </a>\n')
+      n <- n + 1
     }
     html <- paste0(html, '        </p>\n')
     html <- paste0(html, '        <div style="margin-bottom: 40px;"></div>\n')
