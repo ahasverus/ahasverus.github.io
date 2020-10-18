@@ -28,20 +28,20 @@ content:
 
 
   ### >>> JOB NO 1
-  # - job:
-  #     title:
-  #       french: Eco-informaticien / Data analyst
-  #       english: Eco-informatician / Data analyst
-  #       espanol: ...
-  #     institution:
-  #       name: Centre de Synthèse et d'Analyse sur la Biodiversité (CESAB)
-  #       url: http://www.cesab.org
-  #       city: Montpellier
-  #       country: FR
-  #       period:
-  #         french: Depuis 03/2019
-  #         english: Since 03/2019
-  #         espanol: Depués 03/2019
+  - job:
+      title:
+        french: Data scientist
+        english: Data scientist
+        espanol: Data scientist
+      institution:
+        name: Centre de Synthèse et d'Analyse sur la Biodiversité (FRB-CESAB)
+        url: https://www.fondationbiodiversite.fr/la-fondation/le-cesab
+        city: Montpellier
+        country: FR
+        period:
+          french: Depuis 03/2019
+          english: Since 03/2019
+          espanol: Depués 03/2019
 
 
   ### >>> JOB NO 1
