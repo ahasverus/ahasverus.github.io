@@ -101,10 +101,13 @@ content:
         espanol: Diseño de softwares
       items:
         - item:
-            name: git
+            name: Git
             length: 80
         - item:
-            name: make
+            name: Make
+            length: 30
+        - item:
+            name: Docker
             length: 30
 
 
@@ -149,15 +152,37 @@ content:
   - category:
       type: list
       name:
-        french: Autres logiciels
+        french: Environnement de travail
         english: Other softwares
         espanol: Otros softwares
       items:
-        - item: Z shell
-        - item: Atom
-        - item: RStudio
-        - item: Pandoc
-        - item: Mendeley (Zotero)
-        - item: Calibre
-        - item: ffmpeg
-        - item: ImageMagick
+        - item:
+            name: Z shell
+            url: "https://www.zsh.org"
+        - item:
+            name: Oh My Zsh
+            url: "https://ohmyz.sh"
+        - item:
+            name: Powerlevel10k
+            url: "https://github.com/romkatv/powerlevel10k"
+        - item:
+            name: Atom
+            url: "https://atom.io"
+        - item:
+            name: RStudio
+            url: "https://rstudio.com"
+        - item:
+            name: Pandoc
+            url: "https://pandoc.org"
+        - item:
+            name: Zotero
+            url: "https://www.zotero.org"
+        - item:
+            name: Calibre
+            url: "https://calibre-ebook.com/fr"
+        - item:
+            name: FFmpeg
+            url: "https://ffmpeg.org"
+        - item:
+            name: ImageMagick
+            url: "https://imagemagick.org/index.php"
