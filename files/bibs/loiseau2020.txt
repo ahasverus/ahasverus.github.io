@@ -1,0 +1,9 @@
+@article{loiseau2010,
+  author = {Loiseau, Nicolas and Mouquet, Nicolas and Casajus, Nicolas and Greni{\'{e}}, Matthias and Gu{\'{e}}guen, Maya and Maitner, Brian and Mouillot, David and Ostling, Annette and Renaud, Julien and Tucker, Caroline and Velez, Laure and Thuiller, Wilfried and Violle, Cyrille},
+  year = {2020},
+  title = {Global distribution and conservation status of ecologically rare mammal and bird species},
+  journal = {Nature Communications},
+  volume = {11},
+  pages = {5071},
+  doi = {10.1038/s41467-020-18779-w}
+}
