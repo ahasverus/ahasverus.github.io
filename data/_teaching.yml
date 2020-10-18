@@ -21,6 +21,98 @@ content:
   ### >>> COURSE NO 0
   - course:
       title:
+        french: "Du script au package R"
+        english: "Building an R Package"
+        espanol: "..."
+      institution:
+        name: FRB-CESAB
+        city: Montpellier
+        country: FR
+        period: 2019, 2020
+      buttons:
+        - button:
+            available: false
+            name: PDF
+        - button:
+            available: true
+            name: HTML
+            url: "https://frbcesab.github.io/datatoolbox/courses/r-packages"
+        - button:
+            available: true
+            name:
+              french: Source
+              english: Source
+              espanol: Código
+            url: "https://github.com/FRBCesab/datatoolbox"
+
+
+  ### >>> COURSE NO 0
+  - course:
+      title:
+        french: "API et Web Scraping sous R"
+        english: "API and Web Scraping with R"
+        espanol: "..."
+      institution:
+        name: FRB-CESAB
+        city: Montpellier
+        country: FR
+        period: 2019
+      buttons:
+        - button:
+            available: false
+            name: PDF
+        - button:
+            available: true
+            name: HTML
+            url: "https://frbcesab.github.io/datatoolbox/courses/intro-api"
+        - button:
+            available: true
+            name:
+              french: Source
+              english: Source
+              espanol: Código
+            url: "https://github.com/FRBCesab/datatoolbox"
+
+
+  ### >>> COURSE NO 0
+  - course:
+      title:
+        french: "Données spatiales avec sf"
+        english: "Spatial data with sf"
+        espanol: "..."
+      institution:
+        name: FRB-CESAB
+        city: Montpellier
+        country: FR
+        period: 2019, 2020
+      collaborators:
+        - collaborator:
+            prefixe:
+              french: En collaboration avec
+              english: In collaboration with
+              espanol: En colaboración con
+            name: Loreleï Guéry
+            url: "http://www.umr-marbec.fr/guery-lorelei.html"
+            github: "lguery"
+      buttons:
+        - button:
+            available: false
+            name: PDF
+        - button:
+            available: true
+            name: HTML
+            url: "https://frbcesab.github.io/datatoolbox/courses/r-spatial"
+        - button:
+            available: true
+            name:
+              french: Source
+              english: Source
+              espanol: Código
+            url: "https://github.com/FRBCesab/datatoolbox"
+
+  ### >>> COURSE NO 0
+  - course:
+      title:
         french: "Travail collaboratif &ndash; Bonnes pratiques"
         english: "Collaborative work &ndash; Good practices"
         espanol: "Trabajo colaborativo &ndash; Buenas prácticas"
