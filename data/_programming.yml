@@ -152,12 +152,12 @@ content:
   - category:
       type: list
       name:
-        french: Environnement de travail
-        english: Other softwares
-        espanol: Otros softwares
+        french: Environnement
+        english: Environment
+        espanol: ...
       items:
         - item:
-            name: Z shell
+            name: Zsh
             url: "https://www.zsh.org"
         - item:
             name: Oh My Zsh
@@ -168,9 +168,6 @@ content:
         - item:
             name: Atom
             url: "https://atom.io"
-        - item:
-            name: RStudio
-            url: "https://rstudio.com"
         - item:
             name: Pandoc
             url: "https://pandoc.org"
