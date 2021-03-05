@@ -21,6 +21,34 @@ content:
   ### >>> COURSE NO 0
   - course:
       title:
+        french: "Introduction à Docker"
+        english: "Docker: A introduction"
+        espanol: "..."
+      institution:
+        name: FRB-CESAB
+        city: Montpellier
+        country: FR
+        period: 2020
+      buttons:
+        - button:
+            available: false
+            name: PDF
+        - button:
+            available: true
+            name: HTML
+            url: "https://frbcesab.github.io/datatoolbox/courses/docker"
+        - button:
+            available: true
+            name:
+              french: Source
+              english: Source
+              espanol: Código
+            url: "https://github.com/FRBCesab/datatoolbox"
+
+
+  ### >>> COURSE NO 0
+  - course:
+      title:
         french: "Du script au package R"
         english: "Building an R Package"
         espanol: "..."

@@ -82,7 +82,8 @@ make_papers <- function(html){
         asset <- paste0(asset, '<em>', items[[j]]$item$editor, '</em>, ')
 
         if (items[[j]]$item$status == "published"){
-          asset <- paste0(asset, items[[j]]$item$volume, ', ')
+          if (!is.null(items[[j]]$item$volume))
+            asset <- paste0(asset, items[[j]]$item$volume, ', ')
           asset <- paste0(asset, items[[j]]$item$pages, '.\n')
         }
         if (items[[j]]$item$status %in% c("accepted", "submitted")){

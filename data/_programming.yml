@@ -30,9 +30,6 @@ content:
             length: 99
         - item:
             name: Python
-            length: 25
-        - item:
-            name: C&#43;&#43;
             length: 20
 
 
@@ -48,14 +45,9 @@ content:
             name: SQL
             length: 80
         - item:
-            name: JSON
+            name: JSON / XML
             length: 99
-        - item:
-            name: YAML
-            length: 99
-        - item:
-            name: XML
-            length: 99
+
 
   ### >>> CATEGORY NO 2
   - category:
@@ -67,13 +59,10 @@ content:
       items:
         - item:
             name: HTML5 / CSS3
-            length: 80
+            length: 70
         - item:
             name: JavaScript (ECS6)
             length: 40
-        - item:
-            name: PHP
-            length: 30
 
 
   ### >>> CATEGORY NO 3
@@ -86,7 +75,7 @@ content:
       items:
         - item:
             name: Markdown
-            length: 100
+            length: 99
         - item:
             name: LaTeX
             length: 60
@@ -102,13 +91,13 @@ content:
       items:
         - item:
             name: Git
-            length: 80
+            length: 90
         - item:
             name: Make
             length: 30
         - item:
             name: Docker
-            length: 30
+            length: 60
 
 
   ### >>> CATEGORY NO 5

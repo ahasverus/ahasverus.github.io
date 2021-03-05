@@ -1,0 +1,9 @@
+@article{wilson2021,
+  author  = {Wilson, J. Keaton and Casajus, Nicolas and Hutchinson, Rebecca A. and McFarland, Kent P. and Kerr, Jeremy T. and Berteaux, Dominique and Larrivée, Maxim and Prudic, Kathleen L.},
+  year    = {2021},
+  title   = {Climate change and local host availability drive the northern range boundary in the rapid expansion of a specialist insect herbivore, {P}apilio cresphontes},
+  journal = {Frontiers in Ecology and Evolution},
+  volume  = {9},
+  pages   = {85},
+  doi     = {10.3389/fevo.2021.579230}
+}

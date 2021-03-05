@@ -1,0 +1,8 @@
+﻿@article{devost2019,
+ author  = {Devost, Eric and Lai, Sandra and Casajus, Nicolas and Berteaux, Dominique},
+ year    = {2019},
+ title   = {Fox{M}ask: {A} new automated tool for animal detection in camera trap images},
+ journal = {bioRxiv},
+ pages   = {640037},
+ doi     = {10.1101/640037}
+}

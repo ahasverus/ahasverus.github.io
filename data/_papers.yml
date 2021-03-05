@@ -41,7 +41,31 @@ content:
       items:
 
 
-      ### =========================
+        ### =========================
+        - item:
+            type: article
+            authors: Wilson JK, Casajus N, Hutchinson RA, McFarland KP, Kerr JT, Berteaux D, Larrivée M & Prudic KL
+            title: "Climate change and local host availability drive the northern range boundary in the rapid expansion of a specialist insect herbivore, Papilio cresphontes"
+            year: 2021
+            editor: Frontiers in Ecology and Evolution
+            status: published
+            volume: 9
+            pages: 85
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "http://dx.doi.org/10.3389/fevo.2021.579230"
+              - button:
+                  available: true
+                  name: PDF
+                  url: wilson2021.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: wilson2021.txt
+
+        ### =========================
         - item:
             type: article
             authors: Loiseau N, Mouquet N, Casajus N, Grenié M, Guéguen M, Maitner B, Mouillot D, Ostling A, Renaud J, Tucker C, Velez L, Thuiller W & Violle C
@@ -65,7 +89,30 @@ content:
                   name: BiBTeX
                   url: loiseau2020.txt
 
-      ### =========================
+        ### =========================
+        - item:
+            type: article
+            authors: Devost E, Lai S, Casajus N & Berteaux D
+            title: "FoxMask: A new automated tool for animal detection in camera trap images"
+            year: 2019
+            editor: bioRxiv
+            status: published
+            pages: 640037
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://www.biorxiv.org/content/10.1101/640037v1"
+              - button:
+                  available: true
+                  name: PDF
+                  url: devost2019.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: devost2019.txt
+
+        ### =========================
         - item:
             type: article
             authors: Wang Y, Casajus N, Buddle C, Berteaux D & Larrivée M
@@ -98,7 +145,7 @@ content:
             editor: Scientific Reports
             status: published
             volume: 8
-            pages: article 8530
+            pages: 8530
             buttons:
               - button:
                   available: true
@@ -122,7 +169,7 @@ content:
             editor: Scientific Reports
             status: published
             volume: 8
-            pages: article 4623
+            pages: 4623
             buttons:
               - button:
                   available: true
@@ -170,7 +217,7 @@ content:
             editor: Frontiers in Ecology and Evolution
             status: published
             volume: 5
-            pages: article 175
+            pages: 175
             buttons:
               - button:
                   available: true
@@ -194,7 +241,7 @@ content:
             editor: Polar Research
             status: published
             volume: 36 (suppl. 1)
-            pages: article 1
+            pages: 1
             buttons:
               - button:
                   available: true
@@ -222,7 +269,7 @@ content:
             editor: Polar Research
             status: published
             volume: 36 (suppl. 1)
-            pages: article 11
+            pages: 11
             buttons:
               - button:
                   available: true
