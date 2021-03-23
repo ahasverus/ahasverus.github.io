@@ -44,6 +44,32 @@ content:
         ### =========================
         - item:
             type: article
+            authors: Monnet A-C, Cilleros K, Médail F, Cheikh Albassatneh M, Arroyo J, Bacchetta G, Bagnoli F, Barina Z, Cartereau M, Casajus N, Dimopoulos P, Domina G, Doxa A, Escudero M, Fady B, Hampe A, Matevski V, Misfud S, Nikolic T, Pavon D, Roig A, Barea ES, Spanu I, Strid A, Vendramin GG & Leriche A
+            title: "WOODIV, a database of occurrences, functional traits, and phylogenetic data for all Euro-Mediterranean trees"
+            year: 2021
+            editor: Scientific Data
+            status: published
+            volume: 9
+            pages: 89
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "http://dx.doi.org/10.1038/s41597-021-00873-3"
+              - button:
+                  available: true
+                  name: PDF
+                  url: monnet2021.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: monnet2021.txt
+
+
+
+        ### =========================
+        - item:
+            type: article
             authors: Wilson JK, Casajus N, Hutchinson RA, McFarland KP, Kerr JT, Berteaux D, Larrivée M & Prudic KL
             title: "Climate change and local host availability drive the northern range boundary in the rapid expansion of a specialist insect herbivore, Papilio cresphontes"
             year: 2021

@@ -1,0 +1,9 @@
+@article{Monnet2021,
+  author  = {Monnet, Anne-Christine and Cilleros, K{\'{e}}vin and M{\'{e}}dail, Fr{\'{e}}d{\'{e}}ric and {Cheikh Albassatneh}, Marwan and Arroyo, Juan and Bacchetta, Gianluigi and Bagnoli, Francesca and Barina, Zolt{\'{a}}n and Cartereau, Manuel and Casajus, Nicolas and Dimopoulos, Panayotis and Domina, Gianniantonio and Doxa, Aggeliki and Escudero, Marcial and Fady, Bruno and Hampe, Arndt and Matevski, Vlado and Misfud, Stephen and Nikolic, Toni and Pavon, Daniel and Roig, Anne and Barea, Estefania Santos and Spanu, Ilaria and Strid, Arne and Vendramin, Giovanni Giuseppe and Leriche, Agathe},
+  year    = {2021},
+  title   = {{WOODIV, a database of occurrences, functional traits, and phylogenetic data for all Euro-Mediterranean trees}},
+  journal = {Scientific Data},
+  volume  = {8},
+  pages   = {89},
+  doi     = {10.1038/s41597-021-00873-3}
+}
