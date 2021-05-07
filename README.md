@@ -1,4 +1,4 @@
-# https://nicolascasajus.fr/
+# https://nicolascasajus.fr
 
 Nicolas Casajus (\@ahasverus) Website
 
