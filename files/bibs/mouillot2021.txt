@@ -1,0 +1,9 @@
+@article{mouillot2021,
+  author  = {Mouillot, David and Loiseau, Nicolas and Greni{\'{e}}, Matthias and Algar, Adam C. and Allegra, Michele and Cadotte, Marc W. and Casajus, Nicolas and Denelle, Pierre and Gu{\'{e}}guen, Maya and Maire, Anthony and Maitner, Brian and McGill, Brian J. and McLean, Matthew and Mouquet, Nicolas and Munoz, Fran{\c{c}}ois and Thuiller, Wilfried and Vill{\'{e}}ger, S{\'{e}}bastien and Violle, Cyrille and Auber, Arnaud},
+  year    = {2021},
+  title   = {The Dimensionality and structure of species trait spaces},
+  journal = {Ecology Letters},
+  volume  = {9},
+  pages   = {1988--2009},
+  doi     = {10.1111/ele.13778}
+}
