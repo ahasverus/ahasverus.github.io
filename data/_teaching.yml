@@ -18,17 +18,17 @@ header:
 content:
 
 
-  ### >>> COURSE NO 0
+  ### >>> COURSE No 11
   - course:
       title:
         french: "Introduction à Docker"
-        english: "Docker: A introduction"
+        english: "Docker: An introduction"
         espanol: "..."
       institution:
         name: FRB-CESAB
         city: Montpellier
         country: FR
-        period: 2020
+        period: "2020-2021"
       buttons:
         - button:
             available: false
@@ -36,17 +36,17 @@ content:
         - button:
             available: true
             name: HTML
-            url: "https://frbcesab.github.io/datatoolbox/courses/docker"
+            url: "https://rdatatoolbox.github.io/course-docker"
         - button:
             available: true
             name:
               french: Source
               english: Source
               espanol: Código
-            url: "https://github.com/FRBCesab/datatoolbox"
+            url: "https://github.com/rdatatoolbox/course-docker"
 
 
-  ### >>> COURSE NO 0
+  ### >>> COURSE No 10
   - course:
       title:
         french: "Du script au package R"
@@ -56,7 +56,7 @@ content:
         name: FRB-CESAB
         city: Montpellier
         country: FR
-        period: 2019, 2020
+        period: "2019-2021"
       buttons:
         - button:
             available: false
@@ -64,17 +64,17 @@ content:
         - button:
             available: true
             name: HTML
-            url: "https://frbcesab.github.io/datatoolbox/courses/r-packages"
+            url: "https://rdatatoolbox.github.io/course-rpackage"
         - button:
             available: true
             name:
               french: Source
               english: Source
               espanol: Código
-            url: "https://github.com/FRBCesab/datatoolbox"
+            url: "https://github.com/rdatatoolbox/course-rpackage"
 
 
-  ### >>> COURSE NO 0
+  ### >>> COURSE No 9
   - course:
       title:
         french: "API et Web Scraping sous R"
@@ -92,17 +92,17 @@ content:
         - button:
             available: true
             name: HTML
-            url: "https://frbcesab.github.io/datatoolbox/courses/intro-api"
+            url: "https://rdatatoolbox.github.io/course-api"
         - button:
             available: true
             name:
               french: Source
               english: Source
               espanol: Código
-            url: "https://github.com/FRBCesab/datatoolbox"
+            url: "https://github.com/rdatatoolbox/course-api"
 
 
-  ### >>> COURSE NO 0
+  ### >>> COURSE No 8
   - course:
       title:
         french: "Données spatiales avec sf"
@@ -112,7 +112,7 @@ content:
         name: FRB-CESAB
         city: Montpellier
         country: FR
-        period: 2019, 2020
+        period: "2019-2020"
       collaborators:
         - collaborator:
             prefixe:
@@ -129,16 +129,16 @@ content:
         - button:
             available: true
             name: HTML
-            url: "https://frbcesab.github.io/datatoolbox/courses/r-spatial"
+            url: "https://rdatatoolbox.github.io/course-rspatial"
         - button:
             available: true
             name:
               french: Source
               english: Source
               espanol: Código
-            url: "https://github.com/FRBCesab/datatoolbox"
+            url: "https://github.com/rdatatoolbox/course-rspatial"
 
-  ### >>> COURSE NO 0
+  ### >>> COURSE No 7
   - course:
       title:
         french: "Travail collaboratif &ndash; Bonnes pratiques"
@@ -175,7 +175,7 @@ content:
             url: "https://github.com/chaireBioNorth/labmeeting-20171124"
 
 
-  ### >>> COURSE NO 1
+  ### >>> COURSE No 6
   - course:
       title:
         french: "Les Graphiques avec R &ndash; Un aperçu des possibilités"
@@ -212,7 +212,7 @@ content:
             url: "https://github.com/KevCaz/QCBSgraphR"
 
 
-  ### >>> COURSE NO 2
+  ### >>> COURSE No 5
   - course:
       title:
         french: "Maîtriser le langage Markdown"
@@ -240,7 +240,7 @@ content:
             url: "https://github.com/ahasverus/mastering-markdown"
 
 
-  ### >>> COURSE NO 3
+  ### >>> COURSE No 4
   - course:
       title:
         french: "Gérer et Formater sa Bibliographie"
@@ -285,7 +285,7 @@ content:
             url: "https://github.com/SteveViss/Talk_bib/"
 
 
-  ### >>> COURSE NO 4
+  ### >>> COURSE No 3
   - course:
       title:
         french: "L'Art du Graphique avec R"
@@ -295,7 +295,7 @@ content:
         name: Université du Québec à Rimouski
         city: Rimouski
         country: CA
-        period: 2014, 2015
+        period: "2014-2015"
       collaborators:
         - collaborator:
             prefixe:
@@ -321,7 +321,7 @@ content:
               espanol: Código
 
 
-  ### >>> COURSE NO 5
+  ### >>> COURSE No 2
   - course:
       title:
         french: "Analyses Spatiales sous R"
@@ -331,7 +331,7 @@ content:
         name: Université du Québec à Rimouski
         city: Rimouski
         country: CA
-        period: 2013, 2014, 2015
+        period: "2013-2015"
       buttons:
         - button:
             available: true
@@ -348,7 +348,7 @@ content:
               espanol: Código
 
 
-  ### >>> COURSE NO 6
+  ### >>> COURSE No 1
   - course:
       title:
         french: "Modèles de répartition d'espèces"
