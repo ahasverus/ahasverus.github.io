@@ -18,6 +18,34 @@ header:
 content:
 
 
+  ### >>> COURSE No 12
+  - course:
+      title:
+        french: "Gestion de packages - renv"
+        english: "Packages management - renv"
+        espanol: "..."
+      institution:
+        name: FRB-CESAB
+        city: Montpellier
+        country: FR
+        period: "2021"
+      buttons:
+        - button:
+            available: false
+            name: PDF
+        - button:
+            available: true
+            name: HTML
+            url: "https://rdatatoolbox.github.io/course-renv"
+        - button:
+            available: true
+            name:
+              french: Source
+              english: Source
+              espanol: Código
+            url: "https://github.com/rdatatoolbox/course-renv"
+
+
   ### >>> COURSE No 11
   - course:
       title:
