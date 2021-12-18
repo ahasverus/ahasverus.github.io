@@ -44,6 +44,35 @@ content:
         ### =========================
         - item:
             type: article
+            authors: Magneville C, Loiseau N, Albouy C, Casajus N, Claverie T, Escalas A, Leprieur F, Maire E, Mouillot D & Villéger S
+            title: "mFD: an R package to compute and illustrate the multiple facets of functional diversity"
+            year: 2021
+            editor: Ecography
+            status: published
+            volume: 44
+            pages: 1-15
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1111/ecog.05904"
+              - button:
+                  available: true
+                  name: PDF
+                  url: magneville2021.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: magneville2021.txt
+              - button:
+                  available: true
+                  name: R package
+                  url: "https://cran.r-project.org/package=mFD"
+
+
+        ### =========================
+        - item:
+            type: article
             authors: Mouillot D, Loiseau N, Grenié M, Algar AC, Allegra M, Cadotte MW, Casajus N, Denelle P, Guéguen M, Maire A, Maitner B, McGill BJ, McLean M, Mouquet N, Munoz F, Thuiller W, Villéger S, Violle C & Auber A
             title: "The Dimensionality and structure of species trait spaces"
             year: 2021
