@@ -222,6 +222,9 @@ footer p {
 .btn-xs {
   color: #419391;
   border: 1px solid #419391;
+  color: #1E1E1E;
+  border: 1px solid #215356;
+  background-color: #215356;
   border-radius: 5px;
   padding: 2px 5px 2px 5px;
   margin-right: 5px;
@@ -229,8 +232,8 @@ footer p {
 
 .btn-xs:hover, .btn-xs:focus {
   color: #1E1E1E;
-  border: 1px solid #215356;
-  background-color: #215356;
+  border: 1px solid #419391;
+  background-color: #419391;
   border-radius: 5px;
   padding: 2px 5px 2px 5px;
 }
