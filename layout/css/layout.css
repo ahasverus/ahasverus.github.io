@@ -48,7 +48,7 @@ p, address {
 }
 
 header > h1 {
-    color: #419391;
+    color: #215356;
     margin-bottom: 0;
 }
 
@@ -186,12 +186,12 @@ footer p {
 
 .falink {
   color: #2196a8;
-  color: #419391;
+  color: #215356;
 }
 
 .falink:hover, .falink:focus {
   color: #333333;
-  color: #215356;
+  color: #419391;
 }
 
 .icons {
@@ -248,12 +248,12 @@ footer p {
 }
 
 .dotted {
-  border-bottom: 1px dotted #419391;
+  border-bottom: 1px dotted #215356;
   text-decoration: none;
 }
 
 .dotted:hover, .dotted:focus {
-  border-bottom: 1px dotted #215356;
+  border-bottom: 1px dotted #419391;
   text-decoration: none;
 }
 
@@ -331,7 +331,7 @@ footer p {
   line-height: 20px;
   color: #949494;
   text-align: center;
-  background-color: #419391;
+  background-color: #215356;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
   -webkit-transition: width .6s ease;
