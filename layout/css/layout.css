@@ -146,7 +146,7 @@ em {
 em2 {
     font-style: normal;
     font-weight: bold;
-    color: #1E1E1E;
+    color: #949494;
 }
 
 
@@ -229,8 +229,8 @@ footer p {
 
 .btn-xs:hover, .btn-xs:focus {
   color: #1E1E1E;
-  border: 1px solid #419391;
-  background-color: #419391;
+  border: 1px solid #215356;
+  background-color: #215356;
   border-radius: 5px;
   padding: 2px 5px 2px 5px;
 }

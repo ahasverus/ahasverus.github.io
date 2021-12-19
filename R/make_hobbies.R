@@ -60,7 +60,7 @@ make_hobbies <- function(html){
             asset <- paste0(asset, softs[[j]]$item$name[[k]])
             asset <- paste0(asset, '</span>')
           } else {
-            asset <- paste0(asset, '<span lang="', substr(k, 1, 2), '">, ')
+            asset <- paste0(asset, '<span lang="', substr(k, 1, 2), '">&nbsp;&middot;&nbsp;')
             asset <- paste0(asset, softs[[j]]$item$name[[k]])
             asset <- paste0(asset, '</span>')
           }
