@@ -1,2 +1,20 @@
-Package: Website
-Depends: yaml
+Package: ahasverus.github.io
+Type: Package
+Title: Personal Website of Nicolas Casajus
+Version: 1.0.0
+Authors@R: c(
+    person(given   = "Nicolas",
+           family  = "Casajus",
+           role    = c("aut", "cre", "cph"),
+           email   = "nicolas.casajus@gmail.com",
+           comment = c(ORCID = "0000-0002-5537-5294")))
+Description: Creates the personal website of Nicolas Casajus using 'R' and the
+    package 'yaml'.
+URL: https://github.com/ahasverus/ahasverus.github.io
+BugReports: https://github.com/ahasverus/ahasverus.github.io/issues
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: false
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: yaml
