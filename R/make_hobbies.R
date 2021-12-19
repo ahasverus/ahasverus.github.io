@@ -26,7 +26,7 @@ make_hobbies <- function(html){
           asset <- paste0(asset, softs[[j]]$item$name)
           asset <- paste0(asset, '</a>')
         } else {
-          asset <- paste0(asset, ', <a class="falink dotted" href="', softs[[j]]$item$url, '">')
+          asset <- paste0(asset, '&nbsp;&middot;&nbsp;<a class="falink dotted" href="', softs[[j]]$item$url, '">')
           asset <- paste0(asset, softs[[j]]$item$name)
           asset <- paste0(asset, '</a>')
         }
@@ -34,7 +34,7 @@ make_hobbies <- function(html){
         if (j == 1){
           asset <- paste0(asset, softs[[j]]$item$name)
         } else {
-          asset <- paste0(asset, ', ', softs[[j]]$item)
+          asset <- paste0(asset, '&nbsp;&middot;&nbsp;', softs[[j]]$item)
         }
       }
     }
@@ -50,7 +50,7 @@ make_hobbies <- function(html){
             asset <- paste0(asset, softs[[j]]$item$name[[k]])
             asset <- paste0(asset, '</a></span>')
           } else {
-            asset <- paste0(asset, '<span lang="', substr(k, 1, 2), '">, <a class="falink dotted" href="', softs[[j]]$item$url, '">')
+            asset <- paste0(asset, '<span lang="', substr(k, 1, 2), '">&nbsp;&middot;&nbsp;<a class="falink dotted" href="', softs[[j]]$item$url, '">')
             asset <- paste0(asset, softs[[j]]$item$name[[k]])
             asset <- paste0(asset, '</a></span>')
           }
@@ -68,7 +68,7 @@ make_hobbies <- function(html){
       }
     }
   }
-  asset <- paste0(asset, '.</p>\n')
+  asset <- paste0(asset, '</p>\n')
   asset <- paste0(asset, '  <div style="margin-bottom: 40px;"></div>')
   asset <- paste0(asset, '</article>\n')
 
