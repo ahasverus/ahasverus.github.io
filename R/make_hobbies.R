@@ -2,8 +2,8 @@ make_hobbies <- function(html){
 
   section <- "hobbies"
 
-  yaml <- yaml.load_file(file.path("data", paste0("_", section, ".yml")))
-  info <- yaml.load_file(file.path("data", "_profile.yml"))
+  yaml <- yaml::yaml.load_file(file.path("data", paste0("_", section, ".yml")))
+  info <- yaml::yaml.load_file(file.path("data", "_profile.yml"))
   lang <- names(info$languages[which(info$languages == TRUE)])
 
   header <- which(names(yaml) == "header")

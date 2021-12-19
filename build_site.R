@@ -10,7 +10,7 @@ if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")
 
 ## Install required packages ----
 
-devtools::install_deps()
+devtools::install_deps(upgrade = "never")
 
 
 ## Load functions and packages ----

@@ -1,6 +1,6 @@
 make_pagefooter <- function(html){
 
-  yaml <- yaml.load_file(file.path("data", "_profile.yml"))
+  yaml <- yaml::yaml.load_file(file.path("data", "_profile.yml"))
 
   html <- paste0(html, '\n')
   html <- paste0(html, '        <!-- SCROLL-TO-TOP BUTTON -->\n')

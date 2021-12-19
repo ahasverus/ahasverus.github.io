@@ -1,6 +1,6 @@
 make_htmlheader <- function(){
 
-  yaml   <- yaml.load_file(file.path("data", "_profile.yml"))
+  yaml   <- yaml::yaml.load_file(file.path("data", "_profile.yml"))
   header <- which(names(yaml) == "header")
   html   <- "<!DOCTYPE html>\n<html>\n  <head>\n"
 

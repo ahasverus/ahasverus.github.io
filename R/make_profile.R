@@ -1,6 +1,6 @@
 make_profile <- function(html){
 
-  yaml <- yaml.load_file(file.path("data", "_profile.yml"))
+  yaml <- yaml::yaml.load_file(file.path("data", "_profile.yml"))
   lang <- names(yaml$languages[which(yaml$languages == TRUE)])
 
   html <- paste0(html, '\n')

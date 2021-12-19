@@ -1,6 +1,6 @@
 make_htmlfooter <- function(html){
 
-  yaml      <- yaml.load_file(file.path("data", "_profile.yml"))
+  yaml      <- yaml::yaml.load_file(file.path("data", "_profile.yml"))
   sections   <- names(yaml$sections[which(yaml$sections == TRUE)])
 
   html <- paste0(html, '\n')
