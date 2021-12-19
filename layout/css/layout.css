@@ -4,8 +4,8 @@ body {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 21px;
-    color: rgb(48, 48, 48);
-    /*background-color: #f4f4f4;*/
+    color: #949494;
+    background-color: #1E1E1E;
 }
 
 .container {
@@ -48,7 +48,7 @@ p, address {
 }
 
 header > h1 {
-    color: #2196a8;
+    color: #419391;
     margin-bottom: 0;
 }
 
@@ -60,7 +60,7 @@ header > h1 {
 }
 
 header > h2 {
-  color: #666666;
+  color: #949494;
   font-size: 150%;
   margin-bottom: 20px;
 }
@@ -116,6 +116,7 @@ article > header > span + span::before {
 
 article > header > span {
     color: #808080;
+    color: red;
     font-size: 100%;
 }
 
@@ -185,10 +186,12 @@ footer p {
 
 .falink {
   color: #2196a8;
+  color: #419391;
 }
 
 .falink:hover, .falink:focus {
   color: #333333;
+  color: #215356;
 }
 
 .icons {
@@ -217,17 +220,17 @@ footer p {
 }
 
 .btn-xs {
-  color: #2196a8;
-  border: 1px solid #2196a8;
+  color: #419391;
+  border: 1px solid #419391;
   border-radius: 5px;
   padding: 2px 5px 2px 5px;
   margin-right: 5px;
 }
 
 .btn-xs:hover, .btn-xs:focus {
-  color: white;
-  border: 1px solid #2196a8;
-  background-color: #2196a8;
+  color: #1E1E1E;
+  border: 1px solid #419391;
+  background-color: #419391;
   border-radius: 5px;
   padding: 2px 5px 2px 5px;
 }
@@ -242,12 +245,12 @@ footer p {
 }
 
 .dotted {
-  border-bottom: 1px dotted #2196a8;
+  border-bottom: 1px dotted #419391;
   text-decoration: none;
 }
 
 .dotted:hover, .dotted:focus {
-  border-bottom: 1px dotted #333333;
+  border-bottom: 1px dotted #215356;
   text-decoration: none;
 }
 
@@ -346,7 +349,7 @@ footer p {
 }
 
 .epitaph h4 {
-  color: #808080;
+  color: #949494;
   text-align: right;
   line-height: 110%;
   padding: 0;
