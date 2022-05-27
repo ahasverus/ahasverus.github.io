@@ -48,7 +48,7 @@ p, address {
 }
 
 header > h1 {
-    color: rgb(23, 141, 159);
+    color: rgb(23, 107, 120);
     margin-bottom: 0;
 }
 
@@ -185,7 +185,7 @@ footer p {
 }
 
 .falink {
-  color: rgb(23, 141, 159);
+  color: rgb(23, 107, 120);
 }
 
 .falink:hover, .falink:focus {
@@ -219,8 +219,8 @@ footer p {
 
 .btn-xs {
   color: #1E1E1E;
-  border: 1px solid rgb(23, 141, 159);
-  background-color: rgb(23, 141, 159);
+  border: 1px solid rgb(23, 107, 120);
+  background-color: rgb(23, 107, 120);
   border-radius: 5px;
   padding: 2px 5px 2px 5px;
   margin-right: 5px;
@@ -244,7 +244,7 @@ footer p {
 }
 
 .dotted {
-  border-bottom: 1px dotted rgb(23, 141, 159);
+  border-bottom: 1px dotted rgb(23, 107, 120);
   text-decoration: none;
 }
 
@@ -270,7 +270,7 @@ footer p {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: rgb(23, 141, 159);
+  background: rgb(23, 107, 120);
   width: 50px;
   height: 50px;
   display: block;
@@ -327,9 +327,9 @@ footer p {
   line-height: 20px;
   color: #949494;
   text-align: center;
-  background-color: rgb(23, 141, 159);
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  background-color: rgb(23, 107, 120);
+  -webkit-box-shadow: inset 0 -1px 0 rgba(77, 73, 73, 0.5);
+  box-shadow: inset 0 -1px 0 rgba(77, 73, 73, 0.5);
   -webkit-transition: width .6s ease;
   -o-transition: width .6s ease;
   transition: width .6s ease
