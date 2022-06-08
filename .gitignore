@@ -18,3 +18,6 @@
 ./layout/img/.DS_Store
 ./layout/js/.DS_Store
 ./R/.DS_Store
+.Rproj.user
+*.Rproj
+.Rbuildignore

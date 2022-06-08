@@ -1,0 +1,9 @@
+@article{langlois2022,
+    author  = {Langlois, Juliette and Guilhaumon, Fran{\c{c}}ois and Baletaud, Florian and Casajus, Nicolas and {de Almeida Braga}, C{\'{e}}dric and Fleur{\'{e}}, Valentine and Kulbicki, Michel and Loiseau, Nicolas and Mouillot, David and Renoult, Julien P. and Stahl, Alin{\'{e}}or and Stuart-Smith, Rick D. and Tribot, Anne-Sophie and Mouquet, Nicolas},
+    year    = {2022},
+    title   = {{The aesthetic value of reef fishes is globally mismatched to their conservation priorities}},
+    journal = {PLoS Biology},
+    volume  = {20},
+    pages   = {1--22},
+    doi     = {10.1371/journal.pbio.3001640}
+}
