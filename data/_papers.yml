@@ -1,5 +1,3 @@
-
-
 ### ===   HEADER INFORMATIONS   === ###
 
 header:
@@ -11,7 +9,6 @@ header:
     french: Publications
     english: Publications
     espanol: Publicaciones
-
 
 ### ===   STYLE  INFORMATIONS   === ###
 
@@ -26,12 +23,9 @@ style:
   sortby: date
   order: decreasing
 
-
 ### ===      CONTENT  DATA      === ###
 
 content:
-
-
   ### >>> SCIENTIFIC PAPERS
   - category:
       name:
@@ -39,7 +33,29 @@ content:
         english: "Peer-reviewed papers"
         espanol: "Artículos científicos"
       items:
-
+        ### =========================
+        - item:
+            type: article
+            authors: Tribot A-S, Blanc N, Brassac T, Guilhaumon F, Casajus N & Mouquet N
+            title: "What makes a teddy bear comforting? A participatory study reveals the prevalence of sensory characteristics and emotional bonds in the perception of comforting teddy bears"
+            year: 2023
+            editor: The Journal of Positive Psychology
+            status: accepted
+            volume: N/A
+            pages: N/A
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1080/17439760.2023.2170273"
+              - button:
+                  available: true
+                  name: PDF
+                  url: tribot2023.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: tribot2023.txt
 
         ### =========================
         - item:
@@ -64,9 +80,7 @@ content:
                   available: true
                   name: BiBTeX
                   url: langlois2022.txt
-        
-        
-        
+
         ### =========================
         - item:
             type: article
@@ -95,7 +109,6 @@ content:
                   name: R package
                   url: "https://cran.r-project.org/package=mFD"
 
-
         ### =========================
         - item:
             type: article
@@ -120,7 +133,6 @@ content:
                   name: BiBTeX
                   url: mouillot2021.txt
 
-
         ### =========================
         - item:
             type: article
@@ -144,8 +156,6 @@ content:
                   available: true
                   name: BiBTeX
                   url: monnet2021.txt
-
-
 
         ### =========================
         - item:
@@ -565,7 +575,6 @@ content:
         english: "Books and book chapters"
         espanol: "Libros y capítulos de libro"
       items:
-
         ### =========================
         - item:
             type: book
