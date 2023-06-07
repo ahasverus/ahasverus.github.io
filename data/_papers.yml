@@ -188,6 +188,10 @@ content:
                   available: true
                   name: BiBTeX
                   url: monnet2021.txt
+              - button:
+                  available: true
+                  name: Database
+                  url: "https://figshare.com/articles/dataset/WOODIV_a_database_of_occurrences_functional_traits_and_phylogenetic_data_for_all_Euro-Mediterranean_trees/13952897/2"
 
         ### =========================
         - item:
