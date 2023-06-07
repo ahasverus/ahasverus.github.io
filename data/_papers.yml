@@ -36,6 +36,30 @@ content:
         ### =========================
         - item:
             type: article
+            authors: Chaabane S, de Garidel-Thoron T, Giraud X, Schiebel R, Beaugrand G, Brummer, G-J, Casajus N, Greco M, Grigoratou M, Howa H, Jonkers L, Kucera M Kuroyanagi A, Meilland J, Monteiro F, Mortyn G, Almogi-Labin A, Asahi H, Avnaim-Katav S, Bassinot F, Davis CV, Field DB, Hernández-Almeida I, Herut B, Hosie G, Howard W, Jentzen A, Johns DG, Keigwin L, Kitchener J, Kohfeld KE, Lessa DVO, Manno C, Marchant M, Ofstad S, Ortiz JD, Post A, Rigual-Hernandez A, Rillo MC, Robinson K, Sagawa T, Sierro F, Takahashi KT, Torfstein A, Venancio I, Yamasaki M & Ziveri P
+            title: "The FORCIS database: A global census of planktonic Foraminifera from ocean waters"
+            year: 2023
+            editor: Scientific Data
+            status: published
+            volume: 10
+            pages: 354
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1038/s41597-023-02264-2"
+              - button:
+                  available: true
+                  name: PDF
+                  url: chaabane2023.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: chaabane2023.txt
+
+        ### =========================
+        - item:
+            type: article
             authors: Tribot A-S, Blanc N, Brassac T, Guilhaumon F, Casajus N & Mouquet N
             title: "What makes a teddy bear comforting? A participatory study reveals the prevalence of sensory characteristics and emotional bonds in the perception of comforting teddy bears"
             year: 2023
@@ -56,6 +80,14 @@ content:
                   available: true
                   name: BiBTeX
                   url: tribot2023.txt
+              - button:
+                  available: true
+                  name: Database
+                  url: "https://zenodo.org/record/7827791"
+              - button:
+                  available: true
+                  name: R package
+                  url: "https://github.com/frbcesab/forcis"
 
         ### =========================
         - item:
@@ -66,7 +98,7 @@ content:
             editor: PLoS Biology
             status: published
             volume: 20
-            pages: 1-22
+            pages: e3001640
             buttons:
               - button:
                   available: true
@@ -86,7 +118,7 @@ content:
             type: article
             authors: Magneville C, Loiseau N, Albouy C, Casajus N, Claverie T, Escalas A, Leprieur F, Maire E, Mouillot D & Villéger S
             title: "mFD: an R package to compute and illustrate the multiple facets of functional diversity"
-            year: 2021
+            year: 2022
             editor: Ecography
             status: published
             volume: 44
@@ -99,11 +131,11 @@ content:
               - button:
                   available: true
                   name: PDF
-                  url: magneville2021.pdf
+                  url: magneville2022.pdf
               - button:
                   available: true
                   name: BiBTeX
-                  url: magneville2021.txt
+                  url: magneville2022.txt
               - button:
                   available: true
                   name: R package
