@@ -56,6 +56,14 @@ content:
                   available: true
                   name: BiBTeX
                   url: chaabane2023.txt
+              - button:
+                  available: true
+                  name: Database
+                  url: "https://zenodo.org/record/7827791"
+              - button:
+                  available: true
+                  name: R package
+                  url: "https://github.com/frbcesab/forcis"
 
         ### =========================
         - item:
@@ -80,14 +88,6 @@ content:
                   available: true
                   name: BiBTeX
                   url: tribot2023.txt
-              - button:
-                  available: true
-                  name: Database
-                  url: "https://zenodo.org/record/7827791"
-              - button:
-                  available: true
-                  name: R package
-                  url: "https://github.com/frbcesab/forcis"
 
         ### =========================
         - item:
