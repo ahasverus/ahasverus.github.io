@@ -36,6 +36,34 @@ content:
         ### =========================
         - item:
             type: article
+            authors: Casajus N, Rievrs Borges E, Tabacchi E, Fried G & Mouquet N
+            title: "chessboard: An R package for creating network connections based on chess moves"
+            year: 2023
+            editor: Journal of Open Source Software
+            status: published
+            volume: 9
+            pages: 5753
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.21105/joss.05753"
+              - button:
+                  available: true
+                  name: PDF
+                  url: casajus2023.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: casajus2023.txt
+              - button:
+                  available: true
+                  name: R package
+                  url: "https://github.com/frbcesab/chessboard"
+        
+        ### =========================
+        - item:
+            type: article
             authors: Chaabane S, de Garidel-Thoron T, Giraud X, Schiebel R, Beaugrand G, Brummer, G-J, Casajus N, Greco M, Grigoratou M, Howa H, Jonkers L, Kucera M Kuroyanagi A, Meilland J, Monteiro F, Mortyn G, Almogi-Labin A, Asahi H, Avnaim-Katav S, Bassinot F, Davis CV, Field DB, Hernández-Almeida I, Herut B, Hosie G, Howard W, Jentzen A, Johns DG, Keigwin L, Kitchener J, Kohfeld KE, Lessa DVO, Manno C, Marchant M, Ofstad S, Ortiz JD, Post A, Rigual-Hernandez A, Rillo MC, Robinson K, Sagawa T, Sierro F, Takahashi KT, Torfstein A, Venancio I, Yamasaki M & Ziveri P
             title: "The FORCIS database: A global census of planktonic Foraminifera from ocean waters"
             year: 2023

@@ -1,0 +1,12 @@
+@article{casajus2023, 
+  doi = {10.21105/joss.05753}, 
+  url = {https://doi.org/10.21105/joss.05753}, 
+  year = {2023},
+  publisher = {The Open Journal}, 
+  volume = {8}, 
+  number = {90}, 
+  pages = {5753},
+  author = {Nicolas Casajus and {\'{E}}rica Rievrs Borges and {\'{E}}ric Tabacchi and Guillaume Fried and Nicolas Mouquet}, 
+  title = {{chessboard}: An {R} package for creating network connections based on chess moves}, 
+  journal = {Journal of Open Source Software}
+}
