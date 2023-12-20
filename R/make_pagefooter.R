@@ -46,7 +46,7 @@ make_pagefooter <- function(html){
   html <- paste0(html, 'Code available at <a href="https://github.com/ahasverus/ahasverus.github.io"><i class="fa fa-github fa-fw fa-1x falink"></i></a><br />\n')
 
   if (!is.null(yaml$"header"$"last-modified") && yaml$"header"$"last-modified"){
-      html <- paste0(html, 'Last modified: ', Sys.time(), '\n')
+      html <- paste0(html, 'Last modified: ', Sys.Date(), '\n')
   }
 
   html <- paste0(html, '          </p>\n')
