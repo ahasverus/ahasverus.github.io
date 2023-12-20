@@ -33,6 +33,31 @@ content:
         english: "Peer-reviewed papers"
         espanol: "Artículos científicos"
       items:
+      
+        ### =========================
+        - item:
+            type: article
+            authors: Drapeau Picard A-P, Dieni A, Moreau A, Mitchell GW, MacNair ML, Casajus N, Charest S & Larrivée M
+            title: "Mission Monarch: Engaging the Canadian public for the conservation of a species at risk"
+            year: 2023
+            editor: Journal of Insect Conservation
+            status: accepted
+            volume: N/A
+            pages: N/A
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1007/s10841-023-00540-5"
+              - button:
+                  available: true
+                  name: PDF
+                  url: drapeaupicard2023.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: drapeaupicard2023.txt
+                  
         ### =========================
         - item:
             type: article

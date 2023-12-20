@@ -1,0 +1,12 @@
+@article{drapeaupicard2023,
+	title = {Mission {Monarch}: engaging the {Canadian} public for the conservation of a species at risk},
+	issn = {1366-638X, 1572-9753},
+	url = {https://link.springer.com/10.1007/s10841-023-00540-5},
+	doi = {10.1007/s10841-023-00540-5},
+	language = {en},
+	urldate = {2023-12-20},
+	journal = {Journal of Insect Conservation},
+	author = {Drapeau Picard, Andr{\'{e}}-Philippe and Dieni, Alessandro and Moreau, Agathe and Mitchell, Greg W. and MacNair, Marian L. and Casajus, Nicolas and Charest, Sonya and Larriv{\'{e}}e, Maxim},
+	year = {2023},
+	pages = {accepted},
+}
