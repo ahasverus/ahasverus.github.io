@@ -123,11 +123,11 @@ content:
             type: article
             authors: Tribot A-S, Blanc N, Brassac T, Guilhaumon F, Casajus N & Mouquet N
             title: "What makes a teddy bear comforting? A participatory study reveals the prevalence of sensory characteristics and emotional bonds in the perception of comforting teddy bears"
-            year: 2023
+            year: 2024
             editor: The Journal of Positive Psychology
-            status: accepted
-            volume: N/A
-            pages: N/A
+            status: published
+            volume: 19
+            pages: 379-392
             buttons:
               - button:
                   available: true
