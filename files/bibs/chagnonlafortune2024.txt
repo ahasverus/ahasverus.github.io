@@ -1,0 +1,14 @@
+@article{chagnonlafortune2024,
+author = {Chagnon-Lafortune, Aurélie and Duchesne, Éliane and Legagneux, Pierre and McKinnon, Laura and Reneerkens, Jeroen and Casajus, Nicolas and Abraham, Kenneth F. and Bolduc, Élise and Brown, Glen S. and Brown, Stephen C. and Gates, H. River and Gilg, Olivier and Giroux, Marie-Andrée and Gurney, Kirsty and Kendall, Steve and Kwon, Eunbi and Lanctot, Richard B. and Lank, David B. and Lecomte, Nicolas and Leung, Maria and Liebezeit, Joseph R. and Morrison, R. I. Guy and Nol, Erica and Payer, David C. and Reid, Donald and Ruthrauff, Daniel and Saalfeld, Sarah T. and Sandercock, Brett K. and Smith, Paul A. and Schmidt, Niels Martin and Tulp, Ingrid and Ward, David H. and Høye, Toke T. and Berteaux, Dominique and Bêty, Joël},
+title = {A circumpolar study unveils a positive non-linear effect of temperature on arctic arthropod availability that may reduce the risk of warming-induced trophic mismatch for breeding shorebirds},
+journal = {Global Change Biology},
+volume = {30},
+number = {6},
+pages = {e17356},
+keywords = {arctic arthropods, arctic breeding shorebirds, climate warming, insectivorous birds, invertebrate biomass, phenology, trophic mismatch},
+doi = {https://doi.org/10.1111/gcb.17356},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.17356},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/gcb.17356},
+note = {e17356 GCB-23-2358.R1},
+year = {2024}
+}

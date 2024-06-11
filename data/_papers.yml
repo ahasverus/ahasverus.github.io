@@ -37,6 +37,30 @@ content:
         ### =========================
         - item:
             type: article
+            authors: Chagnon-Lafortune A, Duchesne É, Legagneux P, McKinnon L, Reneerkens J, Casajus N, Abraham KF, Bolduc É, Brown GS, Brown SC, Gate, HR, Gilg O, Giroux M-A, Gurney K, Kendall S, Kwon E, Lanctot RB, Lank DB, Lecomte N, Leung M, Liebezeit JR, Morrison RIG, Nol E, Payer DC, Reid D, Ruthrauff D, Saalfeld ST, Sandercock BK, Smith PA, Schmidt NM, Tulp I, Ward DH, Høye TT, Berteaux D, Bêty J
+            title: "A circumpolar study unveils a positive non-linear effect of temperature on arctic arthropod availability that may reduce the risk of warming-induced trophic mismatch for breeding shorebirds"
+            year: 2024
+            editor: Global Change Biology
+            status: published
+            volume: 30
+            pages: e17356
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1111/gcb.17356"
+              - button:
+                  available: true
+                  name: PDF
+                  url: chagnonlafortune2024.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: chagnonlafortune2024.txt
+        
+        ### =========================
+        - item:
+            type: article
             authors: Drapeau Picard A-P, Dieni A, Moreau A, Mitchell GW, MacNair ML, Casajus N, Charest S & Larrivée M
             title: "Mission Monarch: Engaging the Canadian public for the conservation of a species at risk"
             year: 2023
