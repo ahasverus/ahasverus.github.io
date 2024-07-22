@@ -1,0 +1,12 @@
+@article{chaabane2024,
+	title = {Size normalizing planktonic {Foraminifera} abundance in the water column},
+	issn = {1541-5856, 1541-5856},
+	url = {https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lom3.10637},
+	doi = {10.1002/lom3.10637},
+	language = {en},
+	urldate = {2024-07-22},
+	journal = {Limnology and Oceanography: Methods},
+	author = {Chaabane, Sonia and De Garidel‐Thoron, Thibault and Giraud, Xavier and Meilland, Julie and Brummer, Geert‐Jan A. and Jonkers, Lukas and Mortyn, P. Graham and Greco, Mattia and Casajus, Nicolas and Kucera, Michal and Sulpis, Olivier and Kuroyanagi, Azumi and Howa, Hélène and Beaugrand, Gregory and Schiebel, Ralf},
+	year = {2024},
+	pages = {accepted},
+}

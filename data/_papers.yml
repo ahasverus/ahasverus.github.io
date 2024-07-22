@@ -37,7 +37,55 @@ content:
         ### =========================
         - item:
             type: article
-            authors: Chagnon-Lafortune A, Duchesne É, Legagneux P, McKinnon L, Reneerkens J, Casajus N, Abraham KF, Bolduc É, Brown GS, Brown SC, Gate, HR, Gilg O, Giroux M-A, Gurney K, Kendall S, Kwon E, Lanctot RB, Lank DB, Lecomte N, Leung M, Liebezeit JR, Morrison RIG, Nol E, Payer DC, Reid D, Ruthrauff D, Saalfeld ST, Sandercock BK, Smith PA, Schmidt NM, Tulp I, Ward DH, Høye TT, Berteaux D, Bêty J
+            authors: Mouquet N, Langlois J, Casajus N, Auber A, Flandrin U, Guilhaumon F, Loiseau N, McLean M, Receveur A, Stuart Smith RD & Mouillot D
+            title: "Low human interest for the most at-risk reef fishes worldwide"
+            year: 2024
+            editor: Science Advances
+            status: published
+            volume: 29
+            pages: eadj9510
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1126/sciadv.adj9510"
+              - button:
+                  available: true
+                  name: PDF
+                  url: mouquet2024.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: mouquet2024.txt
+
+        ### =========================
+        - item:
+            type: article
+            authors: Chaabane S, De Garidel‐Thoron T, Giraud X, Meilland J, Brummer G‐JA, Jonkers L, Mortyn PG, Greco M, Casajus N, Kucera M, Sulpis O, Kuroyanagi A, Howa H, Beaugrand, & Schiebel R
+            title: "Size normalizing planktonic Foraminifera abundance in the water column"
+            year: 2024
+            editor: Limnology and Oceanography Methods
+            status: accepted
+            volume: N/A
+            pages: N/A
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1002/lom3.10637"
+              - button:
+                  available: true
+                  name: PDF
+                  url: chaabane2024.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: chaabane2024.txt
+
+        ### =========================
+        - item:
+            type: article
+            authors: Chagnon-Lafortune A, Duchesne É, Legagneux P, McKinnon L, Reneerkens J, Casajus N, Abraham KF, Bolduc É, Brown GS, Brown SC, Gate, HR, Gilg O, Giroux M-A, Gurney K, Kendall S, Kwon E, Lanctot RB, Lank DB, Lecomte N, Leung M, Liebezeit JR, Morrison RIG, Nol E, Payer DC, Reid D, Ruthrauff D, Saalfeld ST, Sandercock BK, Smith PA, Schmidt NM, Tulp I, Ward DH, Høye TT, Berteaux D & Bêty J
             title: "A circumpolar study unveils a positive non-linear effect of temperature on arctic arthropod availability that may reduce the risk of warming-induced trophic mismatch for breeding shorebirds"
             year: 2024
             editor: Global Change Biology

@@ -1,0 +1,15 @@
+
+@article{mouquet_low_2024,
+	title = {Low human interest for the most at-risk reef fishes worldwide},
+	volume = {10},
+	issn = {2375-2548},
+	url = {https://www.science.org/doi/10.1126/sciadv.adj9510},
+	doi = {10.1126/sciadv.adj9510},
+	language = {en},
+	number = {29},
+	urldate = {2024-07-22},
+	journal = {Science Advances},
+	author = {Mouquet, Nicolas and Langlois, Juliette and Casajus, Nicolas and Auber, Arnaud and Flandrin, Ulysse and Guilhaumon, François and Loiseau, Nicolas and McLean, Matthew and Receveur, Aurore and Stuart Smith, Rick D. and Mouillot, David},
+	year = {2024},
+	pages = {eadj9510},
+}
