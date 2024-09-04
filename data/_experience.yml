@@ -17,7 +17,7 @@ header:
 
 style:
   project:
-    before: "&#8213;"
+    before: ""#"&#8213;"
   collaborator:
     before: "&#8594;"
 
