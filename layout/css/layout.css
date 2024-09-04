@@ -61,7 +61,7 @@ header > h1 {
 }
 
 header > h2 {
-  color: #c9a06e;
+  color: #ebdbb2;
   font-size: 150%;
   margin-bottom: 20px;
 }
@@ -87,7 +87,7 @@ section > h1 {
     padding-bottom: 10px;
     padding-top: 50px;
     border-bottom: 1px dotted rgba(48, 48, 48, .5);
-    color: inherit;
+    color: #c9a06e;
 }
 
 .first {
@@ -117,7 +117,7 @@ article > header > span + span::before {
 
 article > header > span {
     color: #808080;
-    color: #949494;
+    color: #ebdbb2;
     font-size: 100%;
 }
 
@@ -141,13 +141,13 @@ article > header address + time::before {
 em {
     font-style: normal;
     font-weight: bold;
-    color: rgb(100, 100, 100);
+    color: #ebdbb2;
 }
 
 em2 {
     font-style: normal;
     font-weight: bold;
-    color: #949494;
+    color: #ebdbb2;
 }
 
 
@@ -236,8 +236,8 @@ footer p {
 }
 
 .btn-xs-not, .btn-xs-not:hover, .btn-xs-not:focus {
-  color: #808080;
-  border: 1px solid #808080;
+  color: #504945;
+  border: 1px solid #504945;
   border-radius: 5px;
   padding: 2px 5px 2px 5px;
   margin-right: 5px;
@@ -326,9 +326,9 @@ footer p {
   height: 100%;
   font-size: 12px;
   line-height: 20px;
-  color: #949494;
+  color: #ebdbb2;
   text-align: center;
-  background-color: #83a598;
+  background-color: #d79921;
   -webkit-box-shadow: inset 0 -1px 0 rgba(77, 73, 73, 0.5);
   box-shadow: inset 0 -1px 0 rgba(77, 73, 73, 0.5);
   -webkit-transition: width .6s ease;
