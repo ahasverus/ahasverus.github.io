@@ -161,7 +161,7 @@ content:
             name: VSCodium
             url: "https://vscodium.com/"
         - item:
-            name: RStudio Desktop
+            name: RStudio IDE
             url: "https://posit.co/download/rstudio-desktop/"
         - item:
             name: Pandoc
