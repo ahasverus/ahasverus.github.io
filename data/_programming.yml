@@ -45,7 +45,13 @@ content:
             name: SQL
             length: 80
         - item:
-            name: JSON / (YA|TO)ML
+            name: JSON
+            length: 99
+        - item:
+            name: YAML
+            length: 99
+        - item:
+            name: TOML
             length: 99
 
 
@@ -59,10 +65,13 @@ content:
       items:
         - item:
             name: HTML5 / CSS3
-            length: 70
+            length: 90
+        - item:
+            name: CSS3
+            length: 60
         - item:
             name: JavaScript (ECS6)
-            length: 40
+            length: 30
 
 
   ### >>> CATEGORY NO 3
@@ -98,7 +107,9 @@ content:
         - item:
             name: Docker
             length: 60
-
+        - item:
+            name: Bash script
+            length: 30
 
   ### >>> CATEGORY NO 5
   - category:
@@ -141,10 +152,16 @@ content:
   - category:
       type: list
       name:
-        french: 'Environnement – <i class="fa fa-linux fa-1x fa-fw"></i> (Arch & Debian)'
-        english: 'Environment – <i class="fa fa-linux fa-1x fa-fw"></i> (Arch & Debian)'
+        french: 'Environnement <i class="fa fa-linux fa-1x fa-fw"></i>'
+        english: 'Environment <i class="fa fa-linux fa-1x fa-fw"></i>'
         espanol: ...
       items:
+        - item:
+            name: "Arch Linux"
+            url: "https://archlinux.org"
+        - item:
+            name: Debian
+            url: "https://www.debian.org"
         - item:
             name: Alacritty
             url: "https://alacritty.org"
@@ -152,7 +169,7 @@ content:
             name: Zsh
             url: "https://www.zsh.org"
         - item:
-            name: Oh My Zsh
+            name: "Oh My Zsh"
             url: "https://ohmyz.sh"
         - item:
             name: Powerlevel10k
@@ -161,8 +178,8 @@ content:
             name: VSCodium
             url: "https://vscodium.com/"
         - item:
-            name: RStudio IDE
-            url: "https://posit.co/download/rstudio-desktop/"
+            name: "RStudio IDE"
+            url: "https://posit.co/download/rstudio-desktop"
         - item:
             name: Pandoc
             url: "https://pandoc.org"

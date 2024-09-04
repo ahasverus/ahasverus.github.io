@@ -17,18 +17,98 @@ header:
 
 content:
 
-
-  ### >>> COURSE No 12
+  ### >>> COURSE No 14
   - course:
       title:
-        french: "Gestion de packages - renv"
-        english: "Packages management - renv"
+        french: "Ressources bibliographiques"
+        english: "Bibliographic resources"
         espanol: "..."
       institution:
         name: FRB-CESAB
         city: Montpellier
         country: FR
-        period: "2021"
+        period: "2022-2024"
+      buttons:
+        - button:
+            available: false
+            name: PDF
+        - button:
+            available: true
+            name: HTML
+            url: "https://literaturesynthesis.github.io/corpus-management"
+        - button:
+            available: true
+            name:
+              french: Source
+              english: Source
+              espanol: Código
+            url: "https://github.com/literaturesynthesis/corpus-management"
+  
+  ### >>> COURSE No 13
+  - course:
+      title:
+        french: "Recherche reproductible"
+        english: "Reproducible research"
+        espanol: "..."
+      institution:
+        name: FRB-CESAB
+        city: Montpellier
+        country: FR
+        period: "2019-2024"
+      buttons:
+        - button:
+            available: false
+            name: PDF
+        - button:
+            available: true
+            name: HTML
+            url: "https://frbcesab.github.io/good-practices"
+        - button:
+            available: true
+            name:
+              french: Source
+              english: Source
+              espanol: Código
+            url: "https://github.com/FRBCesab/good-practices"
+  
+  ### >>> COURSE No 13
+  - course:
+      title:
+        french: "Introduction à git"
+        english: "Version control w/ git"
+        espanol: "..."
+      institution:
+        name: FRB-CESAB
+        city: Montpellier
+        country: FR
+        period: "2019-2024"
+      buttons:
+        - button:
+            available: false
+            name: PDF
+        - button:
+            available: true
+            name: HTML
+            url: "https://frbcesab.github.io/intro-git"
+        - button:
+            available: true
+            name:
+              french: Source
+              english: Source
+              espanol: Código
+            url: "https://github.com/FRBCesab/intro-git"
+  
+  ### >>> COURSE No 12
+  - course:
+      title:
+        french: "Gestion de packages avec renv"
+        english: "Packages management w/ renv"
+        espanol: "..."
+      institution:
+        name: FRB-CESAB
+        city: Montpellier
+        country: FR
+        period: "2021-2024"
       buttons:
         - button:
             available: false
@@ -56,7 +136,7 @@ content:
         name: FRB-CESAB
         city: Montpellier
         country: FR
-        period: "2020-2021"
+        period: "2020-2024"
       buttons:
         - button:
             available: false
@@ -77,14 +157,23 @@ content:
   ### >>> COURSE No 10
   - course:
       title:
-        french: "Du script au package R"
+        french: "Créer un package R"
         english: "Building an R Package"
         espanol: "..."
       institution:
         name: FRB-CESAB
         city: Montpellier
         country: FR
-        period: "2019-2021"
+        period: "2019-2024"
+      collaborators:
+        - collaborator:
+            prefixe:
+              french: En collaboration avec
+              english: In collaboration with
+              espanol: En colaboración con
+            name: Aurélie Siberchicot
+            url: "https://lbbe.univ-lyon1.fr/fr/annuaires-des-membres/siberchicot-aurelie"
+            github: "aursiber"
       buttons:
         - button:
             available: false
@@ -105,14 +194,14 @@ content:
   ### >>> COURSE No 9
   - course:
       title:
-        french: "API et Web Scraping sous R"
+        french: "API et Web scraping avec R"
         english: "API and Web Scraping with R"
         espanol: "..."
       institution:
         name: FRB-CESAB
         city: Montpellier
         country: FR
-        period: 2019
+        period: "2019, 2024"
       buttons:
         - button:
             available: false
@@ -271,7 +360,7 @@ content:
   ### >>> COURSE No 4
   - course:
       title:
-        french: "Gérer et Formater sa Bibliographie"
+        french: "Gérer et formater sa bibliographie"
         english: "Managing and Formatting Bibliography"
         espanol: "Gestionar y Formatear su Bibliografía"
       institution:
@@ -316,7 +405,7 @@ content:
   ### >>> COURSE No 3
   - course:
       title:
-        french: "L'Art du Graphique avec R"
+        french: "L'Art du graphique avec R"
         english: "The Art of Graphics with R"
         espanol: "El Arte del Gráfico con R"
       institution:
@@ -352,7 +441,7 @@ content:
   ### >>> COURSE No 2
   - course:
       title:
-        french: "Analyses Spatiales sous R"
+        french: "Analyses spatiales sous R"
         english: "Spatial Analyses with R"
         espanol: "Análisis Espaciales con R"
       institution:
