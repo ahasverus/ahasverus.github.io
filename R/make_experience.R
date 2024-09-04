@@ -213,11 +213,11 @@ make_experience <- function(html){
       # One single language
       if (length(yaml$content[[i]]$job$projects[[j]]$project$name) == 1){
         texte <- yaml$content[[i]]$job$projects[[j]]$project$name
-        asset <- paste0(asset, '  <p class="project"><em><span style="color:#aaa;">', prefixe, '</span>', space, texte, '</em>')
+        asset <- paste0(asset, '  <p class="project"><em><i><span style="color:#aaa;">', prefixe, '</span>', space, texte, '</i></em>')
         if (!is.null(yaml$content[[i]]$job$projects[[j]]$project$url)){
           url <- yaml$content[[i]]$job$projects[[j]]$project$url
           asset <- paste0(asset, '<a href="', url, '">')
-          asset <- paste0(asset, '<span style="padding-left:15px;"><i class="fa fa-globe fa-1x fa-fw falink"></i></span>')
+          asset <- paste0(asset, '<span style="padding-left:10px;"><i class="fa fa-globe fa-1x fa-fw falink"></i></span>')
           asset <- paste0(asset, '</a>')
         }
         asset <- paste0(asset, '</p>\n')
