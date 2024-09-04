@@ -34,11 +34,11 @@ make_experience <- function(html){
       langs <- langs[which(langs %in% lang)]
       for (k in langs){
         asset <- paste0(asset, '    <h1 lang="', substr(k, 1, 2), '">')
-        asset <- paste0(asset, "&diams;&nbsp;", yaml$content[[i]]$job[["title"]][[k]])
+        asset <- paste0(asset, "&diams;&nbsp;&nbsp;", yaml$content[[i]]$job[["title"]][[k]])
         asset <- paste0(asset, '</h1>\n')
       }
     } else {
-      asset <- paste0(asset, '    <h1>', "&diams;&nbsp;", yaml$content[[i]]$job[["title"]], '</h1>\n')
+      asset <- paste0(asset, '    <h1>', "&diams;&nbsp;&nbsp;", yaml$content[[i]]$job[["title"]], '</h1>\n')
     }
 
 

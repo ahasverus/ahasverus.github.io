@@ -225,6 +225,8 @@ footer p {
   border-radius: 5px;
   padding: 2px 5px 2px 5px;
   margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .btn-xs:hover, .btn-xs:focus {
@@ -383,6 +385,6 @@ footer p {
 
 .project {
   margin-top: 10px;
-  text-indent: -22px;
-  padding-left: 22px;
+/*  text-indent: -22px; */
+  padding-left: 11px;
 }
