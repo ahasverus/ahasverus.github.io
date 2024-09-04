@@ -86,7 +86,7 @@ section > h1 {
     text-transform: uppercase;
     padding-bottom: 10px;
     padding-top: 50px;
-    border-bottom: 1px dotted rgba(48, 48, 48, .5);
+    border-bottom: 1px dotted #c9a06e;
     color: #c9a06e;
 }
 
@@ -316,8 +316,8 @@ footer p {
   overflow: hidden;
   background-color: #282828;
   border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1)
+  -webkit-box-shadow: inset 0 1px 2px #544945;
+  box-shadow: inset 0 1px 2px #544945;
 }
 
 .progress-bar {
@@ -328,12 +328,12 @@ footer p {
   line-height: 20px;
   color: #ebdbb2;
   text-align: center;
-  background-color: #d79921;
+  background-color: #458588;
   -webkit-box-shadow: inset 0 -1px 0 rgba(77, 73, 73, 0.5);
   box-shadow: inset 0 -1px 0 rgba(77, 73, 73, 0.5);
   -webkit-transition: width .6s ease;
   -o-transition: width .6s ease;
-  transition: width .6s ease
+  transition: width .6s ease;
 }
 
 .family {
