@@ -45,7 +45,7 @@ content:
             name: SQL
             length: 80
         - item:
-            name: JSON / XML
+            name: JSON / (YA|TO)ML
             length: 99
 
 
@@ -118,8 +118,8 @@ content:
             name: httr
             url: "https://cran.r-project.org/web/packages/httr/index.html"
         - item:
-            name: raster
-            url: "https://cran.r-project.org/web/packages/raster/index.html"
+            name: terra
+            url: "https://cran.r-project.org/web/packages/terra/index.html"
         - item:
             name: rmarkdown
             url: "http://rmarkdown.rstudio.com"
@@ -141,10 +141,13 @@ content:
   - category:
       type: list
       name:
-        french: 'Environnement – <i class="fa fa-apple fa-1x fa-fw"></i> <i class="fa fa-linux fa-1x fa-fw"></i>'
-        english: 'Environment – <i class="fa fa-apple fa-1x fa-fw"></i> <i class="fa fa-linux fa-1x fa-fw"></i>'
+        french: 'Environnement – <i class="fa fa-linux fa-1x fa-fw"></i> (Arch & Debian)'
+        english: 'Environment – <i class="fa fa-linux fa-1x fa-fw"></i> (Arch & Debian)'
         espanol: ...
       items:
+        - item:
+            name: Alacritty
+            url: "https://alacritty.org"
         - item:
             name: Zsh
             url: "https://www.zsh.org"
@@ -155,8 +158,11 @@ content:
             name: Powerlevel10k
             url: "https://github.com/romkatv/powerlevel10k"
         - item:
-            name: Atom
-            url: "https://atom.io"
+            name: VSCodium
+            url: "https://vscodium.com/"
+        - item:
+            name: RStudio Desktop
+            url: "https://posit.co/download/rstudio-desktop/"
         - item:
             name: Pandoc
             url: "https://pandoc.org"
@@ -165,10 +171,7 @@ content:
             url: "https://www.zotero.org"
         - item:
             name: Calibre
-            url: "https://calibre-ebook.com/fr"
+            url: "https://calibre-ebook.com"
         - item:
-            name: FFmpeg
-            url: "https://ffmpeg.org"
-        - item:
-            name: ImageMagick
-            url: "https://imagemagick.org/index.php"
+            name: Inkscape
+            url: "https://inkscape.org"

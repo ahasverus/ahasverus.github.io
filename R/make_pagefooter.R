@@ -27,16 +27,16 @@ make_pagefooter <- function(html){
       if (length(url) > 0){
         html <- paste0(html, '<a href="', yaml[[license]][[url]], '" class="falink dotted">')
         html <- paste0(html, texte)
-        html <- paste0(html, '</a>&nbsp;&nbsp;&centerdot;&nbsp;\n')
+        html <- paste0(html, '</a>&nbsp;&nbsp;&bull;&nbsp;\n')
       } else {
-        html <- paste0(html, texte, '&nbsp;&centerdot;&nbsp;')
+        html <- paste0(html, texte, '&nbsp;&bull;&nbsp;')
       }
     }
   }
 
 
   # ===   ADD JEKYLL VITAE THEME LINK
-  html  <- paste0(html, 'Modified from the <a href="https://www.github.com/biomadeira/vitae" class="falink dotted">Vitae theme</a>&nbsp;&nbsp;&centerdot;&nbsp;\n')
+  html  <- paste0(html, 'Modified from the <a href="https://www.github.com/biomadeira/vitae" class="falink dotted">Vitae theme</a>&nbsp;&nbsp;&bull;&nbsp;\n')
 
 
   # ===   ADD LAST UPDATE

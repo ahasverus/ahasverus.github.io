@@ -23,7 +23,7 @@ content:
           english: R programming
           espanol: Programación R
     - item:
-        name: Sur les épaules de Darwin
+        name: Sur les Epaules de Darwin
         url: "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin"
     - item:
         name:
@@ -31,5 +31,5 @@ content:
           english: Hiking
           espanol: Senderismo
     - item:
-        name: inSileco
-        url: "https://insileco.github.io"
+        name: Blog
+        url: "https://frbcesab.github.io/tips-and-tricks"

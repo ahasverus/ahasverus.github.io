@@ -74,8 +74,8 @@ content:
               name: Christophe Barbraud
               url: https://www.cebc.cnrs.fr/predateurs-marins/christophe-barbraud/
             description:
-              french: Estimation des paramètres démographiques (E-Surge)&nbsp;&middot;&nbsp;Modèles de dispersion&nbsp;&middot;&nbsp;Estimation des tailles de population (RMark)&nbsp;&middot;&nbsp;Dynamique de population et analyses de viabilité (POPBIO)&nbsp;&middot;&nbsp;Rédaction d'articles scientifiques.
-              english: Demographic parameters estimation (E-Surge)&nbsp;&middot;&nbsp;Dispersion models&nbsp;&middot;&nbsp;Population sizes estimation (RMark)&nbsp;&middot;&nbsp;Population dynamics and viability analyses (POPBIO)&nbsp;&middot;&nbsp;Scientific articles writing.
+              french: Estimation des paramètres démographiques (E-Surge)&nbsp;&bull;&nbsp;Modèles de dispersion&nbsp;&bull;&nbsp;Estimation des tailles de population (RMark)&nbsp;&bull;&nbsp;Dynamique de population et analyses de viabilité (POPBIO)&nbsp;&bull;&nbsp;Rédaction d'articles scientifiques.
+              english: Demographic parameters estimation (E-Surge)&nbsp;&bull;&nbsp;Dispersion models&nbsp;&bull;&nbsp;Population sizes estimation (RMark)&nbsp;&bull;&nbsp;Population dynamics and viability analyses (POPBIO)&nbsp;&bull;&nbsp;Scientific articles writing.
               espanol: Disponible pronto...
 
         - project:
@@ -91,8 +91,8 @@ content:
               name: Pierre Legagneux
               url: https://www.fsg.ulaval.ca/departements/professeurs/pierre-legagneux-795/
             description:
-              french: Co-encadrement d'une étudiante stagiaire&nbsp;&middot;&nbsp;Analyses de données de comptage&nbsp;&middot;&nbsp;Programmation avancée sous R&nbsp;&middot;&nbsp;Analyses phénologiques&nbsp;&middot;&nbsp;Analyses de tendances&nbsp;&middot;&nbsp;Cartographie sous R&nbsp;&middot;&nbsp;Rédaction d'un rapport.
-              english: Co-supervision of a student&nbsp;&middot;&nbsp;Counting data analyses&nbsp;&middot;&nbsp;R Advanced programming&nbsp;&middot;&nbsp;Phenological analyses&nbsp;&middot;&nbsp;Trends analyses&nbsp;&middot;&nbsp;Mapping using R&nbsp;&middot;&nbsp;Report writing.
+              french: Co-encadrement d'une étudiante stagiaire&nbsp;&bull;&nbsp;Analyses de données de comptage&nbsp;&bull;&nbsp;Programmation avancée sous R&nbsp;&bull;&nbsp;Analyses phénologiques&nbsp;&bull;&nbsp;Analyses de tendances&nbsp;&bull;&nbsp;Cartographie sous R&nbsp;&bull;&nbsp;Rédaction d'un rapport.
+              english: Co-supervision of a student&nbsp;&bull;&nbsp;Counting data analyses&nbsp;&bull;&nbsp;R Advanced programming&nbsp;&bull;&nbsp;Phenological analyses&nbsp;&bull;&nbsp;Trends analyses&nbsp;&bull;&nbsp;Mapping using R&nbsp;&bull;&nbsp;Report writing.
               espanol: Disponible pronto...
 
 
@@ -125,8 +125,8 @@ content:
               name: Dominique Berteaux
               url: http://www.uqar.ca/universite/a-propos-de-l-uqar/departements/departement-de-biologie-chimie-et-geographie/berteaux-dominique
             description:
-              french: Gestion de données spatiales, climatiques et biologiques&nbsp;&middot;&nbsp;Analyses spatiales&nbsp;&middot;&nbsp;Analyses multivariées&nbsp;&middot;&nbsp;Modèles de niche&nbsp;&middot;&nbsp;Ensemble forecasting&nbsp;&middot;&nbsp;Cartographie sous R&nbsp;&middot;&nbsp;Rédaction d'articles scientifiques&nbsp;&middot;&nbsp;Ecriture d'un livre&nbsp;&middot;&nbsp;Développement web (front-end).
-              english: Data management (spatial, climate and biological data)&nbsp;&middot;&nbsp;Spatial analyses&nbsp;&middot;&nbsp;Multivariate analyses&nbsp;&middot;&nbsp;Predictive niche models&nbsp;&middot;&nbsp;Ensemble forecasting&nbsp;&middot;&nbsp;Mapping under R&nbsp;&middot;&nbsp;Scientific articles writing&nbsp;&middot;&nbsp;Book writing&nbsp;&middot;&nbsp;Web development (front-end).
+              french: Gestion de données spatiales, climatiques et biologiques&nbsp;&bull;&nbsp;Analyses spatiales&nbsp;&bull;&nbsp;Analyses multivariées&nbsp;&bull;&nbsp;Modèles de niche&nbsp;&bull;&nbsp;Ensemble forecasting&nbsp;&bull;&nbsp;Cartographie sous R&nbsp;&bull;&nbsp;Rédaction d'articles scientifiques&nbsp;&bull;&nbsp;Ecriture d'un livre&nbsp;&bull;&nbsp;Développement web (front-end).
+              english: Data management (spatial, climate and biological data)&nbsp;&bull;&nbsp;Spatial analyses&nbsp;&bull;&nbsp;Multivariate analyses&nbsp;&bull;&nbsp;Predictive niche models&nbsp;&bull;&nbsp;Ensemble forecasting&nbsp;&bull;&nbsp;Mapping under R&nbsp;&bull;&nbsp;Scientific articles writing&nbsp;&bull;&nbsp;Book writing&nbsp;&bull;&nbsp;Web development (front-end).
               espanol: Disponible pronto...
             buttons:
               - button:
@@ -157,8 +157,8 @@ content:
               name: Dominique Berteaux
               url: http://www.uqar.ca/universite/a-propos-de-l-uqar/departements/departement-de-biologie-chimie-et-geographie/berteaux-dominique
             description:
-              french: Obtention et gestion de données spatiales, climatiques et biologiques&nbsp;&middot;&nbsp;Analyses spatiales&nbsp;&middot;&nbsp;Analyses multivariées&nbsp;&middot;&nbsp;Modèles de niche&nbsp;&middot;&nbsp;Ensemble forecasting&nbsp;&middot;&nbsp;Cartographie sous R&nbsp;&middot;&nbsp;Construction et analyse de réseaux trophiques&nbsp;&middot;&nbsp;Rédaction d'articles scientifiques&nbsp;&middot;&nbsp;Développement d'une application web interactive (full-stack).
-              english: Data acquisition and data management (spatial, climate and biological data)&nbsp;&middot;&nbsp;Spatial analyses&nbsp;&middot;&nbsp;Multivariate analyses&nbsp;&middot;&nbsp;Predictive niche models&nbsp;&middot;&nbsp;Ensemble forecasting&nbsp;&middot;&nbsp;Mapping under R&nbsp;&middot;&nbsp;Food web&nbsp;&middot;&nbsp;Scientific articles writing&nbsp;&middot;&nbsp;Interactive web app development (full-stack).
+              french: Obtention et gestion de données spatiales, climatiques et biologiques&nbsp;&bull;&nbsp;Analyses spatiales&nbsp;&bull;&nbsp;Analyses multivariées&nbsp;&bull;&nbsp;Modèles de niche&nbsp;&bull;&nbsp;Ensemble forecasting&nbsp;&bull;&nbsp;Cartographie sous R&nbsp;&bull;&nbsp;Construction et analyse de réseaux trophiques&nbsp;&bull;&nbsp;Rédaction d'articles scientifiques&nbsp;&bull;&nbsp;Développement d'une application web interactive (full-stack).
+              english: Data acquisition and data management (spatial, climate and biological data)&nbsp;&bull;&nbsp;Spatial analyses&nbsp;&bull;&nbsp;Multivariate analyses&nbsp;&bull;&nbsp;Predictive niche models&nbsp;&bull;&nbsp;Ensemble forecasting&nbsp;&bull;&nbsp;Mapping under R&nbsp;&bull;&nbsp;Food web&nbsp;&bull;&nbsp;Scientific articles writing&nbsp;&bull;&nbsp;Interactive web app development (full-stack).
               espanol: Disponible pronto...
             buttons:
               - button:
@@ -179,8 +179,8 @@ content:
               name: Dominique Berteaux
               url: http://www.uqar.ca/universite/a-propos-de-l-uqar/departements/departement-de-biologie-chimie-et-geographie/berteaux-dominique
             description:
-              french: Mise en place et maintenance de bases de données PostgreSQL/PostGIS&nbsp;&middot;&nbsp;Technologie Argos/GPS&nbsp;&middot;&nbsp;Développement de packages R&nbsp;&middot;&nbsp;Analyse automatique de photos&nbsp;&middot;&nbsp;Développement d'une application web interactive&nbsp;&middot;&nbsp;Cartographie bibliométrique&nbsp;&middot;&nbsp;Text mining.
-              english: PostgreSQL/PostGIS database conception and management&nbsp;&middot;&nbsp;Argos/GPS Technologies&nbsp;&middot;&nbsp;Image processing&nbsp;&middot;&nbsp;R packages development&nbsp;&middot;&nbsp;Development of a Python program for automatic image analysis&nbsp;&middot;&nbsp;Interactive web app development&nbsp;&middot;&nbsp;Bibliometric mapping&nbsp;&middot;&nbsp;Text mining.
+              french: Mise en place et maintenance de bases de données PostgreSQL/PostGIS&nbsp;&bull;&nbsp;Technologie Argos/GPS&nbsp;&bull;&nbsp;Développement de packages R&nbsp;&bull;&nbsp;Analyse automatique de photos&nbsp;&bull;&nbsp;Développement d'une application web interactive&nbsp;&bull;&nbsp;Cartographie bibliométrique&nbsp;&bull;&nbsp;Text mining.
+              english: PostgreSQL/PostGIS database conception and management&nbsp;&bull;&nbsp;Argos/GPS Technologies&nbsp;&bull;&nbsp;Image processing&nbsp;&bull;&nbsp;R packages development&nbsp;&bull;&nbsp;Development of a Python program for automatic image analysis&nbsp;&bull;&nbsp;Interactive web app development&nbsp;&bull;&nbsp;Bibliometric mapping&nbsp;&bull;&nbsp;Text mining.
               espanol: Disponible pronto...
             buttons:
               - button:
@@ -220,16 +220,16 @@ content:
               name: Maxim Larrivée
               url: http://espacepourlavie.ca/blogue/maxim-larrivee
             description:
-              french: Modèles prédictifs (Maxent)&nbsp;&middot;&nbsp;Monarque, Veuve noire, Grand porte-queue&nbsp;&middot;&nbsp;Rédaction d'articles scientifiques&nbsp;&middot;&nbsp;Elaboration d'une plateforme de modélisation automatique avec interface web.
-              english: Predictive models (Maxent)&nbsp;&middot;&nbsp;Monarch butterfly, Black widow, Black purse-web spider, Giant swallowtail&nbsp;&middot;&nbsp;Scientific articles writing&nbsp;&middot;&nbsp;Conception of an automatic modeling platform with web interface.
+              french: Modèles prédictifs (Maxent)&nbsp;&bull;&nbsp;Monarque, Veuve noire, Grand porte-queue&nbsp;&bull;&nbsp;Rédaction d'articles scientifiques&nbsp;&bull;&nbsp;Elaboration d'une plateforme de modélisation automatique avec interface web.
+              english: Predictive models (Maxent)&nbsp;&bull;&nbsp;Monarch butterfly, Black widow, Black purse-web spider, Giant swallowtail&nbsp;&bull;&nbsp;Scientific articles writing&nbsp;&bull;&nbsp;Conception of an automatic modeling platform with web interface.
               espanol: Disponible pronto...
 
         - project:
             name: "Groupe de recherche sur les environnements nordiques BORÉAS"
             url: http://www.uqar.ca/recherche/la-recherche-a-l-uqar/unites-de-recherche/groupe-de-recherche-sur-les-environnements-nordiques-boreas/presentation-objectifs-et-mission-boreas
             description:
-              french: Construction d'une base de données PostgreSQL&nbsp;&middot;&nbsp;Automatisation de rapports annuels (LaTeX/knitr/Markdown)&nbsp;&middot;&nbsp;Cartographie sous R&nbsp;&middot;&nbsp;Formations/enseignement (analyses spatiales sous R, graphiques sous R, Markdown).
-              english: PostgreSQL database development&nbsp;&middot;&nbsp;Automation of annual reports (LaTeX/knitr/Markdown)&nbsp;&middot;&nbsp;Mapping under R&nbsp;&middot;&nbsp;Offering various courses (Spatial analyses on R, Graphics with R, Markdown).
+              french: Construction d'une base de données PostgreSQL&nbsp;&bull;&nbsp;Automatisation de rapports annuels (LaTeX/knitr/Markdown)&nbsp;&bull;&nbsp;Cartographie sous R&nbsp;&bull;&nbsp;Formations/enseignement (analyses spatiales sous R, graphiques sous R, Markdown).
+              english: PostgreSQL database development&nbsp;&bull;&nbsp;Automation of annual reports (LaTeX/knitr/Markdown)&nbsp;&bull;&nbsp;Mapping under R&nbsp;&bull;&nbsp;Offering various courses (Spatial analyses on R, Graphics with R, Markdown).
               espanol: Disponible pronto...
 
 
@@ -252,8 +252,8 @@ content:
         - project:
             name:
               french: "Changements climatiques et assemblages de poissons des cours d'eau français &ndash; Modification des aires de répartition et incertitude dans les projections"
-              english: "Climate change and fish species assemblages of French rivers&nbsp;&middot;&nbsp;Change in species distribution and projection uncertainty"
-              espanol: "El cambio climático y los ensamblajes de pescados de los ríos franceses&nbsp;&middot;&nbsp;Cambio de las distribuciones y incertidumbre de las proyecciones"
+              english: "Climate change and fish species assemblages of French rivers&nbsp;&bull;&nbsp;Change in species distribution and projection uncertainty"
+              espanol: "El cambio climático y los ensamblajes de pescados de los ríos franceses&nbsp;&bull;&nbsp;Cambio de las distribuciones y incertidumbre de las proyecciones"
             collaborator:
               prefixe:
                 french: Sous la supervision de
@@ -262,8 +262,8 @@ content:
               name: Gaël Grenouillet
               url: http://gael.grenouillet.free.fr
             description:
-              french: Analyse de données climatiques&nbsp;&middot;&nbsp;Programmation avancée sous R&nbsp;&middot;&nbsp;Modélisation de niches bioclimatiques&nbsp;&middot;&nbsp;Calculs et partitionnement d'incertitude&nbsp;&middot;&nbsp;Synthèse bibliographique&nbsp;&middot;&nbsp;Rédaction d'un mémoire de recherche&nbsp;&middot;&nbsp;Rédaction d'articles scientifiques.
-              english: Climate data analyses&nbsp;&middot;&nbsp;Advanced programming on R&nbsp;&middot;&nbsp;Bioclimatic niche modeling&nbsp;&middot;&nbsp;Bibliographic synthesis&nbsp;&middot;&nbsp;Thesis writing&nbsp;&middot;&nbsp;Scientific articles writing.
+              french: Analyse de données climatiques&nbsp;&bull;&nbsp;Programmation avancée sous R&nbsp;&bull;&nbsp;Modélisation de niches bioclimatiques&nbsp;&bull;&nbsp;Calculs et partitionnement d'incertitude&nbsp;&bull;&nbsp;Synthèse bibliographique&nbsp;&bull;&nbsp;Rédaction d'un mémoire de recherche&nbsp;&bull;&nbsp;Rédaction d'articles scientifiques.
+              english: Climate data analyses&nbsp;&bull;&nbsp;Advanced programming on R&nbsp;&bull;&nbsp;Bioclimatic niche modeling&nbsp;&bull;&nbsp;Bibliographic synthesis&nbsp;&bull;&nbsp;Thesis writing&nbsp;&bull;&nbsp;Scientific articles writing.
               espanol: Disponible pronto...
             buttons:
               - button:
@@ -338,8 +338,8 @@ content:
               name: Frédéric Santoul
               url: http://www.ecolab.omp.eu/profils/Santoul_Frederic
             description:
-              french: Identification taxonomique de macroinvertébrés aquatiques&nbsp;&middot;&nbsp;Manipulation de données sous R&nbsp;&middot;&nbsp;Analyses statistiques&nbsp;&middot;&nbsp;Rédaction d'un mémoire de recherche.
-              english: Taxonomic identification of aquatic macroinvertebrates&nbsp;&middot;&nbsp;Handling data with R&nbsp;&middot;&nbsp;Statistical analyses&nbsp;&middot;&nbsp;Research report writing.
+              french: Identification taxonomique de macroinvertébrés aquatiques&nbsp;&bull;&nbsp;Manipulation de données sous R&nbsp;&bull;&nbsp;Analyses statistiques&nbsp;&bull;&nbsp;Rédaction d'un mémoire de recherche.
+              english: Taxonomic identification of aquatic macroinvertebrates&nbsp;&bull;&nbsp;Handling data with R&nbsp;&bull;&nbsp;Statistical analyses&nbsp;&bull;&nbsp;Research report writing.
               espanol: Disponible pronto...
 
 
@@ -372,6 +372,6 @@ content:
               name: Charles Gers
               url: http://www.ecolab.omp.eu/profils/Gers_Charles
             description:
-              french: Capture de papillons de jour&nbsp;&middot;&nbsp;Identification taxonomique&nbsp;&middot;&nbsp;Tests statistiques&nbsp;&middot;&nbsp;Rédaction d'un rapport d'impact.
-              english: Butterflies catch&nbsp;&middot;&nbsp;Taxonomic identification&nbsp;&middot;&nbsp;Statistical tests&nbsp;&middot;&nbsp;Impact report writing.
+              french: Capture de papillons de jour&nbsp;&bull;&nbsp;Identification taxonomique&nbsp;&bull;&nbsp;Tests statistiques&nbsp;&bull;&nbsp;Rédaction d'un rapport d'impact.
+              english: Butterflies catch&nbsp;&bull;&nbsp;Taxonomic identification&nbsp;&bull;&nbsp;Statistical tests&nbsp;&bull;&nbsp;Impact report writing.
               espanol: Disponible pronto...
