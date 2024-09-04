@@ -228,7 +228,7 @@ make_experience <- function(html){
         langs <- langs[which(langs %in% lang)]
         for (k in langs){
           texte <- yaml$content[[i]]$job$projects[[j]]$project$name[[k]]
-          asset <- paste0(asset, '  <p class="project" lang="', substr(k, 1, 2), '"><em><span style="color:#aaa;">', prefixe, '</span>', space, texte, '</em>')
+          asset <- paste0(asset, '  <p class="project" lang="', substr(k, 1, 2), '"><em><i><span style="color:#aaa;">', prefixe, '</span>', space, texte, '</i></em>')
           if (!is.null(yaml$content[[i]]$job$projects[[j]]$project$url)){
             url <- yaml$content[[i]]$job$projects[[j]]$project$url
             asset <- paste0(asset, '<a href="', url, '">')

@@ -72,7 +72,7 @@ make_papers <- function(html){
 
       if (items[[j]]$item$type == "article"){
 
-        asset <- paste0(asset, '  <p class="project">\n')
+        asset <- paste0(asset, '  <p class="publication">\n')
         if (!is.null(yaml$style$emphaze)){
           authors <- gsub(yaml$style$emphaze, paste0("<em>", yaml$style$emphaze, "</em>"), items[[j]]$item$authors)
         }

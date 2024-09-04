@@ -385,6 +385,11 @@ footer p {
 
 .project {
   margin-top: 10px;
+  padding-left: 11px;
+}
+
+.publication {
+  margin-top: 10px;
   text-indent: -22px;
   padding-left: 22px;
 }
