@@ -37,6 +37,54 @@ content:
         ### =========================
         - item:
             type: article
+            authors: Pradel R, Renaud P‐C, Pays O, Scholte P, Ogutu JO, Hibert F, Casajus N, Mialhe F & Fritz H
+            title: "Establishing large mammal population trends from heterogeneous count data"
+            year: 2024
+            editor: Ecology and Evolution
+            status: published
+            volume: 14
+            pages: e70193
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1002/ece3.70193"
+              - button:
+                  available: true
+                  name: PDF
+                  url: pradel2024.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: pradel2024.txt
+
+        ### =========================
+        - item:
+            type: article
+            authors: Loiseau N, Mouillot D, Velez L, Seguin R, Casajus N, Coux C, Albouy C, Claverie T, Duhamet A, Fleure V, Langlois J, Villéger S & Mouquet N
+            title: "Inferring the extinction risk of marine fish to inform global conservation priorities"
+            year: 2024
+            editor: PLOS Biology
+            status: published
+            volume: 22
+            pages: e3002773
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1371/journal.pbio.3002773"
+              - button:
+                  available: true
+                  name: PDF
+                  url: loiseau2024.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: loiseau2024.txt
+        
+        ### =========================
+        - item:
+            type: article
             authors: Mouquet N, Langlois J, Casajus N, Auber A, Flandrin U, Guilhaumon F, Loiseau N, McLean M, Receveur A, Stuart Smith RD & Mouillot D
             title: "Low human interest for the most at-risk reef fishes worldwide"
             year: 2024

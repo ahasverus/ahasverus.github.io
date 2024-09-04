@@ -1,0 +1,10 @@
+@article{loiseau2024,
+	title   = {Inferring the extinction risk of marine fish to inform global conservation priorities},
+	volume  = {22},
+	doi     = {10.1371/journal.pbio.3002773},
+	pages   = {e3002773},
+	number  = {8},
+	journal = {{PLOS} Biology},
+	author  = {Loiseau, Nicolas and Mouillot, David and Velez, Laure and Seguin, Raphaël and Casajus, Nicolas and Coux, Camille and Albouy, Camille and Claverie, Thomas and Duhamet, Agnès and Fleure, Valentine and Langlois, Juliette and Villéger, Sébastien and Mouquet, Nicolas},
+	year = {2024}
+}

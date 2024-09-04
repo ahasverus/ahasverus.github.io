@@ -1,0 +1,10 @@
+@article{pradel2024,
+	title   = {Establishing large mammal population trends from heterogeneous count data},
+	volume  = {14},
+	doi     = {10.1002/ece3.70193},
+	pages   = {e70193},
+	number  = {8},
+	journal = {Ecology and Evolution},
+	author  = {Pradel, R. and Renaud, P.‐C. and Pays, O. and Scholte, P. and Ogutu, J. O. and Hibert, F. and Casajus, N. and Mialhe, F. and Fritz, H.},
+	year = {2024}
+}
