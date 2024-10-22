@@ -1,0 +1,9 @@
+@article{mouillot2024,
+	title = {The socioeconomic and environmental niche of protected areas reveals global conservation gaps and opportunities},
+	volume = {15},
+	doi = {10.1038/s41467-024-53241-1},
+	pages = {9007},
+	journaltitle = {Nature Communications},
+	author = {Mouillot, David and Velez, Laure and Albouy, Camille and Casajus, Nicolas and Claudet, Joachim and Delbar, Vincent and Devillers, Rodolphe and Letessier, Tom B. and Loiseau, Nicolas and Manel, Stéphanie and Mannocci, Laura and Meeuwig, Jessica and Mouquet, Nicolas and Nuno, Ana and O’Connor, Louise and Parravicini, Valeriano and Renaud, Julien and Seguin, Raphael and Troussellier, Marc and Thuiller, Wilfried},
+	date = {2024}
+}

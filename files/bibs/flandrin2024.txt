@@ -1,0 +1,10 @@
+@article{flandrin2024,
+	title = {Fish communities can simultaneously contribute to nature and people across the world’s tropical reefs},
+	volume = {7},
+	doi = {10.1016/j.oneear.2024.09.011},
+	pages = {1772--1785},
+	number = {10},
+	journaltitle = {One Earth},
+	author = {Flandrin, Ulysse and Mouillot, David and Albouy, Camille and Bejarano, Sonia and Casajus, Nicolas and Cinner, Joshua and Edgar, Graham and Ghilardi, Mattia and Leprieur, Fabien and Loiseau, Nicolas and {MacNeil}, Aaron and Maire, Eva and {McLean}, Matthew and Parravicini, Valeriano and Pellissier, Loïc and Schiettekatte, Nina and Stuart-Smith, Rick D. and Villéger, Sébastien and Mouquet, Nicolas},
+	date = {2024}
+}

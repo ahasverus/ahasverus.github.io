@@ -37,6 +37,62 @@ content:
         ### =========================
         - item:
             type: article
+            authors: Mouillot D, Velez L, Albouy C, Casajus N, Claudet J, Delbar V, Devillers R, Letessier TB, Loiseau N, Manel S, Mannocci L, Meeuwig J, Mouquet N, Nuno A, O’Connor L, Parravicini V, Renaud J, Seguin R, Troussellier M & Thuiller W
+            title: "The socioeconomic and environmental niche of protected areas reveals global conservation gaps and opportunities"
+            year: 2024
+            editor: Nature Communications
+            status: published
+            volume: 15
+            pages: 9007
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1038/s41467-024-53241-1"
+              - button:
+                  available: true
+                  name: PDF
+                  url: mouillot2024.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: mouillot2024.txt
+              - button:
+                  available: true
+                  name: Data & code
+                  url: "https://zenodo.org/records/11183846"
+
+        ### =========================
+        - item:
+            type: article
+            authors: Flandrin U, Mouillot D, Albouy C, Bejarano S, Casajus N, Cinner J, Edgar G, Ghilardi M, Leprieur F, Loiseau N, MacNeil A, Maire E, McLean M, Parravicini V, Pellissier L, Schiettekatte N, Stuart-Smith RD, Villéger S & Mouquet N
+            title: "Fish communities can simultaneously contribute to nature and people across the world's tropical reefs"
+            year: 2024
+            editor: One Earth
+            status: published
+            volume: 7
+            pages: 1772-1785
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1016/j.oneear.2024.09.011"
+              - button:
+                  available: true
+                  name: PDF
+                  url: flandrin2024.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: flandrin2024.txt
+              - button:
+                  available: true
+                  name: Code
+                  url: "https://zenodo.org/records/13753006"
+
+        ### =========================
+        - item:
+            type: article
             authors: Pradel R, Renaud P‐C, Pays O, Scholte P, Ogutu JO, Hibert F, Casajus N, Mialhe F & Fritz H
             title: "Establishing large mammal population trends from heterogeneous count data"
             year: 2024
