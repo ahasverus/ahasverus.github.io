@@ -1,0 +1,9 @@
+@article{chaabane2024a,
+	title = {Migrating is not enough for modern planktonic foraminifera in a changing ocean},
+	url = {https://www.nature.com/articles/s41586-024-08191-5},
+	doi = {10.1038/s41586-024-08191-5},
+	pages = {accepted},
+	journaltitle = {Nature},
+	author = {Chaabane, Sonia and De Garidel-Thoron, Thibault and Meilland, Julie and Sulpis, Olivier and Chalk, Thomas B. and Brummer, Geert-Jan A. and Mortyn, P. Graham and Giraud, Xavier and Howa, Hélène and Casajus, Nicolas and Kuroyanagi, Azumi and Beaugrand, Gregory and Schiebel, Ralf},
+	date = {2024}
+}

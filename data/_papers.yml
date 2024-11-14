@@ -37,6 +37,35 @@ content:
         ### =========================
         - item:
             type: article
+            authors: Chaabane S, de Garidel-Thoron T, Meilland J, Sulpis O, Chalk TB, Brummer G-JA, Mortyn PG, Giraud X, Howa H, Casajus N, Kuroyanagi A, Beaugrand G & Schiebel R
+            title: "Migrating is not enough for modern planktonic foraminifera in a changing ocean"
+            year: 2024
+            editor: Nature
+            status: accepted
+            volume: N/A
+            pages: N/A
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1038/s41586-024-08191-5"
+              - button:
+                  available: true
+                  name: PDF
+                  url: chaabane2024a.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: chaabane2024a.txt
+              - button:
+                  available: true
+                  name: Code
+                  url: "https://zenodo.org/records/10881387"
+
+
+        ### =========================
+        - item:
+            type: article
             authors: Mouillot D, Velez L, Albouy C, Casajus N, Claudet J, Delbar V, Devillers R, Letessier TB, Loiseau N, Manel S, Mannocci L, Meeuwig J, Mouquet N, Nuno A, O’Connor L, Parravicini V, Renaud J, Seguin R, Troussellier M & Thuiller W
             title: "The socioeconomic and environmental niche of protected areas reveals global conservation gaps and opportunities"
             year: 2024
@@ -169,9 +198,9 @@ content:
             title: "Size normalizing planktonic Foraminifera abundance in the water column"
             year: 2024
             editor: Limnology and Oceanography Methods
-            status: accepted
-            volume: N/A
-            pages: N/A
+            status: published
+            volume: 22
+            pages: 701-719
             buttons:
               - button:
                   available: true
@@ -215,11 +244,11 @@ content:
             type: article
             authors: Drapeau Picard A-P, Dieni A, Moreau A, Mitchell GW, MacNair ML, Casajus N, Charest S & Larrivée M
             title: "Mission Monarch: Engaging the Canadian public for the conservation of a species at risk"
-            year: 2023
+            year: 2024
             editor: Journal of Insect Conservation
-            status: accepted
-            volume: N/A
-            pages: N/A
+            status: published
+            volume: 28
+            pages: 225-231
             buttons:
               - button:
                   available: true
