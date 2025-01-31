@@ -50,7 +50,7 @@ content:
                   name: HTML
                   url: "https://doi.org/10.1111/avsc.70011"
               - button:
-                  available: false
+                  available: true
                   name: PDF
                   url: rievrsborges-2025.pdf
               - button:
