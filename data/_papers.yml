@@ -37,6 +37,35 @@ content:
         ### =========================
         - item:
             type: article
+            authors: Rievrs Borges E, González‐Sargas E, Casajus N, Carboni M, Bauman D, Fried G, Maskell L, Escario AJ, Planty‐Tabacchi A‐M & Tabacchi E
+            title: "Road‐river intersections (bridges) negatively affect plant species diversity and ecological attributes"
+            year: 2025
+            editor: Applied Vegetation Science
+            status: accepted
+            volume: 28
+            pages: e70011
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1111/avsc.70011"
+              - button:
+                  available: false
+                  name: PDF
+                  url: rievrsborges-2025.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: rievrsborges-2025.txt
+              - button:
+                  available: false
+                  name: Code
+                  url: ""
+
+
+        ### =========================
+        - item:
+            type: article
             authors: Chaabane S, de Garidel-Thoron T, Meilland J, Sulpis O, Chalk TB, Brummer G-JA, Mortyn PG, Giraud X, Howa H, Casajus N, Kuroyanagi A, Beaugrand G & Schiebel R
             title: "Migrating is not enough for modern planktonic foraminifera in a changing ocean"
             year: 2024
@@ -61,8 +90,8 @@ content:
                   available: true
                   name: Code
                   url: "https://zenodo.org/records/10881387"
-
-
+        
+        
         ### =========================
         - item:
             type: article

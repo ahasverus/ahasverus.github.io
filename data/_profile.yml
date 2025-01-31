@@ -39,7 +39,7 @@ languages:
 profile:
   image: profile.png
   author: Nicolas Casajus
-  job: Data scientist
+  job: Senior data scientist
   institution:
     name: "<b>FRB-CESAB</b>"
     address: 5 rue de l'école de Médecine

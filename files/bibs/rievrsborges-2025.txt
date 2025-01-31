@@ -1,0 +1,36 @@
+
+@article{rievrs_borges2025,
+	title = {Road‐river intersections (bridges) negatively affect plant species diversity and ecological attributes},
+	volume = {28},
+	issn = {1402-2001, 1654-109X},
+	url = {https://onlinelibrary.wiley.com/doi/10.1111/avsc.70011},
+	doi = {10.1111/avsc.70011},
+	abstract = {{ABSTRACT}
+            
+              Question
+              Linear habitats are terrestrial and aquatic corridors that can be natural or anthropogenic. Here we asked: how does the intersection of two types of linear habitats (roads and rivers) affect plant species diversity, composition and ecological attributes?
+            
+            
+              Location
+              Southern France.
+            
+            
+              Methods
+              We studied road‐river intersections (bridges) to test how composition, alpha and beta diversity, and ecological preferences of species in both roadside and riverside plant communities responded to the influence of bridges. We also used spatial predictors (spatial eigenvector maps) to assess whether bridges influenced directional spatial processes (upstream‐downstream river axis) structuring community composition.
+            
+            
+              Results
+              We showed that vegetation around bridges differed from that away from bridges in terms of species composition and ecological preferences, and reduced alpha and beta diversities. We also found a convergence of species' ecological preferences in plant communities of rivers and roads at bridges. The turnover component of species beta diversity was lower at bridges, presumably due to different disturbance regimes, leading to biotic homogenization. However, our results show that the impact of bridges on directional spatial processes affecting species composition was negligible.
+            
+            
+              Conclusion
+              The strong effect of bridges as selecting forces of plant communities for both rivers and roads suggests bridges should not be overlooked. Our findings will help the development of more effective management of both types of linear habitats for the conservation of the plant species they host and the associated ecological functions and ecosystem services they provide.},
+	pages = {e70011},
+	number = {1},
+	journaltitle = {Applied Vegetation Science},
+	shortjournal = {Applied Vegetation Science},
+	author = {Rievrs Borges, Erica and González‐Sargas, Eduardo and Casajus, Nicolas and Carboni, Marta and Bauman, David and Fried, Guillaume and Maskell, Lindsay and Escario, Alejandro Juarez and Planty‐Tabacchi, Anne‐Marie and Tabacchi, Eric},
+	urldate = {2025-01-28},
+	date = {2025},
+	langid = {english},
+}
