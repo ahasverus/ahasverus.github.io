@@ -100,7 +100,7 @@ content:
             editor: Nature
             status: published
             volume: 636
-            pages: pages 390–396
+            pages: 390-396
             buttons:
               - button:
                   available: true
