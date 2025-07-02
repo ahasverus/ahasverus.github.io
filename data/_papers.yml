@@ -37,8 +37,37 @@ content:
         ### =========================
         - item:
             type: article
-            authors: Rievrs Borges E, González‐Sargas E, Casajus N, Carboni M, Bauman D, Fried G, Maskell L, Escario AJ, Planty‐Tabacchi A‐M & Tabacchi E
-            title: "Road‐river intersections (bridges) negatively affect plant species diversity and ecological attributes"
+            authors: McLean M, Mouillot D, Langlois J, Arif S, Bejarano S, Casajus N, Edgar GJ, Flandrin U, Guilhaumon F, Judah AB, Loiseau N, MacNeil MA, Maire E, Stuart-Smith RD & Mouquet N
+            title: "Conserving the beauty of the world’s reef fish assemblages"
+            year: 2025
+            editor: Proceedings of the National Academy of Sciences of the USA
+            status: accepted
+            volume: 122
+            pages: e2415931122
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1073/pnas.2415931122"
+              - button:
+                  available: true
+                  name: PDF
+                  url: mclean-2025.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: mclean-2025.txt
+              - button:
+                  available: false
+                  name: Code
+                  url: "https://github.com/mcleamj/aesthetic_value/"
+
+
+        ### =========================
+        - item:
+            type: article
+            authors: Rievrs Borges E, González-Sargas E, Casajus N, Carboni M, Bauman D, Fried G, Maskell L, Escario AJ, Planty-Tabacchi A-M & Tabacchi E
+            title: "Road-river intersections (bridges) negatively affect plant species diversity and ecological attributes"
             year: 2025
             editor: Applied Vegetation Science
             status: accepted
@@ -61,7 +90,6 @@ content:
                   available: false
                   name: Code
                   url: ""
-
 
         ### =========================
         - item:

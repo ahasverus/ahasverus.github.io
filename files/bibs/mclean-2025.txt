@@ -1,0 +1,12 @@
+@article{mclean-2025,
+  author = {McLean, Matthew and Mouillot, David and Langlois, Juliette and Arif, Suchinta and Bejarano, Sonia and Casajus, Nicolas and Edgar, Graham J. and Flandrin, Ulysse and Guilhaumon, François and Judah, Aaron B. and Loiseau, Nicolas and MacNeil, M. Aaron and Maire, Eva and Stuart-Smith, Rick D. and Mouquet, Nicolas},
+  title = {Conserving the beauty of the world's reef fish assemblages},
+  journal = {Proceedings of the National Academy of Sciences},
+  volume = {122},
+  number = {25},
+  pages = {e2415931122},
+  year = {2025},
+  doi = {10.1073/pnas.2415931122},
+  URL = {https://www.pnas.org/doi/abs/10.1073/pnas.2415931122}
+}
+
