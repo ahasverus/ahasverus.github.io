@@ -1,0 +1,8 @@
+@article{mouquet2025,
+	author  = {Mouquet, Nicolas and Blanc, Nathalie and Brassac, Thierry and Casajus, Nicolas and Tribot, Anne-Sophie},
+    year    = {2025},
+    title   = {Too cute to be wild: What teddy bears reveal about our disconnection from nature},
+	journal = {BioScience},
+    pages   = {accepted},
+    doi     = {10.1093/biosci/biaf146}
+}

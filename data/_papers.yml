@@ -37,6 +37,35 @@ content:
         ### =========================
         - item:
             type: article
+            authors: Mouquet N, Blanc N, Brassac T, Casajus N & Tribot A-S
+            title: "Too cute to be wild: What teddy bears reveal about our disconnection from nature"
+            year: 2025
+            editor: BioScience
+            status: accepted
+            volume: NA
+            pages: NA
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1093/biosci/biaf146"
+              - button:
+                  available: true
+                  name: PDF
+                  url: mouquet2025.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: mouquet2025.txt
+              - button:
+                  available: false
+                  name: Code
+                  url: "https://github.com/nmouquet/NOUNOURSUSvsBEARS"
+
+
+        ### =========================
+        - item:
+            type: article
             authors: McLean M, Mouillot D, Langlois J, Arif S, Bejarano S, Casajus N, Edgar GJ, Flandrin U, Guilhaumon F, Judah AB, Loiseau N, MacNeil MA, Maire E, Stuart-Smith RD & Mouquet N
             title: "Conserving the beauty of the world’s reef fish assemblages"
             year: 2025
@@ -52,11 +81,11 @@ content:
               - button:
                   available: true
                   name: PDF
-                  url: mclean-2025.pdf
+                  url: mclean2025.pdf
               - button:
                   available: true
                   name: BiBTeX
-                  url: mclean-2025.txt
+                  url: mclean2025.txt
               - button:
                   available: false
                   name: Code
@@ -81,11 +110,11 @@ content:
               - button:
                   available: true
                   name: PDF
-                  url: rievrsborges-2025.pdf
+                  url: rievrsborges2025.pdf
               - button:
                   available: true
                   name: BiBTeX
-                  url: rievrsborges-2025.txt
+                  url: rievrsborges2025.txt
               - button:
                   available: false
                   name: Code
