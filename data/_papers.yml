@@ -37,6 +37,35 @@ content:
         ### =========================
         - item:
             type: article
+            authors: Bonfanti J, Langridge J, Avadí A, Casajus N, Chaudhary A, Damour G, Estrada-Carmona N, Jones SK, Makowski D, Mitchell M, Seppelt R & Beillouin D
+            title: "Geographic, taxonomic and metric gaps in biodiversity research limit evidence-based conservation in agricultural landscapes: An umbrella review"
+            year: 2025
+            editor: Ecology Letters
+            status: published
+            volume: 28
+            pages: e70220
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1111/ele.70220"
+              - button:
+                  available: true
+                  name: PDF
+                  url: bonfanti2025.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: bonfanti2025.txt
+              - button:
+                  available: true
+                  name: Data
+                  url: "https://doi.org/10.18167/DVN1/RIRTOT"
+
+
+        ### =========================
+        - item:
+            type: article
             authors: Mouquet N, Blanc N, Brassac T, Casajus N & Tribot A-S
             title: "Too cute to be wild: What teddy bears reveal about our disconnection from nature"
             year: 2025
@@ -58,7 +87,7 @@ content:
                   name: BiBTeX
                   url: mouquet2025.txt
               - button:
-                  available: false
+                  available: true
                   name: Code
                   url: "https://github.com/nmouquet/NOUNOURSUSvsBEARS"
 
@@ -87,7 +116,7 @@ content:
                   name: BiBTeX
                   url: mclean2025.txt
               - button:
-                  available: false
+                  available: true
                   name: Code
                   url: "https://github.com/mcleamj/aesthetic_value/"
 
@@ -115,10 +144,8 @@ content:
                   available: true
                   name: BiBTeX
                   url: rievrsborges2025.txt
-              - button:
-                  available: false
-                  name: Code
-                  url: ""
+
+
 
         ### =========================
         - item:

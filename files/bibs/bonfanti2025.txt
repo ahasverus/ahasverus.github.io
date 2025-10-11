@@ -1,0 +1,9 @@
+@article{bonfanti2025,
+	author  = {Bonfanti, Jonathan and Langridge, Joseph and Avadí, A. and Casajus, N. and Chaudhary, A. and Damour, G. and Estrada‐Carmona, N. and Jones, S. K. and Makowski, D. and Mitchell, M. and Seppelt, R. and Beillouin, Damien},
+    year    = {2025},
+    title   = {Geographic, taxonomic and metric gaps in biodiversity research limit evidence‐based conservation in agricultural landscapes: {An} umbrella review},
+	journal = {Ecology Letters},
+    volume  = {28},
+    pages   = {e70220},
+    doi     = {10.1093/biosci/biaf146}
+}
