@@ -37,6 +37,35 @@ content:
         ### =========================
         - item:
             type: article
+            authors: Casajus N, Chaabane S, Giraud X, de Garidel-Throron T & Greco Mattia
+            title: "forcis: An R package for accessing, handling and analysing the FORCIS database"
+            year: 2025
+            editor: Journal of Open Source Software
+            status: published
+            volume: 10
+            pages: 9217
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.21105/joss.09217"
+              - button:
+                  available: true
+                  name: PDF
+                  url: casajus2025.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: casajus2025.txt
+              - button:
+                  available: true
+                  name: R package
+                  url: "https://github.com/ropensci/forcis"
+
+
+        ### =========================
+        - item:
+            type: article
             authors: Bonfanti J, Langridge J, Avadí A, Casajus N, Chaudhary A, Damour G, Estrada-Carmona N, Jones SK, Makowski D, Mitchell M, Seppelt R & Beillouin D
             title: "Geographic, taxonomic and metric gaps in biodiversity research limit evidence-based conservation in agricultural landscapes: An umbrella review"
             year: 2025

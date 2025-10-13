@@ -1,0 +1,11 @@
+@article{Casajus2025, 
+  doi = {10.21105/joss.09217}, 
+  url = {https://doi.org/10.21105/joss.09217}, 
+  year = {2025}, 
+  volume = {10}, 
+  number = {114}, 
+  pages = {9217}, 
+  author = {Casajus, Nicolas and Chaabane, Sonia and Giraud, Xavier and Garidel-Thoron, Thibault de and Greco, Mattia}, 
+  title = {forcis: {A}n {R} package for accessing, handling and analysing the {FORCIS} database}, 
+  journal = {Journal of Open Source Software}
+}
