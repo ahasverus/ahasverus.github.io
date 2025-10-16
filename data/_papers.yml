@@ -37,7 +37,7 @@ content:
         ### =========================
         - item:
             type: article
-            authors: Casajus N, Chaabane S, Giraud X, de Garidel-Throron T & Greco Mattia
+            authors: Casajus N, Chaabane S, Giraud X, de Garidel-Throron T & Greco M
             title: "forcis: An R package for accessing, handling and analysing the FORCIS database"
             year: 2025
             editor: Journal of Open Source Software
