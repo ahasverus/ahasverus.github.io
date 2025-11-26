@@ -33,7 +33,36 @@ content:
         english: "Peer-reviewed papers"
         espanol: "Artículos científicos"
       items:
-      
+
+        ### =========================
+        - item:
+            type: article
+            authors: Mouquet N, Mahaut L, Thuiller W, Auber A, Casajus N, Enquist BJ, Gaüzère P, Loiseau N, Mouillot D, Munoz F, Villéger S & Violle C
+            title: "Spatial insurance of distinct ecological functions"
+            year: 2025
+            editor: Ecology Letters
+            status: published
+            volume: 28
+            pages: e70266
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1111/ele.70266"
+              - button:
+                  available: true
+                  name: PDF
+                  url: mouquet2025a.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: mouquet2025a.txt
+              - button:
+                  available: false
+                  name: Code
+                  url: "https://doi.org/10.5281/zenodo.17377513"
+
+
         ### =========================
         - item:
             type: article

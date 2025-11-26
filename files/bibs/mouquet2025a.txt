@@ -1,0 +1,11 @@
+@article{mouquet2025a,
+  title = {Spatial insurance of distinct ecological functions},
+  author = {Mouquet, N. and Mahaut, L. and Thuiller, W. and Auber, A. and Casajus, N. and Enquist, B. J. and Ga{\"u}z{\`e}re, P. and Loiseau, N. and Mouillot, D. and Munoz, F. and Vill{\'e}ger, S. and Violle, C.},
+  year = 2025,
+  journal = {Ecology Letters},
+  volume = {28},
+  number = {11},
+  pages = {e70266},
+  issn = {1461-023X, 1461-0248},
+  doi = {10.1111/ele.70266}
+}
