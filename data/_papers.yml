@@ -37,6 +37,34 @@ content:
         ### =========================
         - item:
             type: article
+            authors: Oliveira BF, Bertrand R, Pinsky ML, Casajus N, Wolfe BW, Scheffers BR, Villalobos F, Grenouillet G, Pecl GT, Chen I-C, Baecher JA, Lawlor JA, Sunday J, Murienne J, Rolland J, Thompson LM, Lancaster LT, Rubenstein MA, Moore NA, Bandara RMWJ, Diamond SE, Weiskopf SR, Lenoir J & Comte L
+            title: "Species range shifts often speed ahead of their modeled climatic niches"
+            year: 2026
+            editor: Proceedings of the National Academy of Sciences of the USA
+            status: published
+            volume: 123
+            pages: e2515903123
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://www.pnas.org/doi/10.1073/pnas.2515903123"
+              - button:
+                  available: true
+                  name: PDF
+                  url: oliveira2026.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: oliveira2026.txt
+              - button:
+                  available: true
+                  name: Code
+                  url: "https://github.com/Bioshifts/Exposure-SDM"
+                  
+        ### =========================
+        - item:
+            type: article
             authors: Mouquet N, Mahaut L, Thuiller W, Auber A, Casajus N, Enquist BJ, Gaüzère P, Loiseau N, Mouillot D, Munoz F, Villéger S & Violle C
             title: "Spatial insurance of distinct ecological functions"
             year: 2025
@@ -58,7 +86,7 @@ content:
                   name: BiBTeX
                   url: mouquet2025a.txt
               - button:
-                  available: false
+                  available: true
                   name: Code
                   url: "https://doi.org/10.5281/zenodo.17377513"
 

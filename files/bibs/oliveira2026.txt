@@ -1,0 +1,10 @@
+@article{oliveira2026,
+  title = {Species range shifts often speed ahead of their modeled climatic niches},
+  author = {Oliveira, BF and Bertrand, R and Pinsky, ML and Casajus, N and Wolfe, BW and Scheffers, BR and Villalobos, F and Grenouillet, G and Pecl, GT and Chen, I-C and Baecher, JA and Lawlor, JA and Sunday, J and Murienne, J and Rolland, J and Thompson, LM and Lancaster, LT and Rubenstein, MA and Moore, NA and Bandara, RMWJ and Diamond, SE and Weiskopf, SR and Lenoir, J and Comte, L},
+  year = 2026,
+  journal = {Proceedings of the National Academy of Sciences of the USA},
+  volume = {123},
+  number = {14},
+  pages = {e2515903123},
+  doi = {10.1073/pnas.2515903123}
+}
