@@ -37,6 +37,38 @@ content:
         ### =========================
         - item:
             type: article
+            authors: Beck M, Annasawmy P, Birre D, Busana M, Casajus N, Coux C, Marino C, Mouquet N, Nicvert L, Oliveira BF, Petit-Cailleux C, Tortosa A, Unkule M, Vagnon C & Veytia D
+            title: "Citation self-awareness for a fairer academic publishing landscape"
+            year: 2026
+            editor: BioScience
+            status: accepted
+            volume: NA
+            pages: NA
+            buttons:
+              - button:
+                  available: true
+                  name: HTML
+                  url: "https://doi.org/10.1093/biosci/biag028"
+              - button:
+                  available: true
+                  name: PDF
+                  url: beck2026.pdf
+              - button:
+                  available: true
+                  name: BiBTeX
+                  url: beck2026.txt
+              - button:
+                  available: true
+                  name: Code
+                  url: "https://github.com/FRBCesab/ethical-citations"
+              - button:
+                  available: true
+                  name: R package
+                  url: "https://github.com/FRBCesab/fairpub"
+                  
+        ### =========================
+        - item:
+            type: article
             authors: Oliveira BF, Bertrand R, Pinsky ML, Casajus N, Wolfe BW, Scheffers BR, Villalobos F, Grenouillet G, Pecl GT, Chen I-C, Baecher JA, Lawlor JA, Sunday J, Murienne J, Rolland J, Thompson LM, Lancaster LT, Rubenstein MA, Moore NA, Bandara RMWJ, Diamond SE, Weiskopf SR, Lenoir J & Comte L
             title: "Species range shifts often speed ahead of their modeled climatic niches"
             year: 2026

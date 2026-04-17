@@ -1,0 +1,11 @@
+@article{10.1093/biosci/biag028,
+  author = {Beck, Miriam and Annasawmy, Pavanee and Birre, Deborah and Busana, Michela and Casajus, Nicolas and Coux, Camille and Marino, Clara and Mouquet, Nicolas and Nicvert, Lisa and Oliveira, Brunno F and Petit-Cailleux, Cathleen and Tortosa, Axelle and Unkule, Mithila and Vagnon, Chloé and Veytia, Devi},
+  title = {Citation self-awareness for a fairer academic publishing landscape},
+  journal = {BioScience},
+  pages = {biag028},
+  year = {2026},
+  month = {04},
+  issn = {1525-3244},
+  doi = {10.1093/biosci/biag028},
+  url = {https://doi.org/10.1093/biosci/biag028}
+}
