@@ -2,6 +2,7 @@
 ### ZOLA config file
 ###
 
+#:tombi schema.strict = false
 
 base_url = "https://nicolascasajus.fr"
 title = "Nicolas Casajus"
