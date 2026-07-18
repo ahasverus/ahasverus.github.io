@@ -1,0 +1,57 @@
+<article class="card">
+  
+  <header class="card__header">
+
+    {{ headings::anchor(
+      title="Technical skills",
+      level=2,
+      icon=icons::code(),
+      class="card__title"
+    ) }}
+
+  </header>
+
+  <div class="skills">
+
+    {% for group in config.extra.skills.groups %}
+
+      <div class="skills__group">
+
+        <h3 class="skills__subtitle">
+          {% if group.icon == "terminal" %}
+            {{ icons::terminal() }}
+          {% elif group.icon == "package" %}
+            {{ icons::package() }}
+          {% elif group.icon == "database" %}
+            {{ icons::database() }}
+          {% elif group.icon == "globe" %}
+            {{ icons::globe() }}
+          {% elif group.icon == "write" %}
+            {{ icons::write() }}
+          {% elif group.icon == "upload" %}
+            {{ icons::upload() }}
+          {% elif group.icon == "git_fork" %}
+            {{ icons::git_fork() }}
+          {% endif %}
+
+          {{ group.title }}
+        </h3>
+
+        <div class="skills__grid">
+
+          {% for item in group.items %}
+
+            <div class="skills__name">{{ item.name }}</div>
+            <div class="skills__level" data-level="{{ item.level }}"></div>
+
+          {% endfor %}
+
+        </div>
+
+      </div>
+
+    {% endfor %}
+    
+  </div>
+
+</article>

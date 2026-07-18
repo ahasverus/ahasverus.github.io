@@ -1,0 +1,232 @@
+<article class="card publication-card publication-card--article" id="{{ page.extra.zotero.key }}">
+
+  <!-- Left column -->
+  <div class="publication-card__meta">
+
+    <div class="publication-card__weight">
+      #{{ page.extra.zotero.number }}
+    </div>
+
+    <div class="publication-card__oa">
+      {% if page.extra.openalex.oa_badge == "Diamond OA" %}
+        <span class="oa-badge oa-badge--diamond">
+          {{ icons::gem() }}
+          Diamond
+          <span class="oa-tooltip">
+            <strong>Diamond Open Access</strong><br>
+            Open-access journal with no APC.<br>
+            <i>Source: OpenAlex</i>
+          </span>
+        </span>
+
+      {% elif page.extra.openalex.oa_badge == "Gold OA" %}
+        <span class="oa-badge oa-badge--gold">
+          {{ icons::lock_open() }}
+          Gold
+          <span class="oa-tooltip">
+            <strong>Gold Open Access</strong><br>
+            Open-access journal with APC.<br>
+            <i>Source: OpenAlex</i>
+          </span>
+        </span>
+
+      {% elif page.extra.openalex.oa_badge == "Hybrid OA" %}
+        <span class="oa-badge oa-badge--hybrid">
+          {{ icons::lock_open() }}
+          Hybrid
+          <span class="oa-tooltip">
+            <strong>Hybrid Open Access</strong><br>
+            Subscription journal where APC make individual articles open access.<br>
+            <i>Source: OpenAlex</i>
+          </span>
+        </span>
+
+      {% elif page.extra.openalex.oa_badge == "Subscription" %}
+        <span class="oa-badge oa-badge--subscription">
+          {{ icons::lock_close() }}
+          Subscription
+          <span class="oa-tooltip">
+            <strong>Subscription</strong><br>
+            Article accessible through institutional or personal subscription only.<br>
+            <i>Source: OpenAlex</i>
+          </span>
+        </span>
+      {% endif %}
+
+    </div>
+
+    <div class="publication-card__metrics">
+      <div class="publication-card__count">
+        {% if page.extra.openalex.cited_by_count %}
+          {{ icons::quote()}} {{ page.extra.openalex.cited_by_count }}
+        {% else %}
+          {{ icons::quote()}} 0
+        {% endif %}
+
+        <span class="info-tooltip">
+        <strong>Citations</strong><br>
+        Total number of citations received by this article.<br>
+          <i>Source: OpenAlex</i>
+        </span>
+
+      </div>
+
+      <div class="publication-card__fwci">
+        {% if page.extra.openalex.fwci %}
+          {{ icons::gauge()}} {{ page.extra.openalex.fwci }} (FWCI)
+        {% else %}
+          {{ icons::gauge()}} 0 (FWCI)
+        {% endif %}
+
+        <span class="info-tooltip">
+        <strong>Field-Weighted Citation Impact</strong><br>
+        Citation impact of the article relative to similar publications in the same field,
+        publication year, and document type. A value greater than 1 indicates above-average citation impact.<br>
+          <i>Source: OpenAlex</i>
+        </span>
+
+      </div>
+
+      {% if page.extra.openalex.top_1_percent %}
+      <div class="publication-card__top">
+        {{ icons::star()}} Top 1%
+
+        <span class="info-tooltip">
+          <strong>Top 1% most cited</strong><br>
+          The article belongs to the top 1% most cited publications in its comparison group.<br>
+          <i>Source: OpenAlex</i>
+        </span>
+
+      </div>
+
+      {% elif page.extra.openalex.top_10_percent %}
+      <div class="publication-card__top">
+        {{ icons::star()}} Top 10%
+
+        <span class="info-tooltip">
+          <strong>Top 10% most cited</strong><br>
+          The article belongs to the top 10% most cited publications in its comparison group.<br>
+          <i>Source: OpenAlex</i>
+        </span>
+      </div>
+      {% endif %}
+
+    </div>
+
+  </div>
+
+
+  <!-- Right column -->
+  <div class="publication-card__content">
+
+    <p class="publication-card__title">
+
+      <a href="https://doi.org/{{ page.extra.zotero.doi }}"
+         target="_blank"
+         class="publication-card__title__url"
+         rel="noopener noreferrer">
+        {{ page.extra.zotero.title }}
+      </a>
+     
+      <a href="#{{ page.extra.zotero.key }}"
+       class="zola-anchor"
+       aria-label="Permalink to {{ page.extra.zotero.key }}">
+        #
+      </a>
+
+    </p>
+
+
+    <p class="publication-card__authors">
+      {{ page.extra.zotero.author | safe }}
+    </p>
+
+
+    <p class="publication-card__source">
+      {{ page.extra.zotero.year }}
+      <span class="publication-card__separator">&middot;</span>
+
+      <span class="publication-card__journal">{{ page.extra.zotero.journal }},</span>
+
+      {% if page.extra.zotero.volume %}
+        <span class="publication-card__volume">vol. {{ page.extra.zotero.volume }},</span>
+      {% endif %}
+
+      {% if page.extra.zotero.pages %}
+        <span class="publication-card__pages">{{ page.extra.zotero.pages }}</span>
+      {% endif %}
+
+    </p>
+
+
+    <div class="publication-card__links">
+
+      {% if page.extra.zotero.doi %}
+      <a href="https://doi.org/{{ page.extra.zotero.doi }}"
+         target="_blank"
+         class="btn-secondary btn-margin"
+         rel="noopener noreferrer">
+        doi
+      </a>
+      {% endif %}
+
+
+      {% if page.extra.zotero.fulltext %}
+
+      <a href="{{ page.extra.zotero.fulltext }}" 
+         target="_blank"
+         class="btn-secondary btn-margin"
+         rel="noopener noreferrer">
+        fulltext
+      </a>
+      {% endif %}
+
+
+      {% if page.extra.zotero.citation %}
+
+      <a href="{{ page.extra.zotero.citation }}"
+         target="_blank"
+         class="btn-secondary btn-margin"
+         rel="noopener noreferrer">
+        citation
+      </a>
+      {% endif %}
+
+
+      {% if page.extra.resources.package %}
+
+      <a href="{{ page.extra.resources.package }}"
+         target="_blank"
+         class="btn-secondary btn-margin"
+         rel="noopener noreferrer">
+        package
+      </a>
+      {% endif %}
+
+
+      {% if page.extra.resources.database %}
+
+      <a href="{{ page.extra.resources.database }}"
+         target="_blank"
+         class="btn-secondary btn-margin"
+         rel="noopener noreferrer">
+        database
+      </a>
+      {% endif %}
+
+
+      {% if page.extra.resources.code %}
+
+      <a href="{{ page.extra.resources.code }}"
+         target="_blank"
+         class="btn-secondary btn-margin"
+         rel="noopener noreferrer">
+        code
+      </a>
+      {% endif %}
+
+    </div>
+
+  </div>
+
+</article>

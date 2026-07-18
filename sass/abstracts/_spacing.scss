@@ -1,0 +1,32 @@
+/*
+  Spacing system
+*/
+
+
+:root {
+
+  --space-0: 0;
+  --space-1: 0.25rem;  /*  4px */
+  --space-2: 0.50rem;  /*  8px */
+  --space-3: 0.75rem;  /* 12px */
+  --space-4: 1.00rem;  /* 16px */
+  --space-5: 1.50rem;  /* 24px */
+  --space-6: 2.00rem;  /* 32px */
+  --space-7: 3.00rem;  /* 48px */
+  --space-8: 4.00rem;  /* 64px */
+  --space-9: 6.00rem;  /* 96px */
+
+  --space-xs:  var(--space-2);
+  --space-sm:  var(--space-3);
+  --space-md:  var(--space-4);
+  --space-lg:  var(--space-6);
+  --space-xl:  var(--space-8);
+  --space-xxl: var(--space-9);
+
+  --container-padding: var(--space-4);
+  --section-gap:       var(--space-8);
+  --element-gap:       var(--space-4);
+
+  --navbar-height:     86px;
+  --page-offset-top: var(--space-xxl);
+}

@@ -1,0 +1,22 @@
+/*
+  CSS Variable Mapping (pico.css)
+*/
+
+
+:root {
+
+  color-scheme: dark;
+
+  --pico-background-color: var(--bg);
+  --pico-card-background-color: var(--surface);
+
+  --pico-color: var(--text);
+  --pico-muted-color: var(--text-muted);
+
+  --pico-primary: var(--primary);
+  --pico-primary-hover: var(--primary-hover);
+
+  --pico-border-color: var(--surface-2);
+
+  --pico-font-family: var(--font-family-sans);
+}

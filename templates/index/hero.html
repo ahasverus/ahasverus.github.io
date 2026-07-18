@@ -1,0 +1,39 @@
+<section class="hero">
+
+  <!-- Left -->
+  <div class="hero__content">
+
+    <!-- Name -->
+    <h1 class="hero__name">
+      {{ config.extra.author.name }}
+    </h1>
+
+    <!-- Role -->
+    <p class="hero__role">
+      {{ config.extra.author.role | safe }}
+    </p>
+
+    <!-- Keywords -->
+    {% if config.extra.author.keywords %}
+      <ul class="hero__keywords">
+        {% for keyword in config.extra.author.keywords %}
+          <li class="hero__keyword hero__keyword--{{ keyword.category }}">
+            {{ keyword.name }}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+  </div>
+
+  <!-- Right -->
+  <div class="hero__media">
+    <a href="{{ config.extra.author.image }}" class="glightbox">
+      <img
+        class="hero__image"
+        src="{{ config.extra.author.image }}"
+        alt="{{ config.extra.author.name }}">
+    </a>
+  </div>
+
+</section>

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  {% include "partials/header.html" %}
+
+  <section class="cards">
+  {% for year, pages in section.pages | group_by(attribute="extra.zotero.year") %}
+
+
+      {% for page in pages %}
+
+        {% if page.extra.zotero.section == "Articles" %}
+          {% include "publications/card-article.html" %}
+        {% elif page.extra.zotero.section == "Books & Chapters" %}
+          BOOK
+        {% endif %}
+
+      {% endfor %}
+
+      
+      {% endfor %}
+    </section>
+
+{% endblock content %}

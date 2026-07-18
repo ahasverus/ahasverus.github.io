@@ -1,0 +1,24 @@
+{% macro anchor(title, level=2, icon="", class="") %}
+
+{% set id = title | trim | slugify %}
+{% set tag = "h" ~ level %}
+
+<{{ tag }} id="{{ id }}"{% if class %} class="{{ class }}"{% endif %}>
+
+    {% if icon %}
+        {{ icon | safe }}
+    {% endif %}
+
+    <span class="heading__text">
+        {{ title }}
+    </span>
+
+    <a href="#{{ id }}"
+       class="zola-anchor"
+       aria-label="Permalink to {{ title }}">
+        #
+    </a>
+
+</{{ tag }}>
+
+{% endmacro anchor %}

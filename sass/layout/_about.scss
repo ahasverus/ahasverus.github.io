@@ -1,0 +1,70 @@
+.about {
+  position: relative;
+
+  margin-top: var(--space-xl);
+  padding: var(--space-xxl) var(--space-1);
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+
+  top: 0;
+  left: 50%;
+
+  width: 240px;
+  height: 1px;
+
+  transform: translate(-50%, -50%); /* 👈 centre sur la frontière hero/about */
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--frost-dark-blue) 60%, transparent),
+    transparent
+  );
+
+  opacity: 0.9;
+}
+
+.about__container {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.about__title {
+  font-size: var(--text-3xl);
+  color: var(--text);
+  margin: 0;
+}
+
+.about__text p {
+  font-size: var(--text-lg);
+  line-height: var(--line-relaxed);
+  color: var(--text-muted);
+}
+
+.about__text > p:first-of-type::first-letter {
+  float: left;
+  font-family: serif;
+  font-size: 3.8em;
+  line-height: 0.85;
+  font-weight: 600;
+  margin: 0.05em 0.15em 0 0;
+  color: var(--frost-dark-blue);
+}
+
+@media (max-width: 768px) {
+
+  .about {
+    padding: var(--space-xl) var(--space-3);
+  }
+
+  .about__container {
+    padding: var(--space-lg);
+  }
+}

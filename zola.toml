@@ -1,0 +1,323 @@
+###
+### ZOLA config file
+###
+
+
+base_url = "https://nicolascasajus.fr"
+title = "Nicolas Casajus"
+description = "Personal website of Nicolas Casajus, Data Scientist, Research Software Engineer and Linux System Administrator."
+default_language = "en"
+# theme = ""
+
+compile_sass = true
+minify_html = true
+
+output_dir = "public"
+# ignored_content = []
+# ignored_static = []
+
+generate_feeds = false
+feed_filenames = ["rss.xml"]
+feed_limit = 20
+
+exclude_paginated_pages_in_sitemap = "none"
+hard_link_static = false
+
+taxonomies = []
+
+build_search_index = false
+generate_sitemap = true
+generate_robots_txt = true
+
+
+[markdown]
+
+render_emoji = false
+
+external_links_target_blank = true
+external_links_no_follow = true
+external_links_no_referrer = true
+external_links_external = true
+
+smart_punctuation = false
+
+definition_list = false
+lazy_async_image = false
+bottom_footnotes = false
+github_alerts = true
+insert_anchor_links = "right" # `anchor-link.html` template
+
+
+[markdown.highlighting]
+
+error_on_missing_language = true
+style = "inline"
+theme = "nord"
+
+extra_grammars = []
+extra_themes = []
+
+
+[link_checker]
+
+skip_prefixes = [
+    "http://[2001:db8::]/",
+]
+
+skip_anchor_prefixes = [
+    "https://caniuse.com/",
+]
+
+internal_level = "error"
+external_level = "error"
+
+
+[slugify]
+
+paths = "on"
+taxonomies = "on"
+anchors = "on"
+paths_keep_dates = false
+
+
+[search]
+
+include_title = true
+include_description = true
+include_date = false
+include_path = false
+include_content = true
+
+index_format = "elasticlunr_javascript"
+
+
+[translations]
+
+
+[languages]
+
+
+[extra]
+
+copyright = "Nicolas Casajus"
+license = "CC BY 4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/deed.en"
+repository = "https://github.com/ahasverus/ahasverus.github.io"
+
+favicon = "/images/favicon/favicon-32x32.png"
+
+navigation = [
+  { url = "$BASE_URL/", title = "Home" },
+  # { url = "$BASE_URL/projects", title = "Projects" },
+  { url = "$BASE_URL/software", title = "Software" },
+  { url = "$BASE_URL/publications", title = "Publications" },
+  { url = "$BASE_URL/courses", title = "Courses" },
+  { url = "$BASE_URL/notes", title = "Notes" },
+  # { url = "$BASE_URL/databases", title = "Databases" },
+  { url = "$BASE_URL/contact", title = "Contact" },
+]
+
+
+[extra.author]
+
+name = "Nicolas CASAJUS"
+role = "Data Scientist &nbsp;•&nbsp; Research Software Engineer &nbsp;•&nbsp; SysAdmin"
+image = "/images/profile.png"
+
+keywords = [
+  { name = "open science", category = "devops" },
+  { name = "biodiversity", category = "science" },
+  { name = "reproducibility", category = "devops" },
+  { name = "linux", category = "sysadmin" },
+  { name = "r package", category = "devops" },
+  { name = "gis", category = "science" },
+  { name = "quarto", category = "devops" },
+  { name = "biogeography", category = "science" },
+  { name = "docker", category = "sysadmin" },
+  { name = "git", category = "devops" },
+  { name = "climate change", category = "science" },
+  { name = "shiny", category = "devops" },
+  { name = "nextcloud", category = "sysadmin" },
+  { name = "ci/cd", category = "devops" },
+]
+
+
+[extra.socials]
+
+github = "https://github.com/ahasverus"
+codeberg = "https://codeberg.org/ahasverus"
+orcid = "http://orcid.org/0000-0002-5537-5294"
+google_scholar = "https://scholar.google.fr/citations?user=n1swa1UAAAAJ"
+
+
+[extra.skills]
+
+[[extra.skills.groups]]
+title = "Scientific Computing & Programming"
+icon = "terminal"
+
+  [[extra.skills.groups.items]]
+  name = "R"
+  level = 5
+
+  [[extra.skills.groups.items]]
+  name = "Python"
+  level = 2
+
+  [[extra.skills.groups.items]]
+  name = "MATLAB"
+  level = 1
+
+
+[[extra.skills.groups]]
+title = "R Ecosystem"
+icon = "package"
+
+  [[extra.skills.groups.items]]
+  name = "devtools"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "roxygen2"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "testthat"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "pkgdown"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "renv"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "targets"
+  level = 4
+
+
+  [[extra.skills.groups.items]]
+  name = "httr2"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "rvest"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "sf"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "terra"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "tidyverse"
+  level = 3
+
+[[extra.skills.groups]]
+title = "Relational Databases"
+icon = "database"
+
+  [[extra.skills.groups.items]]
+  name = "PostgreSQL"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "MySQL"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "SQLite"
+  level = 4
+
+[[extra.skills.groups]]
+title = "Web Technologies"
+icon = "globe"
+
+  [[extra.skills.groups.items]]
+  name = "HTML"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "CSS"
+  level = 3
+
+  [[extra.skills.groups.items]]
+  name = "JavaScript"
+  level = 2
+
+  [[extra.skills.groups.items]]
+  name = "PHP"
+  level = 1
+
+[[extra.skills.groups]]
+title = "Document Authoring"
+icon = "write"
+
+  [[extra.skills.groups.items]]
+  name = "Markdown"
+  level = 5
+
+  [[extra.skills.groups.items]]
+  name = "LaTeX"
+  level = 3
+
+  [[extra.skills.groups.items]]
+  name = "Typst"
+  level = 1
+
+  [[extra.skills.groups.items]]
+  name = "reST"
+  level = 1
+
+[[extra.skills.groups]]
+title = "Publishing Systems"
+icon = "upload"
+
+  [[extra.skills.groups.items]]
+  name = "Quarto"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "Pandoc"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "Zola"
+  level = 3
+
+  [[extra.skills.groups.items]]
+  name = "Hugo"
+  level = 2
+
+[[extra.skills.groups]]
+title = "DevOps & Reproducibility"
+icon = "git_fork"
+
+  [[extra.skills.groups.items]]
+  name = "Git"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "GH Actions"
+  level = 4
+
+  [[extra.skills.groups.items]]
+  name = "Docker"
+  level = 3
+
+  [[extra.skills.groups.items]]
+  name = "Bash"
+  level = 3
+
+  [[extra.skills.groups.items]]
+  name = "cron"
+  level = 3
+
+  [[extra.skills.groups.items]]
+  name = "Make"
+  level = 2

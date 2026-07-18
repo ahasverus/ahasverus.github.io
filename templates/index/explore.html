@@ -1,0 +1,41 @@
+<article class="card card--explore">
+
+  <header class="card__header">
+
+    {{ headings::anchor(
+      title="Explore",
+      level=2,
+      icon=icons::compass(),
+      class="card__title"
+    ) }}
+    
+  </header>
+
+  <div class="card__content">
+
+    <div class="explore__grid">
+
+      <a class="explore__link" href="/software/">
+        <span class="explore__label">{{ icons::package() }} Software</span>
+        <span class="explore__desc">R packages, Shiny apps & databases</span>
+      </a>
+
+      <a class="explore__link" href="/publications/">
+        <span class="explore__label">{{ icons::book_open() }} Publications</span>
+        <span class="explore__desc">Papers, books & book chapters</span>
+      </a>
+
+      <a class="explore__link" href="/courses/">
+        <span class="explore__label">{{ icons::tv_minimal() }} Courses</span>
+        <span class="explore__desc">Teaching materials</span>
+      </a>
+
+      <a class="explore__link" href="/notes/">
+        <span class="explore__label">{{ icons::file_pen() }} Notes</span>
+        <span class="explore__desc">Technical notes & snippets</span>
+      </a>
+
+    </div>
+
+  </div>
+</article>

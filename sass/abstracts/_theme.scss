@@ -1,0 +1,23 @@
+/*
+  Site Theme
+*/
+
+
+:root {
+
+  /* Colors */
+
+  --bg: var(--polar-night-dark);
+  --surface: var(--polar-night-1);
+  --surface-2: var(--polar-night-2);
+
+  --text: var(--snow-storm-1);
+  --text-muted: var(--snow-storm-0);
+
+  --primary: var(--frost-teal);
+  --primary-hover: var(--frost-light-blue);
+
+  --success: var(--aurora-green);
+  --warning: var(--aurora-yellow);
+  --danger: var(--aurora-red);
+}

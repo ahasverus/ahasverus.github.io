@@ -1,0 +1,62 @@
+<header class="navbar">
+
+  <div class="navbar__container">
+
+    <!-- Logo (left) -->
+    <a class="navbar__logo" href="/">
+      <img src="/images/logo-brand.png" alt="Logo">
+    </a>
+
+    <!-- Burger toggle -->
+    <input type="checkbox" id="nav-toggle" class="navbar__toggle">
+
+    <label for="nav-toggle" class="navbar__burger" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- Menu -->
+    <nav class="navbar__menu">
+
+      <!-- Navigation -->
+      <div class="navbar__links">
+
+        {% for item in config.extra.navigation %}
+          {% set url = item.url | replace(from='$BASE_URL', to=config.base_url) %}
+          {% set is_active_link = current_url and url | trim_end_matches(pat="/") == current_url | trim_end_matches(pat="/") %}
+          
+          <a href="{{ url }}" title="{{ item.title }}">
+            <span{% if is_active_link %} class="active"{% endif %}>{{ item.title }}</span>
+          </a>
+
+        {% endfor %}
+
+      </div>
+
+      <!-- Social icons -->
+      <div class="navbar__social">
+
+        {% set order = [
+          "github",
+          "codeberg",
+          "orcid",
+          "google_scholar"
+        ] %}
+
+        {% for name in order %}
+          {% set url = config.extra.socials[name] | default(value="") %}
+          {{ socials::icon_link(name=name, url=url) }}
+        {% endfor %}
+
+        {% if config.generate_feeds %}
+          <a href="/{{ config.feed_filenames }}" class="navbar__icon" target="_blank" aria-label="RSS" rel="noopener noreferrer">
+            {% include "icons/rss.html" %}
+          </a>
+        {% endif %}
+
+      </div>
+    </nav>
+  </div>
+  
+</header>

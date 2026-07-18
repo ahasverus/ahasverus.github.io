@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  {% include "index/hero.html" %}
+
+  {% include "index/about.html" %}
+
+  <section class="cards">
+  
+    {% include "index/research-interests.html" %}
+    {% include "index/open-science.html" %}
+    {% include "index/teaching.html" %}
+    {% include "index/technical-skills.html" %}
+    {% include "index/education.html" %}
+    {% include "index/explore.html" %}
+
+  </section>
+
+{% endblock content %}

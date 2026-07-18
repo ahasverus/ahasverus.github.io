@@ -1,0 +1,20 @@
+{% import "macros/icons.html" as icons %}
+{% import "macros/socials.html" as socials %}
+
+<head>
+    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
+  <meta name="author" content="{{ config.extra.author.name }}">
+  <meta name="color-scheme" content="dark">
+  
+  <title>{% block title %}{{ section.title }}{% endblock title %}</title>
+  
+  <link rel="canonical" href="{{ current_url | default(value=config.base_url) }}">
+  <link rel="icon" type="image/png" href="{{ config.extra.favicon }}">
+  <link rel="stylesheet" href="{{ get_url(path="main.css") }}">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
+</head>

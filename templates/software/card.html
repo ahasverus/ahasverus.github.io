@@ -1,0 +1,142 @@
+<article class="card software-card software-card--{{ page.extra.status }}" id = "{{ page.title }}">
+
+  <!-- Left column -->
+  <div class="software-card__meta">
+
+    <div class="software-card__name">
+      <code>{{ page.title }}</code>
+      <a href="#{{ page.title }}"
+       class="zola-anchor"
+       aria-label="Permalink to {{ page.title }}">
+        #
+    </a>
+    </div>
+
+    <div class="software-card__status">
+      <span class="software-card__status-dot"></span>
+      {{ page.extra.status }}
+    </div>
+
+    <div class="software-card__links">
+
+      {% if page.extra.links.paper %}
+      <a href="{{ page.extra.links.paper }}"
+         class="software-card__link"
+         target="_blank"
+         rel="noopener noreferrer">
+        Associated paper {{ icons::open()}}
+      </a>
+      {% endif %}
+
+      <a href="{{ page.extra.links.url }}"
+         class="software-card__link"
+         target="_blank"
+         rel="noopener noreferrer">
+        Documentation {{ icons::open()}}
+      </a>
+
+      <a href="{{ page.extra.links.source }}"
+         class="software-card__link"
+         target="_blank"
+         rel="noopener noreferrer">
+        Source code {{ icons::open()}}
+      </a>
+
+      {% if page.extra.links.cran %}
+      <a href="{{ page.extra.links.cran }}"
+         class="software-card__link"
+         target="_blank"
+         rel="noopener noreferrer">
+        Cran {{ icons::open()}}
+      </a>
+      {% endif %}
+
+    </div>
+
+  </div>
+
+  <!-- Center column -->
+  <div class="software-card__content">
+
+    <h2 class="software-card__title">
+      {% if page.extra.featured %}
+      {{ icons::gem()}}
+      {% endif %}
+      {{ page.extra.content.subtitle }}
+    </h2>
+
+    <p class="software-card__description">
+      {{ page.extra.content.description | safe }}
+    </p>
+
+  </div>
+
+  <!-- Right column -->
+  <div class="software-card__media">
+
+    <a href="{{ page.extra.content.image }}" class="glightbox">
+      <img
+        src="{{ page.extra.content.image }}"
+        class="software-card__logo">
+    </a>
+
+  </div>
+
+  <!-- Bottom left -->
+  <div class="software-card__type">
+
+    <span>
+      {{ page.extra.type }}
+    </span>
+
+  </div>
+
+  <!-- Bottom center -->
+  <div class="software-card__stats">
+
+    <span>
+      {{ icons::license() }}
+      {{ page.extra.github.license }}
+    </span>
+
+    <span class="software-card__separator">&middot;</span>
+
+    <span>
+      {{ icons::star() }}
+      {{ page.extra.github.stars }}
+    </span>
+
+    <span class="software-card__separator">&middot;</span>
+
+    <span>
+      {{ icons::git_fork() }}
+      {{ page.extra.github.forks }}
+    </span>
+
+    <span class="software-card__separator">&middot;</span>
+
+    <span>
+      {{ icons::issue() }}
+      {{ page.extra.github.open_issues }}
+    </span>
+
+    <span class="software-card__separator">&middot;</span>
+
+    <span>
+      {{ icons::git_pr() }}
+      {{ page.extra.github.pull_requests }}
+    </span>
+
+    <span class="software-card__separator">&middot;</span>
+
+    <span>
+      {{ icons::history() }}
+      {{ page.extra.github.last_commit }}
+    </span>
+
+  </div>
+
+  <!-- Bottom right (intentionally empty) -->
+  <div class="software-card__footer-spacer"></div>
+
+</article>

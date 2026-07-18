@@ -1,0 +1,14 @@
+:root {
+
+  --radius-0: 0;
+  --radius-1: 0.25rem;  /*  4px */
+  --radius-2: 0.50rem;  /*  8px */
+  --radius-3: 0.75rem;  /* 12px */
+  --radius-4: 1.00rem;  /* 16px */
+
+  --radius-sm: var(--radius-1);
+  --radius-md: var(--radius-2);
+  --radius-lg: var(--radius-3);
+
+  --radius-round: 9999px;
+}

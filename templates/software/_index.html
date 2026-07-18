@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  {% include "partials/header.html" %}
+
+  {% include "software/sticker-wall.html" %}
+
+  <section class="cards">
+
+    {% for page in section.pages %}
+      {% include "software/card.html" %}
+    {% endfor %}
+
+  </section>
+
+{% endblock content %}

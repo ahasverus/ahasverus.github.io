@@ -1,0 +1,109 @@
+.btn-primary,
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: fit-content;
+
+  font-size: var(--text-sm);
+  line-height: var(--line-tight);
+  font-weight: var(--font-regular);
+
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-md);
+
+  text-decoration: none;
+
+  transition:
+    transform 160ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 160ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  
+  will-change: transform;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+}
+
+.btn-primary:focus-visible,
+.btn-secondary:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+
+// PRIMARY
+
+.btn-primary {
+  background: var(--primary);
+  border: 1px solid color-mix(in srgb, var(--primary) 70%, var(--surface-2));
+  color: var(--bg);
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+.btn-primary:hover {
+  background: color-mix(in srgb, var(--primary) 90%, var(--bg));
+  color: var(--bg);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+
+  transform: translateY(-1px);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+
+// SECONDARY
+
+.btn-secondary {
+  background-color: var(--surface);
+  border: 1px solid var(--surface-2);
+  color: var(--text);
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.btn-secondary:hover {
+  background: var(--surface-2);
+  border-color: var(--surface-2);
+  color: var(--text);
+
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.16);
+}
+
+.btn-secondary:active {
+  transform: translateY(0);
+}
+
+
+// POSITION
+
+.btn-left {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.btn-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.btn-margin {
+  margin-top: 1rem;
+  margin-left: 0;
+  margin-right: 1rem;
+  padding: var(--space-xs) var(--space-sm);
+  font-size: var(--text-sm);
+}
+
+a.btn-margin::after {
+  content: none;
+}

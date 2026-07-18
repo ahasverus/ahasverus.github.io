@@ -1,0 +1,103 @@
+<footer class="footer">
+
+  <div class="footer__container">
+
+    <div class="footer__left">
+
+      <span>&copy; {{ now() | date(format="%Y") }} {{ config.extra.copyright }}</span>
+
+    </div>
+
+
+    <div class="footer__center">
+
+      <span class="footer__item">
+        Built with
+        <a href="https://www.getzola.org/" class="dotted" target="_blank" rel="noopener noreferrer">
+          Zola
+        </a>
+        {{ icons::zola() }}
+      </span>
+
+    </div>
+
+
+    <div class="footer__right">
+
+      <span class="footer__item">
+        License 
+        <a href="{{ config.extra.license_url }}" class="dotted" target="_blank" rel="noopener noreferrer">
+          {{ config.extra.license }}
+        </a>
+      </span>
+
+      <span class="footer__right"></span>
+
+      <span class="footer__item">
+        <a href="{{ config.extra.repository }}" class="footer__icon" target="_blank" rel="noopener noreferrer">
+          {{ icons::github() }}
+        </a>
+      </span>
+
+    </div>
+  </div>
+  
+</footer>
+
+<button id="back-to-top" aria-label="Back to top">
+  {{ icons::chevron_up() }}
+</button>
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+<script>
+  const lightbox = GLightbox({
+    touchNavigation: true,
+    loop: false,
+    closeOnOutsideClick: true,
+    zoomable: true,
+    keyboardNavigation: true,
+    openEffect: 'zoom',
+    closeEffect: 'fade',
+  });
+</script>
+
+<script>
+  const btn = document.getElementById("back-to-top");
+
+  let ticking = false;
+  let timeout = null;
+
+  const SHOW_THRESHOLD = 200;
+  const HIDE_DELAY = 150;
+
+  function updateBackToTop() {
+    const currentScrollY = window.scrollY;
+
+    clearTimeout(timeout);
+
+    if (currentScrollY > SHOW_THRESHOLD) {
+      btn.classList.add("show");
+    } else {
+      timeout = setTimeout(() => {
+        btn.classList.remove("show");
+      }, HIDE_DELAY);
+    }
+
+    ticking = false;
+  }
+
+  window.addEventListener("scroll", () => {
+    if (!ticking) {
+      window.requestAnimationFrame(updateBackToTop);
+      ticking = true;
+    }
+  });
+
+  btn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>

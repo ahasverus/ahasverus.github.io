@@ -1,0 +1,19 @@
+<section class="about">
+  <div class="about__container">
+
+      {{ headings::anchor(
+        title="About",
+        level=1,
+        class="about__title"
+      ) }}
+
+    <div class="about__text">
+      {{ section.extra.about.bio | markdown | safe }}
+    </div>
+
+    <a class="btn-secondary btn-right" href="#" target="_blank" rel="noopener noreferrer" role="button">
+      Download CV
+    </a>
+
+  </div>
+</section>

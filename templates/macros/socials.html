@@ -1,0 +1,21 @@
+{% macro icon_link(name, url) %}
+{% if url %}
+<a href="{{ url }}"
+   class="navbar__icon"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="{{ name | capitalize }}">
+    
+    {% if name == "github" %}
+      {{ icons::github() }}
+    {% elif name == "codeberg" %}
+        {{ icons::codeberg() }}
+    {% elif name == "orcid" %}
+        {{ icons::orcid() }}
+    {% elif name == "google_scholar" %}
+        {{ icons::google_scholar() }}
+    {% endif %}
+
+</a>
+{% endif %}
+{% endmacro %}
