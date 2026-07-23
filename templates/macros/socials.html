@@ -7,7 +7,9 @@
    aria-label="{{ name | capitalize }}">
     
     {% if name == "github" %}
-      {{ icons::github() }}
+        {{ icons::github() }}
+    {% elif name == "mail" %}
+        {{ icons::mail() }}
     {% elif name == "codeberg" %}
         {{ icons::codeberg() }}
     {% elif name == "orcid" %}

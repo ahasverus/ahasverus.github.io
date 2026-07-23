@@ -145,6 +145,7 @@ keywords = [
 
 [extra.socials]
 
+#mail = "mailto:contact.crank431@slmails.com"
 github = "https://github.com/ahasverus"
 codeberg = "https://codeberg.org/ahasverus"
 orcid = "http://orcid.org/0000-0002-5537-5294"
