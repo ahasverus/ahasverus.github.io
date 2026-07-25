@@ -19,18 +19,19 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.1126/sciadv.adj9510"
+url = "https://www.science.org/doi/10.1126/sciadv.adj9510"
 fulltext = "resources/fulltexts/pub-8ac74f65.pdf"
 citation = "resources/citations/pub-8ac74f65.bib"
 
 [extra.resources]
-code = ""
+code = "https://doi.org/10.5281/zenodo.10402017"
 package = ""
 database = ""
 
 [extra.openalex]
 cited_by_count = 21
 average_citations_per_year = ""
-fwci = 9.97
+fwci = 9.92
 percentile = ""
 top_10_percent = true
 top_1_percent = false

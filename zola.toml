@@ -17,7 +17,7 @@ output_dir = "public"
 # ignored_content = []
 # ignored_static = []
 
-generate_feeds = false
+generate_feeds = true
 feed_filenames = ["rss.xml"]
 feed_limit = 20
 
@@ -115,7 +115,7 @@ navigation = [
   { url = "$BASE_URL/courses", title = "Courses" },
   { url = "$BASE_URL/notes", title = "Notes" },
   # { url = "$BASE_URL/databases", title = "Databases" },
-  { url = "$BASE_URL/contact", title = "Contact" },
+  # { url = "$BASE_URL/contact", title = "Contact" },
 ]
 
 
@@ -145,7 +145,7 @@ keywords = [
 
 [extra.socials]
 
-#mail = "mailto:contact.crank431@slmails.com"
+mail = "mailto:contact.crank431@slmails.com"
 github = "https://github.com/ahasverus"
 codeberg = "https://codeberg.org/ahasverus"
 orcid = "http://orcid.org/0000-0002-5537-5294"

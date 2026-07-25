@@ -19,6 +19,7 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.1038/s41598-018-26131-y"
+url = "https://www.nature.com/articles/s41598-018-26131-y"
 fulltext = "resources/fulltexts/pub-e9007cec.pdf"
 citation = "resources/citations/pub-e9007cec.bib"
 
@@ -30,7 +31,7 @@ database = ""
 [extra.openalex]
 cited_by_count = 18
 average_citations_per_year = ""
-fwci = 1.57
+fwci = 1.5
 percentile = ""
 top_10_percent = false
 top_1_percent = false

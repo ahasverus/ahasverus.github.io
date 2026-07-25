@@ -19,6 +19,7 @@ num_pages = "202"
 publisher = "Presses de l'Université du Québec"
 place = "Québec, Canada"
 doi = ""
+url = "http://www.puq.ca/catalogue/livres/changements-climatiques-biodiversite-quebec-2258.html"
 fulltext = "resources/fulltexts/pub-ef0a52a9.pdf"
 citation = "resources/citations/pub-ef0a52a9.bib"
 
@@ -26,5 +27,6 @@ citation = "resources/citations/pub-ef0a52a9.bib"
 code = ""
 package = ""
 database = ""
+image = "images/publications/cover-berteaux-2014.png"
 
 +++

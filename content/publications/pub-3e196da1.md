@@ -19,6 +19,7 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.3389/fevo.2017.00175"
+url = "http://journal.frontiersin.org/article/10.3389/fevo.2017.00175/full"
 fulltext = "resources/fulltexts/pub-3e196da1.pdf"
 citation = "resources/citations/pub-3e196da1.bib"
 
@@ -30,7 +31,7 @@ database = ""
 [extra.openalex]
 cited_by_count = 161
 average_citations_per_year = ""
-fwci = 36.45
+fwci = 34.04
 percentile = ""
 top_10_percent = true
 top_1_percent = true

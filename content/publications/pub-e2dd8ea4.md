@@ -19,18 +19,19 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.1111/ele.13778"
+url = ""
 fulltext = "resources/fulltexts/pub-e2dd8ea4.pdf"
 citation = "resources/citations/pub-e2dd8ea4.bib"
 
 [extra.resources]
-code = ""
-package = ""
-database = ""
+code = "https://github.com/LoiseauN/dimensionality"
+package = "https://github.com/ahasverus/elbow"
+database = "https://github.com/LoiseauN/dimensionality"
 
 [extra.openalex]
 cited_by_count = 149
 average_citations_per_year = ""
-fwci = 28.55
+fwci = 28.44
 percentile = ""
 top_10_percent = true
 top_1_percent = true

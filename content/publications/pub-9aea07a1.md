@@ -19,6 +19,7 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.1007/s10841-023-00540-5"
+url = "https://link.springer.com/10.1007/s10841-023-00540-5"
 fulltext = "resources/fulltexts/pub-9aea07a1.pdf"
 citation = "resources/citations/pub-9aea07a1.bib"
 

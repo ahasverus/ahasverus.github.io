@@ -19,11 +19,12 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.1371/journal.pbio.3001640"
+url = ""
 fulltext = "resources/fulltexts/pub-fb5b1aa4.pdf"
 citation = "resources/citations/pub-fb5b1aa4.bib"
 
 [extra.resources]
-code = ""
+code = "https://github.com/nmouquet/RLS_AESTHE"
 package = ""
 database = ""
 

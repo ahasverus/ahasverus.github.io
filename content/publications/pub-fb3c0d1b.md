@@ -19,18 +19,19 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.1111/ecog.05904"
+url = ""
 fulltext = "resources/fulltexts/pub-fb3c0d1b.pdf"
 citation = "resources/citations/pub-fb3c0d1b.bib"
 
 [extra.resources]
 code = ""
-package = ""
+package = "https://cran.r-project.org/package=mFD"
 database = ""
 
 [extra.openalex]
 cited_by_count = 399
 average_citations_per_year = ""
-fwci = 45.58
+fwci = 45.61
 percentile = ""
 top_10_percent = true
 top_1_percent = true

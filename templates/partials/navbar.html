@@ -41,8 +41,7 @@
           "github",
           "codeberg",
           "orcid",
-          "google_scholar",
-          "mail"
+          "google_scholar"
         ] %}
 
         {% for name in order %}
@@ -52,7 +51,7 @@
 
         {% if config.generate_feeds %}
           <a href="/{{ config.feed_filenames }}" class="navbar__icon" target="_blank" aria-label="RSS" rel="noopener noreferrer">
-            {% include "icons/rss.html" %}
+            {{ icons::rss() }}
           </a>
         {% endif %}
 

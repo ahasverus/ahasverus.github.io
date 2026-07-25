@@ -19,6 +19,7 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.3389/fevo.2021.579230"
+url = ""
 fulltext = "resources/fulltexts/pub-a2ba7815.pdf"
 citation = "resources/citations/pub-a2ba7815.bib"
 
@@ -30,7 +31,7 @@ database = ""
 [extra.openalex]
 cited_by_count = 18
 average_citations_per_year = ""
-fwci = 2.16
+fwci = 1.99
 percentile = ""
 top_10_percent = false
 top_1_percent = false

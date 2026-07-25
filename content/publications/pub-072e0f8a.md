@@ -19,11 +19,12 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.1111/ddi.70204"
+url = "https://onlinelibrary.wiley.com/doi/10.1111/ddi.70204"
 fulltext = "resources/fulltexts/pub-072e0f8a.pdf"
 citation = "resources/citations/pub-072e0f8a.bib"
 
 [extra.resources]
-code = ""
+code = "https://github.com/CStaentzel/GBIF-paper"
 package = ""
 database = ""
 

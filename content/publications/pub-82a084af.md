@@ -19,18 +19,19 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.1111/ele.70220"
+url = "https://onlinelibrary.wiley.com/doi/10.1111/ele.70220"
 fulltext = "resources/fulltexts/pub-82a084af.pdf"
 citation = "resources/citations/pub-82a084af.bib"
 
 [extra.resources]
 code = ""
 package = ""
-database = ""
+database = "https://doi.org/10.18167/DVN1/RIRTOT"
 
 [extra.openalex]
 cited_by_count = 2
 average_citations_per_year = ""
-fwci = 3.61
+fwci = 3.56
 percentile = ""
 top_10_percent = true
 top_1_percent = false

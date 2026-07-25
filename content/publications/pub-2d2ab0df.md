@@ -19,18 +19,19 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.1038/s41586-024-08191-5"
+url = "https://www.nature.com/articles/s41586-024-08191-5"
 fulltext = "resources/fulltexts/pub-2d2ab0df.pdf"
 citation = "resources/citations/pub-2d2ab0df.bib"
 
 [extra.resources]
-code = ""
+code = "https://zenodo.org/records/10881387"
 package = ""
 database = ""
 
 [extra.openalex]
 cited_by_count = 27
 average_citations_per_year = ""
-fwci = 6.2
+fwci = 6.17
 percentile = ""
 top_10_percent = true
 top_1_percent = false

@@ -19,18 +19,19 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.1038/s41598-018-23050-w"
+url = "https://www.nature.com/articles/s41598-018-23050-w"
 fulltext = "resources/fulltexts/pub-ff8c81e9.pdf"
 citation = "resources/citations/pub-ff8c81e9.bib"
 
 [extra.resources]
-code = ""
+code = "http://cc-bio.uqar.ca/english/en_atlas.html"
 package = ""
 database = ""
 
 [extra.openalex]
 cited_by_count = 60
 average_citations_per_year = ""
-fwci = 5.64
+fwci = 4.86
 percentile = ""
 top_10_percent = true
 top_1_percent = false

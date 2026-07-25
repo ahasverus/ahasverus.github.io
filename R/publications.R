@@ -259,7 +259,6 @@ fetch_zotero_reference_metadata <- function(collection = "Me") {
   ref <- ref[ref$collection == collection, ]
   ref <- ref[ref$category != "preprint", ]
 
-
   ref$year <- as.numeric(ref$year)
   ref <- dplyr::arrange(ref, dplyr::desc(year), author)
 
@@ -304,7 +303,6 @@ fetch_zotero_reference_metadata <- function(collection = "Me") {
 
 
 format_pages <- function(pages) {
-
   if (is.na(pages) || pages == "") {
     return("")
   }
@@ -515,6 +513,7 @@ build_publication_metadata <- function(metadata, metrics = NULL) {
       place = empty_if_na(metadata$place),
 
       doi = empty_if_na(metadata$doi),
+      url = empty_if_na(metadata$url),
 
       fulltext = paste0("resources/fulltexts/", key, ".pdf"),
 
@@ -524,7 +523,8 @@ build_publication_metadata <- function(metadata, metrics = NULL) {
     resources = list(
       code = "",
       package = "",
-      database = ""
+      database = "",
+      image = ""
     )
   )
 
@@ -743,7 +743,6 @@ update_publication_pages <- function(
 #   invisible(NULL)
 # }
 
-
 # #' Generate Bibliography for Journal Articles
 # #'
 # #' @keywords internal
@@ -794,7 +793,6 @@ update_publication_pages <- function(
 #   paste0(content, collapse = "")
 # }
 
-
 # #' Generate PDF Filename
 # #'
 # #' @return A string of the form: `Year-LastNameOfFirstAuthor-JournalName.pdf`
@@ -812,7 +810,6 @@ update_publication_pages <- function(
 #   ) |>
 #     tolower()
 # }
-
 
 # #' Generate Bibliography for Books & Book Chapters
 # #'
@@ -866,7 +863,6 @@ update_publication_pages <- function(
 #   paste0(content, collapse = "")
 # }
 
-
 # #' Write Bibliography Summary File
 # #'
 # #' @description
@@ -903,7 +899,6 @@ update_publication_pages <- function(
 
 #   invisible(NULL)
 # }
-
 
 #' Shorten full names (Doe, John becomes Doe, J)
 #'
@@ -1037,4 +1032,43 @@ shorten_authors <- function(
   }
 
   return(authors)
+}
+
+update_chartjs_data <- function(
+  collection = "Me",
+  mailto = "nicolas.casajus@gmail.com",
+  batch_size = 20
+) {
+  refs <- fetch_zotero_reference_metadata(collection = collection)
+
+  dois <- refs$doi[!is.na(refs$doi) & refs$doi != ""]
+
+  metrics <- get_publication_metrics(
+    dois = dois,
+    mailto = mailto,
+    batch_size = batch_size
+  )
+
+  citations <- lapply(metrics, function(x) x[["counts_by_year"]])
+
+  citations <- do.call(rbind, citations)
+
+  citations_year <- aggregate(
+    cited_by_count ~ year,
+    data = citations,
+    FUN = sum
+  )
+
+  citations_year <- citations_year[order(citations_year$year), ]
+
+  names(citations_year)[2] <- "citations"
+
+  jsonlite::write_json(
+    citations_year,
+    here::here("static", "data", "citations.json"),
+    pretty = TRUE,
+    auto_unbox = TRUE
+  )
+
+  invisible(NULL)
 }

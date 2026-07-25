@@ -5,6 +5,13 @@
 
     <div class="publication-card__weight">
       #{{ page.extra.zotero.number }}
+
+      <a href="#{{ page.extra.zotero.key }}"
+       class="zola-anchor"
+       aria-label="Permalink to {{ page.extra.zotero.key }}">
+        #
+      </a>
+
     </div>
 
     <div class="publication-card__oa">
@@ -128,11 +135,11 @@
         {{ page.extra.zotero.title }}
       </a>
      
-      <a href="#{{ page.extra.zotero.key }}"
+      <!-- <a href="#{{ page.extra.zotero.key }}"
        class="zola-anchor"
        aria-label="Permalink to {{ page.extra.zotero.key }}">
         #
-      </a>
+      </a> -->
 
     </p>
 
@@ -143,6 +150,8 @@
 
 
     <p class="publication-card__source">
+      Article
+      <span class="publication-card__separator">&middot;</span>
       {{ page.extra.zotero.year }}
       <span class="publication-card__separator">&middot;</span>
 
@@ -166,7 +175,7 @@
          target="_blank"
          class="btn-secondary btn-margin"
          rel="noopener noreferrer">
-        doi
+        {{ icons::globe() }} &nbsp; DOI
       </a>
       {% endif %}
 
@@ -177,7 +186,7 @@
          target="_blank"
          class="btn-secondary btn-margin"
          rel="noopener noreferrer">
-        fulltext
+        {{ icons::file_text() }} &nbsp; Fulltext
       </a>
       {% endif %}
 
@@ -188,7 +197,7 @@
          target="_blank"
          class="btn-secondary btn-margin"
          rel="noopener noreferrer">
-        citation
+        {{ icons::quote() }} &nbsp; Citation
       </a>
       {% endif %}
 
@@ -199,7 +208,7 @@
          target="_blank"
          class="btn-secondary btn-margin"
          rel="noopener noreferrer">
-        package
+        {{ icons::package() }} &nbsp; Package
       </a>
       {% endif %}
 
@@ -210,7 +219,7 @@
          target="_blank"
          class="btn-secondary btn-margin"
          rel="noopener noreferrer">
-        database
+        {{ icons::database() }} &nbsp; Database
       </a>
       {% endif %}
 
@@ -221,7 +230,7 @@
          target="_blank"
          class="btn-secondary btn-margin"
          rel="noopener noreferrer">
-        code
+        {{ icons::code() }} &nbsp; Compendium
       </a>
       {% endif %}
 

@@ -1,0 +1,107 @@
+<article class="card publication-card publication-card--article" id="{{ page.extra.zotero.key }}">
+
+  <!-- Left column -->
+  <div class="publication-card__meta">
+
+    <div class="publication-card__weight">
+      #{{ page.extra.zotero.number }}
+
+      <a href="#{{ page.extra.zotero.key }}"
+       class="zola-anchor"
+       aria-label="Permalink to {{ page.extra.zotero.key }}">
+        #
+      </a>
+    </div>
+
+    <div class="publication-card__image">
+      <a href="{{ page.extra.resources.image }}" class="glightbox">
+        <img
+          src="{{ page.extra.resources.image }}"
+          class="software-card__logo">
+      </a>
+    </div>
+  </div>
+
+
+  <!-- Right column -->
+  <div class="publication-card__content">
+
+    <p class="publication-card__title">
+
+      <a href="https://doi.org/{{ page.extra.zotero.doi }}"
+         target="_blank"
+         class="publication-card__title__url"
+         rel="noopener noreferrer">
+        {{ page.extra.zotero.title }}
+      </a>
+
+    </p>
+
+
+    <p class="publication-card__authors">
+      {{ page.extra.zotero.author | safe }}
+    </p>
+
+
+    <p class="publication-card__source">
+
+      {% if page.extra.zotero.category == "book" %}
+        Book
+      {% elif page.extra.zotero.category == "bookSection" %}
+        Book chapter
+      {% endif %}
+
+      <span class="publication-card__separator">&middot;</span>
+      {{ page.extra.zotero.year }}
+      <span class="publication-card__separator">&middot;</span>
+
+      <span class="publication-card__journal">{{ page.extra.zotero.publisher }}</span>,
+
+      {% if page.extra.zotero.category == "book" %}
+        <span class="publication-card__volume">{{ page.extra.zotero.place }}</span>,
+
+        {% if page.extra.zotero.num_pages %}
+          <span class="publication-card__pages">{{ page.extra.zotero.num_pages }} pp.</span>
+        {% endif %}
+      
+      {% elif page.extra.zotero.category == "bookSection" %}
+        {% if page.extra.zotero.pages %}
+          <span class="publication-card__pages">{{ page.extra.zotero.pages }}</span>
+        {% endif %}
+      {% endif %}
+    </p>
+
+    <p class="publication-card__source">
+
+      {% if page.extra.zotero.category == "bookSection" %}
+      In: <span class="publication-card__journal">{{ page.extra.zotero.book_title }}</span>
+      {% endif %}
+    </p>
+
+    <div class="publication-card__links">
+
+      {% if page.extra.zotero.url %}
+      <a href="{{ page.extra.zotero.url }}"
+         target="_blank"
+         class="btn-secondary btn-margin"
+         rel="noopener noreferrer">
+        {{ icons::globe() }} &nbsp; Publisher
+      </a>
+      {% endif %}
+
+
+      {% if page.extra.zotero.citation %}
+
+      <a href="{{ page.extra.zotero.citation }}"
+         target="_blank"
+         class="btn-secondary btn-margin"
+         rel="noopener noreferrer">
+        {{ icons::quote() }} &nbsp; Citation
+      </a>
+      {% endif %}
+
+    </div>
+
+  </div>
+
+</article>

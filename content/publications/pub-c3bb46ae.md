@@ -19,6 +19,7 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.1080/17518369.2017.1316930"
+url = "https://polarresearch.net/index.php/polar/article/view/2708"
 fulltext = "resources/fulltexts/pub-c3bb46ae.pdf"
 citation = "resources/citations/pub-c3bb46ae.bib"
 

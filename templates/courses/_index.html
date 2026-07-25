@@ -4,7 +4,13 @@
 
   {% include "partials/header.html" %}
 
+  {% include "courses/courses-chart.html" %}
+
   <section class="cards">
+
+    {% for page in section.pages | reverse %}
+      {% include "courses/card.html" %}
+    {% endfor %}
 
   </section>
 

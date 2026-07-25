@@ -19,6 +19,7 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.1111/j.1365-2486.2009.02000.x"
+url = "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.02000.x"
 fulltext = "resources/fulltexts/pub-d67740ad.pdf"
 citation = "resources/citations/pub-d67740ad.bib"
 
@@ -30,7 +31,7 @@ database = ""
 [extra.openalex]
 cited_by_count = 699
 average_citations_per_year = ""
-fwci = 33.92
+fwci = 33.95
 percentile = ""
 top_10_percent = true
 top_1_percent = true

@@ -19,6 +19,7 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.3390/d2111181"
+url = "https://www.mdpi.com/1424-2818/2/11/1181"
 fulltext = "resources/fulltexts/pub-1ea039ff.pdf"
 citation = "resources/citations/pub-1ea039ff.bib"
 
@@ -30,7 +31,7 @@ database = ""
 [extra.openalex]
 cited_by_count = 50
 average_citations_per_year = ""
-fwci = 1.18
+fwci = 1.07
 percentile = ""
 top_10_percent = false
 top_1_percent = false

@@ -19,11 +19,12 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.1093/biosci/biaf146"
+url = "https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biaf146/8251451"
 fulltext = "resources/fulltexts/pub-0f3ef2e3.pdf"
 citation = "resources/citations/pub-0f3ef2e3.bib"
 
 [extra.resources]
-code = ""
+code = "https://github.com/nmouquet/NOUNOURSUSvsBEARS"
 package = ""
 database = ""
 

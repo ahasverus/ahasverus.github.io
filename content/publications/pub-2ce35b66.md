@@ -19,18 +19,19 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.1016/j.oneear.2024.09.011"
+url = "https://linkinghub.elsevier.com/retrieve/pii/S2590332224004767"
 fulltext = "resources/fulltexts/pub-2ce35b66.pdf"
 citation = "resources/citations/pub-2ce35b66.bib"
 
 [extra.resources]
-code = ""
+code = "https://zenodo.org/records/13753006"
 package = ""
 database = ""
 
 [extra.openalex]
 cited_by_count = 11
 average_citations_per_year = ""
-fwci = 3.74
+fwci = 3.72
 percentile = ""
 top_10_percent = true
 top_1_percent = false

@@ -1,0 +1,77 @@
+<article class="card course-card" id = "{{ page.title }}">
+
+  <!-- Left column -->
+  <div class="course-card__content">
+
+    <h2 class="course-card__title">
+      {{ page.title | safe }}
+    </h2>
+
+    <p class="course-card__description">
+      {{ page.description | safe }}
+    </p>
+
+    <div class="course-card__meta">
+
+      <span>
+        {{ icons::landmark() }} {{ page.extra.place }}
+      </span>
+
+      <span>
+        {{ icons::location() }} {{ page.extra.address }}
+      </span>
+
+      <span>
+        {{ icons::calendar() }} {{ page.extra.years | safe }}
+      </span>
+
+      <span>
+        {% if page.extra.context %}
+        {{ icons::circle_arrow_right()}}
+         In: 
+         <a href="{{ page.extra.context_url }}"
+          class="course-card__link"
+          target="_blank"
+          rel="noopener noreferrer">
+          {{ page.extra.context }} {{ icons::open()}}
+        </a>
+        {% endif %}
+      </span>
+    </div>
+
+  </div>
+
+  <!-- Right column -->
+  <div class="course-card__media">
+
+    <a href="{{ page.extra.image }}" class="glightbox">
+      <img
+        src="{{ page.extra.image }}"
+        class="course-card__logo">
+    </a>
+
+  </div>
+
+  <!-- Bottom center -->
+  <div class="course-card__links">
+
+    <a href="{{ page.extra.slides }}"
+         class="course-card__link"
+         target="_blank"
+         rel="noopener noreferrer">
+        Slides {{ icons::open()}}
+      </a>
+
+      <a href="{{ page.extra.source }}"
+         class="course-card__link"
+         target="_blank"
+         rel="noopener noreferrer">
+        Source code {{ icons::open()}}
+      </a>
+
+  </div>
+
+  <!-- Bottom right (intentionally empty) -->
+  <div class="software-card__footer-spacer"></div>
+
+</article>

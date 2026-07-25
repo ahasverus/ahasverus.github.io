@@ -4,8 +4,12 @@
 
     <div class="footer__left">
 
-      <span>&copy; {{ now() | date(format="%Y") }} {{ config.extra.copyright }}</span>
-
+      <span class="footer__item">
+        &copy; {{ now() | date(format="%Y") }} {{ config.extra.copyright }}
+        <a href='{{ config.extra.socials["mail"] }}' class="footer__icon" target="_blank" rel="noopener noreferrer">
+          {{ icons::mail() }}
+        </a>
+      </span>
     </div>
 
 
@@ -13,10 +17,9 @@
 
       <span class="footer__item">
         Built with
-        <a href="https://www.getzola.org/" class="dotted" target="_blank" rel="noopener noreferrer">
-          Zola
+        <a href="https://www.getzola.org/" class="footer__icon" target="_blank" rel="noopener noreferrer">
+          {{ icons::zola() }}
         </a>
-        {{ icons::zola() }}
       </span>
 
     </div>

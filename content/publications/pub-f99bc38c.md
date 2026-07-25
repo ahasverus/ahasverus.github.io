@@ -19,12 +19,13 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.21105/joss.09217"
+url = ""
 fulltext = "resources/fulltexts/pub-f99bc38c.pdf"
 citation = "resources/citations/pub-f99bc38c.bib"
 
 [extra.resources]
 code = ""
-package = ""
+package = "https://github.com/ropensci/forcis"
 database = ""
 
 [extra.openalex]

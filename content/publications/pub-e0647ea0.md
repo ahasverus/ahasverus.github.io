@@ -19,6 +19,7 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.1093/biosci/biag028"
+url = "https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biag028/8650511"
 fulltext = "resources/fulltexts/pub-e0647ea0.pdf"
 citation = "resources/citations/pub-e0647ea0.bib"
 

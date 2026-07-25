@@ -19,12 +19,13 @@ num_pages = ""
 publisher = ""
 place = ""
 doi = "10.21105/joss.05753"
+url = ""
 fulltext = "resources/fulltexts/pub-b9af7927.pdf"
 citation = "resources/citations/pub-b9af7927.bib"
 
 [extra.resources]
 code = ""
-package = ""
+package = "https://github.com/frbcesab/chessboard"
 database = ""
 
 [extra.openalex]

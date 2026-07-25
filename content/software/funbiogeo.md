@@ -27,8 +27,8 @@ paper = ""
 license = "GPL-2.0"
 stars = 12
 forks = 1
-open_issues = 2
+open_issues = 4
 pull_requests = 1
-last_commit = "2026-07-09"
+last_commit = "2026-07-20"
 
 +++

@@ -23,6 +23,7 @@
 .publication-card__weight {
   font-size: var(--text-lg);
   font-family: var(--font-family-mono);
+  text-align: left;
 }
 
 .publication-card__title {
@@ -73,7 +74,8 @@
 
 .publication-card__top {
   color: #8fbcbb;
-  margin: var(--space-xs) 0;
+  // margin: var(--space-xs) 0;
+  // margin-bottom: 0;
 }
 
 
@@ -188,4 +190,28 @@
 
 .publication-card__metrics > div:hover .info-tooltip {
   opacity: 1;
+}
+
+
+.publication-card__links a svg {
+  height: 0.9em;
+  width: 0.9em;
+}
+
+.publication-card__links a {
+  // font-variant:small-caps;
+  font-size: var(--text-xs);
+}
+
+.publication-card__image {
+  width: 150px;
+}
+
+.chart-container {
+  position: relative;
+  max-width: 900px !important;
+  width: 100%;
+  height: 320px;
+  margin: 2rem 0;
+  margin-bottom: var(--space-xl) !important;
 }

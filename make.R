@@ -19,7 +19,8 @@ pkgload::load_all()
 # update_publication_stats()
 
 update_software_metadata()
-
+update_publication_pages()
+update_chartjs_data()
 
 ## Update website ----
 

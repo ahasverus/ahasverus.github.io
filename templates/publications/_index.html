@@ -4,6 +4,8 @@
 
   {% include "partials/header.html" %}
 
+  {% include "publications/citations_chart.html" %}
+
   <section class="cards">
   {% for year, pages in section.pages | group_by(attribute="extra.zotero.year") %}
 
@@ -13,7 +15,7 @@
         {% if page.extra.zotero.section == "Articles" %}
           {% include "publications/card-article.html" %}
         {% elif page.extra.zotero.section == "Books & Chapters" %}
-          BOOK
+          {% include "publications/card-book.html" %}
         {% endif %}
 
       {% endfor %}
