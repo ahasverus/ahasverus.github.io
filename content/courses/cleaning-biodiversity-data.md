@@ -1,7 +1,7 @@
 +++
 title = "Cleaning Biodiversity Data"
 description = """
-Good practices, suggested packages & homogenizing taxonomy
+Good practices, suggested packages & taxonomy
 """
 weight = 15
 

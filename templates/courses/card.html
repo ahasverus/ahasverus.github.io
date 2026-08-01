@@ -27,14 +27,15 @@
 
       <span>
         {% if page.extra.context %}
-        {{ icons::circle_arrow_right()}}
-         In: 
-         <a href="{{ page.extra.context_url }}"
-          class="course-card__link"
-          target="_blank"
-          rel="noopener noreferrer">
-          {{ page.extra.context }} {{ icons::open()}}
-        </a>
+          {{ icons::circle_arrow_right()}}
+          In: 
+          <a href="{{ page.extra.context_url }}"
+            class="course-card__link course-card__link--icon"
+            target="_blank"
+            rel="noopener noreferrer">
+            <span>{{ page.extra.context }}</span>
+            {{ icons::open() }}
+          </a>
         {% endif %}
       </span>
     </div>
@@ -56,17 +57,17 @@
   <div class="course-card__links">
 
     <a href="{{ page.extra.slides }}"
-         class="course-card__link"
+         class="btn-secondary btn-margin"
          target="_blank"
          rel="noopener noreferrer">
-        Slides {{ icons::open()}}
+        Slides
       </a>
 
       <a href="{{ page.extra.source }}"
-         class="course-card__link"
+         class="btn-secondary btn-margin"
          target="_blank"
          rel="noopener noreferrer">
-        Source code {{ icons::open()}}
+        Source code
       </a>
 
   </div>
